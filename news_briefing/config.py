@@ -11,7 +11,7 @@ load_dotenv(BASE_DIR / ".env")
 DEFAULT_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
 DEFAULT_HOURS = int(os.getenv("BRIEFING_HOURS", "16"))
 DEFAULT_LANGUAGE = os.getenv("BRIEFING_LANGUAGE", "pt-BR")
-REPORTS_DIR = BASE_DIR / "reports"
+REPORTS_DIR = Path(os.getenv("REPORTS_DIR", str(BASE_DIR / "reports"))).resolve()
 FEEDS_FILE = Path(__file__).resolve().parent / "feeds.json"
 
 
