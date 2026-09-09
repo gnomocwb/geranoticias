@@ -1,0 +1,47 @@
+# Variáveis de ambiente e segredos (NUNCA comitar)
+.env
+*.env
+.env.*
+!.env.example
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ambientes Virtuais
+venv/
+.venv/
+env/
+ENV/
+
+# Relatórios gerados
+reports/*.md
+reports/*.html
+!reports/.gitkeep
+
+# IDEs e Sistema Operacional
+.vscode/
+.idea/
+*.swp
+*.swo
+*.zip
+Thumbs.db
+.DS_Store

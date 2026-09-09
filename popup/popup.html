@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chrome RAM Saver</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="brand">
+        <div class="brand-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <h1>RAM Saver</h1>
+          <span class="badge-status" id="engineStatus">Monitor Ativo</span>
+        </div>
+      </div>
+      <button class="icon-btn" id="btnRefresh" title="Atualizar dados">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M23 4v6h-6M1 20v-6h6"/>
+          <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+        </svg>
+      </button>
+    </header>
+
+    <!-- Metrics Cards -->
+    <section class="metrics-grid">
+      <div class="metric-card primary">
+        <div class="metric-header">
+          <span class="metric-label">RAM Poupada</span>
+          <span class="metric-pulse"></span>
+        </div>
+        <div class="metric-value" id="ramSaved">0 MB</div>
+        <div class="metric-sub" id="ramDetail">Estimativa em tempo real</div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-header">
+          <span class="metric-label">Abas Suspensas</span>
+        </div>
+        <div class="metric-value" id="discardedTabs">0 <span class="metric-total" id="totalTabs">/ 0</span></div>
+        <div class="progress-bar-container">
+          <div class="progress-bar-fill" id="tabProgressBar" style="width: 0%"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Actions -->
+    <section class="actions-section">
+      <button class="btn btn-primary" id="btnDiscardNow">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+        </svg>
+        <span>Liberar Memória Agora</span>
+      </button>
+
+      <div class="secondary-actions">
+        <button class="btn btn-secondary" id="btnClearCache">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 6h18M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>
+          </svg>
+          <span>Limpar Cache</span>
+        </button>
+        <button class="btn btn-secondary" id="btnCloseDuplicates">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+          </svg>
+          <span id="closeDuplicatesText">Fechar Repetidas</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Settings & Whitelist Tabs Navigation -->
+    <nav class="tabs-nav">
+      <button class="tab-link active" data-tab="settings">Configurações</button>
+      <button class="tab-link" data-tab="whitelist">Sites Protegidos</button>
+      <button class="tab-link" data-tab="stats">Estatísticas</button>
+    </nav>
+
+    <!-- Tab 1: Configurações -->
+    <section class="tab-pane active" id="tabSettings">
+      <div class="control-group">
+        <label class="control-label" for="selectInactivity">
+          <span>Suspender após inatividade</span>
+          <span class="control-hint" id="inactivityHint">20 minutos</span>
+        </label>
+        <div class="preset-pills" id="timePresets">
+          <button type="button" class="pill" data-minutes="5">5m</button>
+          <button type="button" class="pill" data-minutes="10">10m</button>
+          <button type="button" class="pill" data-minutes="15">15m</button>
+          <button type="button" class="pill active" data-minutes="20">20m</button>
+          <button type="button" class="pill" data-minutes="30">30m</button>
+          <button type="button" class="pill" data-minutes="60">1h</button>
+        </div>
+      </div>
+
+      <div class="toggle-list">
+        <label class="toggle-item">
+          <div class="toggle-info">
+            <span class="toggle-title">Descarte Automático</span>
+            <span class="toggle-desc">Suspender abas ociosas em segundo plano</span>
+          </div>
+          <input type="checkbox" id="toggleAutoDiscard" checked>
+          <span class="toggle-slider"></span>
+        </label>
+
+        <label class="toggle-item">
+          <div class="toggle-info">
+            <span class="toggle-title">Fechar duplicadas automaticamente</span>
+            <span class="toggle-desc">Fecha abas repetidas abertas em segundo plano</span>
+          </div>
+          <input type="checkbox" id="toggleAutoCloseDuplicates">
+          <span class="toggle-slider"></span>
+        </label>
+
+        <label class="toggle-item">
+          <div class="toggle-info">
+            <span class="toggle-title">Proteger abas com áudio</span>
+            <span class="toggle-desc">YouTube, Spotify, chamadas e reuniões</span>
+          </div>
+          <input type="checkbox" id="toggleProtectAudible" checked>
+          <span class="toggle-slider"></span>
+        </label>
+
+        <label class="toggle-item">
+          <div class="toggle-info">
+            <span class="toggle-title">Proteger abas fixadas</span>
+            <span class="toggle-desc">Não suspender abas fixadas na barra</span>
+          </div>
+          <input type="checkbox" id="toggleProtectPinned" checked>
+          <span class="toggle-slider"></span>
+        </label>
+
+        <label class="toggle-item">
+          <div class="toggle-info">
+            <span class="toggle-title">Auto-limpeza de Cache</span>
+            <span class="toggle-desc">Limpar cache de rede a cada 24 horas</span>
+          </div>
+          <input type="checkbox" id="toggleAutoCache">
+          <span class="toggle-slider"></span>
+        </label>
+      </div>
+    </section>
+
+    <!-- Tab 2: Whitelist -->
+    <section class="tab-pane" id="tabWhitelist">
+      <div class="whitelist-quick" id="quickProtectContainer">
+        <button class="btn btn-outline" id="btnProtectCurrentTab">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+          <span id="protectCurrentText">Proteger site atual</span>
+        </button>
+      </div>
+
+      <form class="add-whitelist-form" id="addDomainForm">
+        <input type="text" id="domainInput" placeholder="ex: youtube.com ou gmail.com" autocomplete="off" spellcheck="false">
+        <button type="submit" class="btn btn-small">Adicionar</button>
+      </form>
+
+      <div class="whitelist-tags" id="whitelistTags">
+        <!-- Injetado dinamicamente -->
+      </div>
+    </section>
+
+    <!-- Tab 3: Estatísticas -->
+    <section class="tab-pane" id="tabStats">
+      <div class="stats-list">
+        <div class="stat-row">
+          <span class="stat-label">Total de suspensões acumuladas:</span>
+          <span class="stat-val" id="statLifetimeDiscarded">0</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Limpezas de cache executadas:</span>
+          <span class="stat-val" id="statCacheCleans">0</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Última limpeza de cache:</span>
+          <span class="stat-val" id="statLastCacheClean">Nunca</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Abas reproduzindo som agora:</span>
+          <span class="stat-val" id="statAudibleTabs">0</span>
+        </div>
+      </div>
+      <div class="stats-tip">
+        💡 <strong>Dica Pro:</strong> Ao clicar em uma aba suspensa, o Chrome a restaura imediatamente no ponto em que você parou!
+      </div>
+    </section>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">Ação concluída!</div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

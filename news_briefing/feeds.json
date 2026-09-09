@@ -1,0 +1,74 @@
+[
+  {
+    "id": "reuters",
+    "name": "Reuters",
+    "url": "https://news.google.com/rss/search?q=site:reuters.com&hl=en-US&gl=US&ceid=US:en",
+    "category": "Internacional",
+    "language": "en",
+    "enabled": true,
+    "description": "Cobertura global e finanças internacionais da Reuters"
+  },
+  {
+    "id": "cnn_brasil",
+    "name": "CNN Brasil",
+    "url": "https://www.cnnbrasil.com.br/feed/",
+    "category": "Brasil",
+    "language": "pt",
+    "enabled": true,
+    "description": "Notícias do Brasil e política nacional pela CNN Brasil"
+  },
+  {
+    "id": "cnn_international",
+    "name": "CNN International",
+    "url": "https://news.google.com/rss/search?q=site:cnn.com&hl=en-US&gl=US&ceid=US:en",
+    "category": "Internacional",
+    "language": "en",
+    "enabled": true,
+    "description": "Notícias globais e análises da CNN"
+  },
+  {
+    "id": "uol_noticias",
+    "name": "UOL Notícias",
+    "url": "http://rss.uol.com.br/feed/noticias.xml",
+    "category": "Brasil",
+    "language": "pt",
+    "enabled": true,
+    "description": "Principais manchetes e atualidades do Brasil pelo UOL"
+  },
+  {
+    "id": "uol_economia",
+    "name": "UOL Economia",
+    "url": "http://rss.uol.com.br/feed/economia.xml",
+    "category": "Economia",
+    "language": "pt",
+    "enabled": true,
+    "description": "Mercados, inflação, dólar e finanças no UOL"
+  },
+  {
+    "id": "g1",
+    "name": "G1 Globo",
+    "url": "https://g1.globo.com/rss/g1/",
+    "category": "Geral",
+    "language": "pt",
+    "enabled": true,
+    "description": "Portal de notícias da Globo (Brasil e Mundo)"
+  },
+  {
+    "id": "bbc_brasil",
+    "name": "BBC News Brasil",
+    "url": "https://feeds.bbci.co.uk/portuguese/rss.xml",
+    "category": "Internacional",
+    "language": "pt",
+    "enabled": true,
+    "description": "Reportagens aprofundadas e cenário mundial em português pela BBC"
+  },
+  {
+    "id": "infomoney",
+    "name": "InfoMoney",
+    "url": "https://www.infomoney.com.br/feed/",
+    "category": "Economia",
+    "language": "pt",
+    "enabled": true,
+    "description": "Mercados de capitais, ações e economia brasileira"
+  }
+]
