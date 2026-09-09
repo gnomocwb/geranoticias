@@ -100,6 +100,42 @@ python run_briefing.py --hours 24
 
 ---
 
+## 📱 Envio Gratuito pelo WhatsApp (CallMeBot)
+
+Você pode receber o resumo matinal formatado diretamente no seu WhatsApp pessoal de forma 100% gratuita utilizando a API do **CallMeBot**.
+
+### Como Configurar em 2 Minutos:
+1. Salve o número do bot do CallMeBot na sua agenda: **`+34 644 44 49 64`** (ou verifique o número ativo em [callmebot.com](https://www.callmebot.com/blog/free-api-whatsapp-messages/)).
+2. Abra o WhatsApp e envie a seguinte mensagem para ele:
+   ```
+   I allow callmebot to send me messages
+   ```
+3. O bot responderá em instantes com sua chave:
+   ```
+   API Activated. Your apikey is: 1234567
+   ```
+4. Adicione no seu arquivo `.env`:
+   ```ini
+   WHATSAPP_ENABLED=true
+   WHATSAPP_PHONE=5541999999999
+   WHATSAPP_APIKEY=1234567
+   ```
+   *(Substitua `5541999999999` pelo seu DDI 55 + DDD + seu número, somente dígitos)*.
+
+5. **Testar o envio:**
+   ```powershell
+   python run_briefing.py --test-whatsapp
+   ```
+
+6. **Enviar o briefing da manhã:**
+   ```powershell
+   python run_briefing.py --morning --whatsapp
+   ```
+   *(Se `WHATSAPP_ENABLED=true` estiver no `.env`, o envio é automático sempre que rodar `--morning`)*.
+
+
+---
+
 ## ⏰ Automação Matinal (Executar todos os dias)
 
 ### Opção A: Agendador de Tarefas Nativo do Windows (Recomendado)

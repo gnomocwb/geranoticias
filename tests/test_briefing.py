@@ -104,6 +104,14 @@ class TestNewsBriefing(unittest.TestCase):
         self.assertIn("<h1>Título Principal</h1>", html_out)
         self.assertIn('href="https://reuters.com"', html_out)
 
+    def test_whatsapp_formatting(self):
+        """Verifica a conversão de Markdown para a sintaxe do WhatsApp."""
+        from news_briefing.whatsapp_sender import markdown_to_whatsapp
+        md = "# 🌅 Notícia\n- **[Destaque](https://g1.globo.com)**: Texto em negrito."
+        wa = markdown_to_whatsapp(md)
+        self.assertIn("*🌅 Notícia*", wa)
+        self.assertIn("*Destaque (https://g1.globo.com)*", wa)
+
 
 if __name__ == "__main__":
     unittest.main()

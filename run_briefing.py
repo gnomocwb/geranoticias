@@ -34,6 +34,7 @@ from news_briefing.deduplicator import filter_by_time, cluster_and_deduplicate
 from news_briefing.gemini_synthesizer import generate_briefing_with_gemini, generate_fallback_report
 from news_briefing.formatters import save_markdown_report, save_html_report, render_terminal
 from news_briefing.scheduler import run_at_schedule, generate_windows_task_cmd
+from news_briefing.whatsapp_sender import send_whatsapp_message
 
 console = Console()
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
@@ -45,7 +46,8 @@ def run_pipeline(
     output_formats: list = None,
     model_name: str = DEFAULT_MODEL,
     api_key: str = None,
-    dry_run: bool = False
+    dry_run: bool = False,
+    send_whatsapp: bool = False
 ):
     """Executa o ciclo completo de coleta, filtragem, síntese e geração de relatórios."""
     reports_dir = ensure_reports_dir()
@@ -144,6 +146,16 @@ def run_pipeline(
     if "all" in formats or "cli" in formats:
         render_terminal(briefing_md)
 
+    # 6. Envio via WhatsApp (se solicitado via argumento ou habilitado no .env)
+    should_wa = send_whatsapp or (os.getenv("WHATSAPP_ENABLED", "").lower() in ["true", "1", "yes"])
+    if should_wa:
+        console.print("\n[cyan]📱 Enviando briefing matinal via WhatsApp...[/cyan]")
+        ok = send_whatsapp_message(briefing_md)
+        if ok:
+            console.print("[bold green]✓ WhatsApp enviado com sucesso![/bold green]")
+        else:
+            console.print("[bold yellow]⚠️ Não foi possível enviar para o WhatsApp. Verifique WHATSAPP_PHONE e WHATSAPP_APIKEY no .env.[/bold yellow]")
+
     console.print("\n[bold green]🎉 Briefing Matinal Concluído![/bold green]")
     for sf in saved_files:
         console.print(f"📄 Salvo em {sf}")
@@ -207,8 +219,28 @@ def main():
         metavar="HH:MM",
         help="Exibe o comando do Agendador de Tarefas do Windows para automação às HH:MM"
     )
+    parser.add_argument(
+        "--whatsapp",
+        action="store_true",
+        help="Envia o relatório gerado para o WhatsApp (CallMeBot)"
+    )
+    parser.add_argument(
+        "--test-whatsapp",
+        action="store_true",
+        help="Envia uma mensagem de teste para o WhatsApp configurado para validar"
+    )
 
     args = parser.parse_args()
+
+    # Se solicitou teste do WhatsApp
+    if args.test_whatsapp:
+        console.print("[cyan]Enviando mensagem de teste para o WhatsApp...[/cyan]")
+        ok = send_whatsapp_message("👋 *Teste do News Briefing AI!* Seu canal de notícias matinais no WhatsApp está configurado e pronto para uso.")
+        if ok:
+            console.print("[bold green]✓ Mensagem de teste enviada com sucesso ao seu WhatsApp![/bold green]")
+        else:
+            console.print("[bold red]Falha no envio do teste. Verifique se WHATSAPP_PHONE e WHATSAPP_APIKEY estão configurados no .env.[/bold red]")
+        return
 
     # Se solicitou o comando do Windows Task Scheduler
     if args.register_task:
@@ -229,7 +261,8 @@ def main():
             output_formats=[args.output],
             model_name=args.model,
             api_key=args.api_key,
-            dry_run=args.dry_run
+            dry_run=args.dry_run,
+            send_whatsapp=args.whatsapp
         )
 
     if args.schedule:
