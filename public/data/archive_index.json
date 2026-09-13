@@ -1,5 +1,20 @@
 [
   {
+    "id": "fatos_da_regiao_2026-09-13_190024",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-13",
+    "time": "19:00",
+    "summary": "Temporais, tornados e estragos no Paraná: O governo estadual reuniu seu gabinete de gestão integrada neste domingo para avaliar ações de apo...",
+    "file": "data/editions/fatos_da_regiao_2026-09-13_190024.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B"
+    ]
+  },
+  {
     "id": "fatos_da_regiao_2026-09-13_130939",
     "type": "regional",
     "type_label": "🏙️ Fatos da Região (Edição da Tarde • 13h)",
