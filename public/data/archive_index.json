@@ -1,5 +1,20 @@
 [
   {
+    "id": "fatos_da_regiao_2026-09-13_183103",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-13",
+    "time": "18:31",
+    "summary": "Defesa Civil mobilizada por temporais no estado: As fortes chuvas que atingem o Paraná nos últimos dias já provocaram danos em 2.640 residên...",
+    "file": "data/editions/fatos_da_regiao_2026-09-13_183103.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B"
+    ]
+  },
+  {
     "id": "fatos_da_regiao_2026-09-13_130939",
     "type": "regional",
     "type_label": "🏙️ Fatos da Região (Edição da Tarde • 13h)",
