@@ -1,5 +1,20 @@
 [
   {
+    "id": "fatos_da_regiao_2026-09-13_100909",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-13",
+    "time": "10:09",
+    "summary": "Temporais extremos provocam estragos e deixam três mortos no Paraná: As fortes chuvas que atingiram o estado causaram tempestades de granizo...",
+    "file": "data/editions/fatos_da_regiao_2026-09-13_100909.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B"
+    ]
+  },
+  {
     "id": "fatos_da_regiao_2026-09-13",
     "type": "regional",
     "type_label": "🏙️ Fatos da Região",
