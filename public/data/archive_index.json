@@ -1,0 +1,116 @@
+[
+  {
+    "id": "fatos_da_regiao_2026-09-13_091525",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-13",
+    "time": "09:15",
+    "summary": "[Motorista perde controle da direção, bate carro contra árvore e fica preso às ferragens no Água Verde](https://www.bandab.com.br/transito/m...",
+    "file": "data/editions/fatos_da_regiao_2026-09-13_091525.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-13_090033",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-13",
+    "time": "09:00",
+    "summary": "Chuvas extremas provocam mortes e deixam milhares de afetados no Paraná: As fortes tempestades que atingiram o estado nos últimos dias resultaram em três mortes, além de afetar aproximadamente ...",
+    "file": "data/editions/fatos_da_regiao_2026-09-13_090033.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-13",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-13",
+    "time": "09:00",
+    "summary": "Motorista perde controle da direção, bate carro contra árvore e fica preso às ferragens no Água Verde: ...",
+    "file": "data/editions/fatos_da_regiao_2026-09-13.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-13_085904",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-13",
+    "time": "08:59",
+    "summary": "Chuva extrema deixa mortos e atinge milhares no estado: As fortes chuvas que atingiram o Paraná causaram estragos generalizados, incluindo tempestades de granizo, enxurradas e ...",
+    "file": "data/editions/fatos_da_regiao_2026-09-13_085904.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B"
+    ]
+  },
+  {
+    "id": "briefing_2026-09-10_095514",
+    "type": "nacional",
+    "type_label": "☀️ Briefing Matinal",
+    "title": "Briefing Matinal de Notícias",
+    "date": "2026-09-10",
+    "time": "09:55",
+    "summary": "Operação da PF mira emendas e financiamento do filme 'Dark Horse': A Polícia Federal deflagrou uma grande operação com dezenas de mandados para investigar o uso de recursos públicos e eme...",
+    "file": "data/editions/briefing_2026-09-10_095514.html",
+    "sources": [
+      "Reuters",
+      "CNN",
+      "UOL",
+      "G1",
+      "BBC",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "briefing_2026-09-10",
+    "type": "nacional",
+    "type_label": "☀️ Briefing Matinal",
+    "title": "Briefing Matinal de Notícias",
+    "date": "2026-09-10",
+    "time": "07:00",
+    "summary": "Operação da PF mira emendas e financiamento do filme 'Dark Horse': A Polícia Federal cumpre 49 mandados de busca e apreensão para investigar o direcionamento de emendas parlamentares para...",
+    "file": "data/editions/briefing_2026-09-10.html",
+    "sources": [
+      "Reuters",
+      "CNN",
+      "UOL",
+      "G1",
+      "BBC",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "briefing_2026-09-09_192600",
+    "type": "nacional",
+    "type_label": "☀️ Briefing Matinal",
+    "title": "Briefing Matinal de Notícias",
+    "date": "2026-09-09",
+    "time": "19:26",
+    "summary": "[STF Intervém na Crise Interna]: O presidente do STF, ministro Edson Fachin, suspendeu as decisões conflitantes de André Mendonça e Flávio Dino sobre a c...",
+    "file": "data/editions/briefing_2026-09-09_192600.html",
+    "sources": [
+      "Reuters",
+      "CNN",
+      "UOL",
+      "G1",
+      "BBC",
+      "InfoMoney"
+    ]
+  }
+]

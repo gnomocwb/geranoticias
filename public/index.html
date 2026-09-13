@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News Briefing AI — Fatos da Região & Briefing Matinal</title>
+  <meta name="description" content="Portal de síntese jornalística automatizada com inteligência artificial. Cobertura diária dos fatos de Curitiba, Paraná e do mundo.">
+  
+  <!-- Favicon / Ícone -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📰</text></svg>">
+  
+  <!-- Fontes do Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="bg-glow-1"></div>
+  <div class="bg-glow-2"></div>
+
+  <!-- Header Superior -->
+  <header>
+    <div class="container nav-wrap">
+      <a href="/" class="brand" id="logo-brand">
+        <div class="brand-icon">⚡</div>
+        <div class="brand-info">
+          <h1>News Briefing AI</h1>
+          <p>Inteligência Editorial Diária</p>
+        </div>
+      </a>
+
+      <div class="header-meta">
+        <div class="live-badge">
+          <div class="live-dot"></div>
+          <span>Atualizado Diariamente</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main class="container">
+    
+    <!-- Hero / Apresentação -->
+    <section class="hero">
+      <div class="hero-header">
+        <span class="hero-tag">✨ Curadoria com Google Gemini & RSS Oficial</span>
+        <h2 class="hero-title">O que você precisa saber, direto ao ponto.</h2>
+        <p class="hero-desc">
+          Sínteses matinais imparciais e agrupadas cobrindo Curitiba, o Paraná e os principais acontecimentos do Brasil e do mundo.
+        </p>
+      </div>
+
+      <!-- Card em Destaque (Edição Mais Recente) -->
+      <div id="hero-featured"></div>
+    </section>
+
+    <!-- Barra de Filtros e Busca -->
+    <section class="controls-section">
+      <div class="controls-bar">
+        <div class="filter-tabs" role="tablist">
+          <button class="tab-btn active" data-filter="all" id="tab-all">Todas as Edições</button>
+          <button class="tab-btn" data-filter="regional" id="tab-regional">🏙️ Fatos da Região (PR)</button>
+          <button class="tab-btn" data-filter="nacional" id="tab-nacional">☀️ Briefing Geral</button>
+        </div>
+
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input 
+            type="text" 
+            id="search-input" 
+            class="search-input" 
+            placeholder="Buscar por tema, cidade ou data..."
+            autocomplete="off"
+          >
+        </div>
+      </div>
+
+      <!-- Grid de Edições Anteriores (Arquivo Histórico) -->
+      <div class="editions-grid" id="editions-grid">
+        <!-- Renderizado dinamicamente via app.js -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Modal Leitor Integrado de Edição Completa -->
+  <div class="modal-overlay" id="modal-overlay" aria-hidden="true">
+    <div class="modal-window">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <h4 id="modal-title">Título da Edição</h4>
+          <span id="modal-date">Data da Edição</span>
+        </div>
+        <div class="modal-actions">
+          <a href="#" target="_blank" rel="noopener" class="btn-external" id="modal-external-link">
+            Abrir em Nova Aba ↗
+          </a>
+          <button class="btn-close-modal" id="btn-close-modal" aria-label="Fechar">
+            ✕
+          </button>
+        </div>
+      </div>
+      <div class="modal-body">
+        <iframe id="modal-iframe" title="Conteúdo da Edição" src="about:blank"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="container">
+      <p>
+        <strong>News Briefing AI</strong> • Automatizado com Python, RSS e Google Gemini.
+      </p>
+      <p style="margin-top: 8px; font-size: 0.8rem;">
+        Fontes: Tribuna do Paraná • Bem Paraná • Banda B • Reuters • CNN • UOL • G1 • BBC
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

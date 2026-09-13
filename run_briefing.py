@@ -32,7 +32,7 @@ from news_briefing.config import (
 from news_briefing.fetcher import fetch_all_feeds
 from news_briefing.deduplicator import filter_by_time, cluster_and_deduplicate
 from news_briefing.gemini_synthesizer import generate_briefing_with_gemini, generate_fallback_report
-from news_briefing.formatters import save_markdown_report, save_html_report, render_terminal
+from news_briefing.formatters import save_markdown_report, save_html_report, render_terminal, archive_edition
 from news_briefing.scheduler import run_at_schedule, generate_windows_task_cmd
 from news_briefing.whatsapp_sender import send_whatsapp_message
 
@@ -145,6 +145,10 @@ def run_pipeline(
 
     if "all" in formats or "cli" in formats:
         render_terminal(briefing_md)
+
+    # 6. Arquivamento Web (Catálogo Histórico da Vercel)
+    web_entry = archive_edition(briefing_md, edition_type="nacional", filename_prefix="briefing")
+    saved_files.append(f"Web Vercel: [bold underline]public/{web_entry['file']}[/bold underline]")
 
     # 6. Envio via WhatsApp (se solicitado via argumento ou habilitado no .env)
     should_wa = send_whatsapp or (os.getenv("WHATSAPP_ENABLED", "").lower() in ["true", "1", "yes"])

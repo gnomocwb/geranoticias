@@ -38,7 +38,7 @@ from news_briefing.gemini_synthesizer import (
     generate_regional_briefing_with_gemini,
     generate_fallback_regional_report
 )
-from news_briefing.formatters import save_markdown_report, save_html_report
+from news_briefing.formatters import save_markdown_report, save_html_report, archive_edition
 from news_briefing.scheduler import run_at_schedule, generate_windows_task_cmd
 from news_briefing.whatsapp_sender import send_whatsapp_message
 
@@ -169,6 +169,10 @@ def run_pipeline(
                 padding=(1, 2)
             )
         )
+
+    # 6. Arquivamento Web (Catálogo Histórico da Vercel)
+    web_entry = archive_edition(briefing_md, edition_type="regional", filename_prefix="fatos_da_regiao")
+    saved_files.append(f"Web Vercel: [bold underline]public/{web_entry['file']}[/bold underline]")
 
     # 6. Envio via WhatsApp (se habilitado)
     should_wa = send_whatsapp or (os.getenv("WHATSAPP_ENABLED", "").lower() in ["true", "1", "yes"])

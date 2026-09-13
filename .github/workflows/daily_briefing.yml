@@ -1,0 +1,68 @@
+name: Daily News Briefing (Linux)
+
+on:
+  schedule:
+    # 07:00 da manhã no horário de Brasília (BRT, UTC-3) -> 10:00 UTC
+    - cron: '0 10 * * *'
+    # 09:00 da manhã no horário de Brasília (BRT, UTC-3) -> 12:00 UTC
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+    inputs:
+      profile:
+        description: 'Qual briefing executar?'
+        required: true
+        default: 'both'
+        type: choice
+        options:
+          - 'both'
+          - 'regional'
+          - 'national'
+
+permissions:
+  contents: write
+
+jobs:
+  generate-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do Repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Instalar Dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Executar Briefing Geral (Nacional/Mundo)
+        if: ${{ github.event_name == 'schedule' || inputs.profile == 'both' || inputs.profile == 'national' }}
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          WHATSAPP_ENABLED: ${{ secrets.WHATSAPP_ENABLED }}
+          WHATSAPP_PHONE: ${{ secrets.WHATSAPP_PHONE }}
+          WHATSAPP_APIKEY: ${{ secrets.WHATSAPP_APIKEY }}
+        run: |
+          python run_briefing.py --morning
+
+      - name: Executar Fatos da Região (Curitiba & PR)
+        if: ${{ github.event_name == 'schedule' || inputs.profile == 'both' || inputs.profile == 'regional' }}
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          WHATSAPP_ENABLED: ${{ secrets.WHATSAPP_ENABLED }}
+          WHATSAPP_PHONE: ${{ secrets.WHATSAPP_PHONE }}
+          WHATSAPP_APIKEY: ${{ secrets.WHATSAPP_APIKEY }}
+        run: |
+          python run_fatos_da_regiao.py --hours 22
+
+      - name: Comitar e Enviar Novas Edições para Vercel
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add public/data/ reports/
+          git diff --staged --quiet || (git commit -m "chore(briefing): nova edição gerada e arquivada [skip ci]" && git push origin main)

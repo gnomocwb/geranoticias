@@ -1,8 +1,9 @@
 import sys
 import re
+import json
 from datetime import datetime
 from pathlib import Path
-from typing import Optional
+from typing import Optional, Dict, Any, List
 
 if sys.platform == "win32":
     try:
@@ -322,3 +323,86 @@ def render_terminal(markdown_content: str):
             padding=(1, 2)
         )
     )
+
+
+def archive_edition(
+    markdown_content: str,
+    edition_type: str = "regional",
+    filename_prefix: str = "fatos_da_regiao",
+    public_dir: Optional[Path] = None
+) -> Dict[str, Any]:
+    """Salva a edição na pasta pública da Vercel e atualiza o catálogo archive_index.json."""
+    base_dir = Path(__file__).resolve().parent.parent
+    web_dir = public_dir or (base_dir / "public")
+    data_dir = web_dir / "data"
+    editions_dir = data_dir / "editions"
+    editions_dir.mkdir(parents=True, exist_ok=True)
+
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    now_time = datetime.now().strftime("%H:%M")
+
+    filename = f"{filename_prefix}_{today_str}.html"
+    file_path = editions_dir / filename
+
+    if file_path.exists():
+        timestamp = datetime.now().strftime("%H%M%S")
+        filename = f"{filename_prefix}_{today_str}_{timestamp}.html"
+        file_path = editions_dir / filename
+
+    eff_title = "Fatos da Região — Curitiba & Paraná" if edition_type == "regional" else "Briefing Matinal de Notícias"
+    eff_badge = "🏙️ Fatos da Região — Curitiba & Paraná" if edition_type == "regional" else "☀️ Briefing Matinal Executivo"
+    eff_footer = (
+        "Gerado via Tribuna do Paraná, Bem Paraná e Banda B & Google Gemini • Fatos da Região"
+        if edition_type == "regional" else
+        "Gerado via Reuters, CNN, UOL, G1, BBC & Google Gemini • News Briefing AI"
+    )
+
+    summary = ""
+    lines = [l.strip() for l in markdown_content.split("\n") if l.strip()]
+    for l in lines:
+        if l.startswith("- **") or l.startswith("* **"):
+            clean_l = re.sub(r"[\*\#\_]", "", l).lstrip("- ")
+            summary = clean_l[:140] + ("..." if len(clean_l) > 140 else "")
+            break
+    if not summary:
+        summary = f"Resumo executivo com os principais acontecimentos de {datetime.now().strftime('%d/%m/%Y')}."
+
+    html_content = convert_markdown_to_html(
+        markdown_content,
+        title=eff_title,
+        badge_text=eff_badge,
+        footer_text=eff_footer
+    )
+    with open(file_path, "w", encoding="utf-8") as f:
+        f.write(html_content)
+
+    index_file = data_dir / "archive_index.json"
+    archive_list = []
+    if index_file.exists():
+        try:
+            with open(index_file, "r", encoding="utf-8") as f:
+                archive_list = json.load(f)
+        except Exception:
+            archive_list = []
+
+    edition_id = filename.replace(".html", "")
+    new_entry = {
+        "id": edition_id,
+        "type": edition_type,
+        "type_label": "🏙️ Fatos da Região" if edition_type == "regional" else "☀️ Briefing Matinal",
+        "title": eff_title,
+        "date": today_str,
+        "time": now_time,
+        "summary": summary,
+        "file": f"data/editions/{filename}",
+        "sources": ["Tribuna do Paraná", "Bem Paraná", "Banda B"] if edition_type == "regional" else ["Reuters", "CNN", "UOL", "G1", "BBC", "InfoMoney"]
+    }
+
+    archive_list = [item for item in archive_list if item.get("id") != edition_id]
+    archive_list.insert(0, new_entry)
+    archive_list.sort(key=lambda x: (x.get("date", ""), x.get("time", "")), reverse=True)
+
+    with open(index_file, "w", encoding="utf-8") as f:
+        json.dump(archive_list, f, ensure_ascii=False, indent=2)
+
+    return new_entry
