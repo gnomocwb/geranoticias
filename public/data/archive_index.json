@@ -1,35 +1,5 @@
 [
   {
-    "id": "fatos_da_regiao_2026-09-13_091525",
-    "type": "regional",
-    "type_label": "🏙️ Fatos da Região",
-    "title": "Fatos da Região — Curitiba & Paraná",
-    "date": "2026-09-13",
-    "time": "09:15",
-    "summary": "[Motorista perde controle da direção, bate carro contra árvore e fica preso às ferragens no Água Verde](https://www.bandab.com.br/transito/m...",
-    "file": "data/editions/fatos_da_regiao_2026-09-13_091525.html",
-    "sources": [
-      "Tribuna do Paraná",
-      "Bem Paraná",
-      "Banda B"
-    ]
-  },
-  {
-    "id": "fatos_da_regiao_2026-09-13_090033",
-    "type": "regional",
-    "type_label": "🏙️ Fatos da Região",
-    "title": "Fatos da Região — Curitiba & Paraná",
-    "date": "2026-09-13",
-    "time": "09:00",
-    "summary": "Chuvas extremas provocam mortes e deixam milhares de afetados no Paraná: As fortes tempestades que atingiram o estado nos últimos dias resultaram em três mortes, além de afetar aproximadamente ...",
-    "file": "data/editions/fatos_da_regiao_2026-09-13_090033.html",
-    "sources": [
-      "Tribuna do Paraná",
-      "Bem Paraná",
-      "Banda B"
-    ]
-  },
-  {
     "id": "fatos_da_regiao_2026-09-13",
     "type": "regional",
     "type_label": "🏙️ Fatos da Região",
