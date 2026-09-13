@@ -19,7 +19,7 @@ O sistema gera boletins dinâmicos adaptados ao ciclo de notícias do dia:
 ## 🚀 Funcionalidades Principais
 
 - **📡 Coleta Paralela de Múltiplos Portais**:
-  - **Fatos da Região (Curitiba & PR)**: Tribuna do Paraná, Bem Paraná e Banda B.
+  - **Fatos da Região (Curitiba & PR)**: Tribuna do Paraná, Bem Paraná, Banda B e Gazeta do Povo.
   - **Briefing Geral (Brasil & Mundo)**: Reuters, CNN, UOL, G1, BBC e InfoMoney.
   - *Customizável:* adicione qualquer feed em `news_briefing/feeds.json` ou `feeds_regional.json`.
 - **⏳ Janela Temporal Dinâmica**:
@@ -70,7 +70,7 @@ WHATSAPP_APIKEY=1234567
 ## 💻 Como Usar
 
 ### 1. Fatos da Região (Curitiba & Paraná)
-Gera o boletim focado em Curitiba, RMC e Paraná (Tribuna PR, Bem Paraná, Banda B):
+Gera o boletim focado em Curitiba, RMC e Paraná (Tribuna PR, Bem Paraná, Banda B, Gazeta do Povo):
 ```powershell
 python run_fatos_da_regiao.py
 ```
@@ -147,7 +147,7 @@ antigravity/
 ├── news_briefing/
 │   ├── config.py              # Configurações e variáveis de ambiente
 │   ├── feeds.json             # Feeds gerais (Reuters, CNN, UOL, etc.)
-│   ├── feeds_regional.json    # Feeds regionais (Tribuna PR, Bem Paraná, Banda B)
+│   ├── feeds_regional.json    # Feeds regionais (Tribuna PR, Bem Paraná, Banda B, Gazeta do Povo)
 │   ├── fetcher.py             # Coletor RSS multithread com parsing de datas flexível
 │   ├── deduplicator.py        # Filtro temporal e agrupamento inteligente de notícias
 │   ├── gemini_synthesizer.py  # Síntese editorial com Google Gemini para as 3 edições

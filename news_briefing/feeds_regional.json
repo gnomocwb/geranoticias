@@ -52,5 +52,23 @@
     "language": "pt",
     "enabled": true,
     "description": "Feed expandido do portal Banda B cobrindo as últimas 24 horas"
+  },
+  {
+    "id": "gazetadopovo_direct",
+    "name": "Gazeta do Povo",
+    "url": "https://www.gazetadopovo.com.br/rss/",
+    "category": "Paraná / Curitiba",
+    "language": "pt",
+    "enabled": true,
+    "description": "Notícias do Paraná, Curitiba e principais fatos pela Gazeta do Povo"
+  },
+  {
+    "id": "gazetadopovo_gnews",
+    "name": "Gazeta do Povo (Arquivo Recente)",
+    "url": "https://news.google.com/rss/search?q=site:gazetadopovo.com.br&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+    "category": "Paraná / Curitiba",
+    "language": "pt",
+    "enabled": true,
+    "description": "Feed expandido do portal Gazeta do Povo cobrindo as últimas 24 horas"
   }
 ]

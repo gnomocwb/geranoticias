@@ -28,6 +28,17 @@ class TestNewsBriefing(unittest.TestCase):
             self.assertIn("url", feed)
             self.assertTrue(feed["url"].startswith("http"))
 
+    def test_regional_feeds_json_loads(self):
+        """Verifica se os feeds regionais (incluindo Gazeta do Povo) são válidos."""
+        reg_path = Path(__file__).resolve().parent.parent / "news_briefing" / "feeds_regional.json"
+        feeds = load_configured_feeds(custom_file=reg_path)
+        self.assertGreater(len(feeds), 0)
+        feed_ids = [f["id"] for f in feeds]
+        self.assertIn("gazetadopovo_direct", feed_ids)
+        gazeta = next(f for f in feeds if f["id"] == "gazetadopovo_direct")
+        self.assertEqual(gazeta["url"], "https://www.gazetadopovo.com.br/rss/")
+        self.assertEqual(gazeta["name"], "Gazeta do Povo")
+
     def test_clean_html_text(self):
         """Testa remoção de tags HTML e entidades."""
         raw = "<p>Texto com <b>negrito</b> e &amp; entidade.</p>"

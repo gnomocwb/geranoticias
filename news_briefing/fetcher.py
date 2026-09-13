@@ -120,6 +120,22 @@ def fetch_single_feed(feed_config: Dict[str, Any], timeout: int = 12) -> List[Ne
             content = response.read()
 
         parsed = feedparser.parse(content)
+
+        # Suporte especial ao hub https://www.gazetadopovo.com.br/rss/ que lista canais RSS XML
+        if not parsed.entries and "gazetadopovo.com.br/rss" in url:
+            sub_feeds = [
+                "https://www.gazetadopovo.com.br/feed/rss/parana.xml",
+                "https://www.gazetadopovo.com.br/feed/rss/ultimas-noticias.xml"
+            ]
+            for sub_url in sub_feeds:
+                try:
+                    sub_req = urllib.request.Request(sub_url, headers={"User-Agent": DEFAULT_USER_AGENT})
+                    with urllib.request.urlopen(sub_req, timeout=timeout) as sub_resp:
+                        sub_parsed = feedparser.parse(sub_resp.read())
+                        parsed.entries.extend(sub_parsed.entries)
+                except Exception as sub_e:
+                    logger.debug(f"Erro ao obter sub-feed Gazeta do Povo ({sub_url}): {sub_e}")
+
         for entry in parsed.entries:
             title = clean_html_text(getattr(entry, "title", ""))
             if not title:

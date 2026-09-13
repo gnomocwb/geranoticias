@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Fatos da Região — Notícias de Curitiba, RMC e Paraná com Google Gemini (3 Edições Diárias)
-Fontes: Tribuna do Paraná, Bem Paraná e Banda B.
+Fontes: Tribuna do Paraná, Bem Paraná, Banda B e Gazeta do Povo.
 Execuções recomendadas: 3 vezes ao dia (08:00, 13:00 e 19:00).
 """
 
@@ -92,7 +92,7 @@ def run_pipeline(
         transient=True
     ) as progress:
         # 1. Coleta
-        task1 = progress.add_task("Coletando notícias de Tribuna PR, Bem Paraná e Banda B...", total=None)
+        task1 = progress.add_task("Coletando notícias de Tribuna PR, Bem Paraná, Banda B e Gazeta do Povo...", total=None)
         items = fetch_all_feeds(active_feeds)
         progress.update(task1, completed=True)
 
@@ -167,7 +167,7 @@ def run_pipeline(
             filename_prefix="fatos_da_regiao",
             title="Fatos da Região — Curitiba & Paraná",
             badge_text="🏙️ Fatos da Região — Curitiba & Paraná",
-            footer_text="Gerado via Tribuna do Paraná, Bem Paraná e Banda B & Google Gemini • Fatos da Região"
+            footer_text="Gerado via Tribuna do Paraná, Bem Paraná, Banda B e Gazeta do Povo & Google Gemini • Fatos da Região"
         )
         saved_files.append(f"HTML: [bold underline]{html_file}[/bold underline]")
 
@@ -216,7 +216,7 @@ def main():
         "--feeds",
         type=str,
         default=None,
-        help="IDs de feeds regionais específicos separados por vírgula (ex: tribunapr_direct,bemparana_direct,bandab_direct)"
+        help="IDs de feeds regionais específicos separados por vírgula (ex: tribunapr_direct,bemparana_direct,bandab_direct,gazetadopovo_direct)"
     )
     parser.add_argument(
         "--output",
