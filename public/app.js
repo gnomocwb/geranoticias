@@ -61,7 +61,7 @@ function renderHero(latest) {
 
   const isRegional = latest.type === 'regional';
   const badgeClass = isRegional ? 'type-regional' : 'type-nacional';
-  const badgeText = isRegional ? '🏙️ Fatos da Região — Edição Recente' : '☀️ Briefing Matinal — Edição Recente';
+  const badgeText = latest.type_label ? `${latest.type_label} — Mais Recente` : (isRegional ? '🏙️ Fatos da Região — Mais Recente' : '📰 Briefing Geral — Mais Recente');
   const formattedDate = formatDatePT(latest.date);
 
   const sourcesHtml = (latest.sources || [])
@@ -121,7 +121,7 @@ function renderGrid() {
   editionsGrid.innerHTML = filtered.map(ed => {
     const isRegional = ed.type === 'regional';
     const badgeClass = isRegional ? 'type-regional' : 'type-nacional';
-    const badgeText = ed.type_label || (isRegional ? '🏙️ Fatos da Região' : '☀️ Briefing Matinal');
+    const badgeText = ed.type_label || (isRegional ? '🏙️ Fatos da Região' : '📰 Briefing Geral');
     const formattedDate = formatDatePT(ed.date);
 
     return `

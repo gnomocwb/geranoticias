@@ -8,8 +8,19 @@ from .deduplicator import ClusteredStory
 logger = logging.getLogger("news_briefing.synthesizer")
 
 
+def get_edition_period_info(dt: Optional[datetime] = None) -> tuple:
+    """Retorna (nome_da_edicao, descricao_cobertura) com base na hora atual."""
+    hour = (dt or datetime.now()).hour
+    if hour < 11:
+        return ("Edição da Manhã (08h)", "Fatos da noite anterior e início da manhã")
+    elif hour < 16:
+        return ("Edição da Tarde (13h)", "Fatos e acontecimentos da manhã")
+    else:
+        return ("Edição da Noite (19h)", "Desdobramentos e fatos da tarde")
+
+
 def build_editorial_prompt(stories: List[ClusteredStory], language: str = "pt-BR") -> str:
-    """Monta o prompt para o Gemini com as notícias estruturadas da manhã."""
+    """Monta o prompt para o Gemini com as notícias estruturadas do período."""
     stories_data = []
     for idx, story in enumerate(stories[:40], 1):  # Limita aos 40 eventos principais
         sources_str = ", ".join(story.sources)
@@ -25,11 +36,14 @@ def build_editorial_prompt(stories: List[ClusteredStory], language: str = "pt-BR
         })
 
     json_payload = json.dumps(stories_data, ensure_ascii=False, indent=2)
+    period_name, period_desc = get_edition_period_info()
 
-    prompt = f"""Você é o Editor-Chefe de Inteligência de Notícias matinal.
-Sua missão é ler a lista de fatos e notícias coletados nesta manhã a partir de grandes agências e veículos (Reuters, CNN, UOL, G1, BBC, InfoMoney, etc.) e produzir um **Briefing Matinal Executivo, Único e Sucinto**.
+    prompt = f"""Você é o Editor-Chefe de Inteligência de Notícias.
+Sua missão é ler a lista de fatos e notícias recentes coletados a partir de grandes agências e veículos (Reuters, CNN, UOL, G1, BBC, InfoMoney, etc.) e produzir um **Briefing Executivo ({period_name})**.
+O serviço entrega resumos 3 vezes por dia (08h, 13h e 19h).
 
 Data do Briefing: {datetime.now().strftime('%d/%m/%Y')}
+Edição: {period_name} ({period_desc})
 Idioma de saída: Português (Brasil)
 
 ### Diretrizes de Escrita:
@@ -39,15 +53,16 @@ Idioma de saída: Português (Brasil)
 
 ### Estrutura Obrigatória do Relatório:
 
-# 🌅 Briefing Matinal de Notícias — {datetime.now().strftime('%d/%m/%Y')}
+# 📰 Briefing Geral de Notícias — {period_name} ({datetime.now().strftime('%d/%m/%Y')})
 
+> **{period_name}** | {period_desc} | Atualizado 3 vezes ao dia (08h • 13h • 19h)  
 > **Tempo estimado de leitura:** 3 minutos  
 > **Fontes analisadas:** Reuters, CNN, UOL, G1, BBC, InfoMoney
 
 ---
 
-## ⚡ Destaques da Manhã (Top 3 Acontecimentos)
-*Os fatos mais críticos que você precisa saber antes do dia começar.*
+## ⚡ Destaques do Período (Top 3 Acontecimentos)
+*Os fatos mais críticos que você precisa saber agora.*
 - **[Título do Fato 1]**: Síntese explicativa em 2 ou 3 frases. *Por que importa:* Impacto direto. *(Fontes: Nome das Fontes)*
 - ...
 
@@ -99,9 +114,9 @@ def generate_briefing_with_gemini(
     model_name: str = "gemini-3.6-flash",
     language: str = "pt-BR"
 ) -> str:
-    """Gera o relatório executivo matinal usando a API do Google Gemini."""
+    """Gera o relatório executivo usando a API do Google Gemini."""
     if not stories:
-        return "# 🌅 Briefing Matinal de Notícias\n\nNenhuma notícia recente encontrada para a janela de tempo selecionada."
+        return "# 📰 Briefing Geral de Notícias\n\nNenhuma notícia recente encontrada para a janela de tempo selecionada."
 
     effective_key = api_key or os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
 
@@ -158,9 +173,11 @@ def generate_briefing_with_gemini(
 
 def generate_fallback_report(stories: List[ClusteredStory], error_msg: Optional[str] = None) -> str:
     """Gera um relatório estruturado localmente quando o Gemini não está acessível."""
+    period_name, period_desc = get_edition_period_info()
     now_str = datetime.now().strftime("%d/%m/%Y às %H:%M")
     lines = [
-        f"# 🌅 Briefing Matinal de Notícias (Modo Estruturado)",
+        f"# 📰 Briefing Geral de Notícias — {period_name} (Modo Estruturado)",
+        f"> **{period_name}** | {period_desc} | Atualizado 3 vezes ao dia (08h • 13h • 19h)",
         f"> **Gerado em:** {now_str} | **Total de matérias agrupadas:** {len(stories)}",
         ""
     ]
@@ -176,7 +193,7 @@ def generate_fallback_report(stories: List[ClusteredStory], error_msg: Optional[
         cat = st.category or "Geral"
         by_category.setdefault(cat, []).append(st)
 
-    lines.append("## ⚡ Principais Manchetes da Manhã\n")
+    lines.append("## ⚡ Principais Manchetes do Período\n")
     for st in stories[:5]:
         sources_str = ", ".join(st.sources)
         first_link = st.links[0]["url"] if st.links else "#"
@@ -234,12 +251,14 @@ def build_regional_editorial_prompt(stories: List[ClusteredStory], language: str
         })
 
     json_payload = json.dumps(stories_data, ensure_ascii=False, indent=2)
+    period_name, period_desc = get_edition_period_info()
 
     prompt = f"""Você é o Editor-Chefe de Notícias de Curitiba e do Paraná.
-Sua missão é analisar as notícias do dia anterior e do início desta manhã publicadas pelos principais veículos paranaenses (**Tribuna do Paraná, Bem Paraná e Banda B**) e produzir o informativo matinal **"Fatos da Região"**.
+Sua missão é analisar as notícias recentes publicadas pelos principais veículos paranaenses (**Tribuna do Paraná, Bem Paraná e Banda B**) e produzir o informativo **"Fatos da Região" ({period_name})**.
+O serviço entrega resumos 3 vezes por dia (08h, 13h e 19h).
 
 Data do Briefing: {datetime.now().strftime('%d/%m/%Y')}
-Edição: 09:00 (Fatos do dia anterior e início da manhã)
+Edição: {period_name} ({period_desc})
 Idioma de saída: Português (Brasil)
 
 ### Diretrizes Editoriais:
@@ -252,7 +271,7 @@ Idioma de saída: Português (Brasil)
 
 # 🏙️ Fatos da Região — Curitiba & Paraná ({datetime.now().strftime('%d/%m/%Y')})
 
-> **Edição Matinal das 09h** | Cobertura das últimas 24 horas (dia anterior + início da manhã)  
+> **{period_name}** | {period_desc} | Resumos 3 vezes por dia (08h • 13h • 19h)  
 > **Fontes:** Tribuna do Paraná • Bem Paraná • Banda B  
 
 ---
@@ -373,9 +392,11 @@ def generate_regional_briefing_with_gemini(
 
 def generate_fallback_regional_report(stories: List[ClusteredStory], error_msg: Optional[str] = None) -> str:
     """Gera um relatório estruturado localmente para Fatos da Região quando Gemini não está ativo."""
+    period_name, period_desc = get_edition_period_info()
     now_str = datetime.now().strftime("%d/%m/%Y às %H:%M")
     lines = [
-        f"# 🏙️ Fatos da Região — Curitiba & Paraná (Modo Estruturado)",
+        f"# 🏙️ Fatos da Região — Curitiba & Paraná ({period_name})",
+        f"> **{period_name}** | {period_desc} | Resumos 3 vezes por dia (08h • 13h • 19h)",
         f"> **Gerado em:** {now_str} | **Fontes:** Tribuna do Paraná • Bem Paraná • Banda B",
         f"> **Total de histórias agrupadas:** {len(stories)}",
         ""

@@ -1,11 +1,14 @@
-name: Daily News Briefing (Linux)
+name: News Briefing 3x/Dia (Linux)
 
 on:
   schedule:
-    # 07:00 da manhã no horário de Brasília (BRT, UTC-3) -> 10:00 UTC
-    - cron: '0 10 * * *'
-    # 09:00 da manhã no horário de Brasília (BRT, UTC-3) -> 12:00 UTC
-    - cron: '0 12 * * *'
+    # 3 execuções diárias no Horário de Brasília (BRT, UTC-3):
+    # - 08:00 BRT -> 11:00 UTC
+    # - 13:00 BRT -> 16:00 UTC
+    # - 19:00 BRT -> 22:00 UTC
+    - cron: '0 11 * * *'
+    - cron: '0 16 * * *'
+    - cron: '0 22 * * *'
   workflow_dispatch:
     inputs:
       profile:
@@ -48,7 +51,7 @@ jobs:
           WHATSAPP_PHONE: ${{ secrets.WHATSAPP_PHONE }}
           WHATSAPP_APIKEY: ${{ secrets.WHATSAPP_APIKEY }}
         run: |
-          python run_briefing.py --morning
+          python run_briefing.py
 
       - name: Executar Fatos da Região (Curitiba & PR)
         if: ${{ github.event_name == 'schedule' || inputs.profile == 'both' || inputs.profile == 'regional' }}
@@ -58,7 +61,7 @@ jobs:
           WHATSAPP_PHONE: ${{ secrets.WHATSAPP_PHONE }}
           WHATSAPP_APIKEY: ${{ secrets.WHATSAPP_APIKEY }}
         run: |
-          python run_fatos_da_regiao.py --hours 22
+          python run_fatos_da_regiao.py
 
       - name: Comitar e Enviar Novas Edições para Vercel
         run: |

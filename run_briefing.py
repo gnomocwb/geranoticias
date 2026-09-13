@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 """
-Briefing Matinal de Notícias — Extrator RSS & Síntese com Google Gemini
+Briefing Geral de Notícias — Extrator RSS & Síntese com Google Gemini (3 Edições Diárias)
 Fontes: Reuters, CNN, UOL, G1, BBC, InfoMoney e outros feeds.
+Execuções recomendadas: 3 vezes ao dia (08:00, 13:00 e 19:00).
 """
 
 import sys
+import os
 import argparse
 import logging
+from datetime import datetime
 from pathlib import Path
 
 # Garante suporte a UTF-8 no Windows PowerShell/CMD
@@ -33,15 +36,26 @@ from news_briefing.fetcher import fetch_all_feeds
 from news_briefing.deduplicator import filter_by_time, cluster_and_deduplicate
 from news_briefing.gemini_synthesizer import generate_briefing_with_gemini, generate_fallback_report
 from news_briefing.formatters import save_markdown_report, save_html_report, render_terminal, archive_edition
-from news_briefing.scheduler import run_at_schedule, generate_windows_task_cmd
+from news_briefing.scheduler import run_at_schedule, generate_windows_task_cmd, DEFAULT_SCHEDULE_TIMES
 from news_briefing.whatsapp_sender import send_whatsapp_message
 
 console = Console()
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
 
+def get_default_lookback_hours() -> int:
+    """Calcula a janela retroativa ideal em horas com base na hora atual para as 3 edições diárias."""
+    current_hour = datetime.now().hour
+    if current_hour < 11:
+        return 14  # Edição da Manhã (08h): cobre noite anterior + começo do dia
+    elif current_hour < 16:
+        return 6   # Edição da Tarde (13h): cobre a manhã
+    else:
+        return 7   # Edição da Noite (19h): cobre a tarde
+
+
 def run_pipeline(
-    hours: int = 16,
+    hours: int = None,
     selected_feeds: list = None,
     output_formats: list = None,
     model_name: str = DEFAULT_MODEL,
@@ -50,6 +64,7 @@ def run_pipeline(
     send_whatsapp: bool = False
 ):
     """Executa o ciclo completo de coleta, filtragem, síntese e geração de relatórios."""
+    effective_hours = hours if hours is not None else get_default_lookback_hours()
     reports_dir = ensure_reports_dir()
     all_feeds = load_configured_feeds()
 
@@ -61,9 +76,9 @@ def run_pipeline(
     else:
         active_feeds = all_feeds
 
-    console.print(f"[bold cyan]☀️ Iniciando Extração Matinal de Notícias[/bold cyan]")
+    console.print(f"[bold cyan]📰 Iniciando Extração de Notícias (3 Edições Diárias)[/bold cyan]")
     console.print(f"📡 [cyan]Feeds selecionados:[/cyan] {', '.join([f['name'] for f in active_feeds])}")
-    console.print(f"⏳ [cyan]Janela temporal:[/cyan] últimas {hours} horas")
+    console.print(f"⏳ [cyan]Janela temporal:[/cyan] últimas {effective_hours} horas")
 
     with Progress(
         SpinnerColumn(),
@@ -76,8 +91,8 @@ def run_pipeline(
         progress.update(task1, completed=True)
 
         # 2. Filtro temporal
-        task2 = progress.add_task(f"Filtrando notícias das últimas {hours}h...", total=None)
-        recent_items = filter_by_time(items, hours=hours)
+        task2 = progress.add_task(f"Filtrando notícias das últimas {effective_hours}h...", total=None)
+        recent_items = filter_by_time(items, hours=effective_hours)
         progress.update(task2, completed=True)
 
         # 3. Deduplicação e Agrupamento
@@ -95,7 +110,7 @@ def run_pipeline(
         return
 
     # Tabela resumo das principais histórias
-    table = Table(title="Top Histórias Identificadas nesta Manhã", show_lines=False, border_style="dim")
+    table = Table(title="Top Histórias Identificadas no Período", show_lines=False, border_style="dim")
     table.add_column("#", justify="right", style="cyan", no_wrap=True)
     table.add_column("Categoria", style="magenta")
     table.add_column("Título", style="white")
@@ -153,32 +168,32 @@ def run_pipeline(
     # 6. Envio via WhatsApp (se solicitado via argumento ou habilitado no .env)
     should_wa = send_whatsapp or (os.getenv("WHATSAPP_ENABLED", "").lower() in ["true", "1", "yes"])
     if should_wa:
-        console.print("\n[cyan]📱 Enviando briefing matinal via WhatsApp...[/cyan]")
+        console.print("\n[cyan]📱 Enviando briefing via WhatsApp...[/cyan]")
         ok = send_whatsapp_message(briefing_md)
         if ok:
             console.print("[bold green]✓ WhatsApp enviado com sucesso![/bold green]")
         else:
             console.print("[bold yellow]⚠️ Não foi possível enviar para o WhatsApp. Verifique WHATSAPP_PHONE e WHATSAPP_APIKEY no .env.[/bold yellow]")
 
-    console.print("\n[bold green]🎉 Briefing Matinal Concluído![/bold green]")
+    console.print("\n[bold green]🎉 Briefing de Notícias Concluído![/bold green]")
     for sf in saved_files:
         console.print(f"📄 Salvo em {sf}")
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Extração matinal de notícias via RSS e síntese com Google Gemini"
+        description="Briefing Geral de Notícias — 3 Edições Diárias (08h, 13h e 19h)"
     )
     parser.add_argument(
         "--morning",
         action="store_true",
-        help="Executa o perfil matinal padrão (últimas 16 horas de notícias)"
+        help="Executa a edição da manhã (últimas 14 horas de notícias)"
     )
     parser.add_argument(
         "--hours",
         type=int,
-        default=DEFAULT_HOURS,
-        help="Janela de tempo retroativa em horas (padrão: 16)"
+        default=None,
+        help="Janela de tempo retroativa em horas (padrão: dinâmico - 14h de manhã, 6h de tarde, 7h de noite)"
     )
     parser.add_argument(
         "--feeds",
@@ -213,15 +228,15 @@ def main():
         "--schedule",
         type=str,
         default=None,
-        metavar="HH:MM",
-        help="Ativa o agendamento contínuo para executar diariamente no horário informado (ex: 07:00)"
+        metavar="HH:MM,...",
+        help="Executa nos horários agendados (padrão: 08:00,13:00,19:00 ou especifique horários separados por vírgula)"
     )
     parser.add_argument(
         "--register-task",
         type=str,
         default=None,
-        metavar="HH:MM",
-        help="Exibe o comando do Agendador de Tarefas do Windows para automação às HH:MM"
+        metavar="HH:MM ou all",
+        help="Gera o comando schtasks do Windows para automação (ex: 'all' para 08:00, 13:00 e 19:00, ou especifique HH:MM)"
     )
     parser.add_argument(
         "--whatsapp",
@@ -239,7 +254,7 @@ def main():
     # Se solicitou teste do WhatsApp
     if args.test_whatsapp:
         console.print("[cyan]Enviando mensagem de teste para o WhatsApp...[/cyan]")
-        ok = send_whatsapp_message("👋 *Teste do News Briefing AI!* Seu canal de notícias matinais no WhatsApp está configurado e pronto para uso.")
+        ok = send_whatsapp_message("👋 *Teste do News Briefing AI!* Seu canal de resumos de notícias no WhatsApp está configurado e pronto para uso.")
         if ok:
             console.print("[bold green]✓ Mensagem de teste enviada com sucesso ao seu WhatsApp![/bold green]")
         else:
@@ -249,14 +264,16 @@ def main():
     # Se solicitou o comando do Windows Task Scheduler
     if args.register_task:
         script_path = str(Path(__file__).resolve())
-        cmd = generate_windows_task_cmd(script_path, args.register_task)
-        console.print("[bold cyan]Comando para o Agendador de Tarefas do Windows (cmd como Administrador):[/bold cyan]")
-        console.print(f"\n[green]{cmd}[/green]\n")
-        console.print("[dim]Esse comando criará a tarefa 'BriefingMatinalNews' que roda todo dia às " + args.register_task + ".[/dim]")
+        target_times = DEFAULT_SCHEDULE_TIMES if args.register_task.lower() in ["all", "3x", "default"] else [args.register_task]
+        console.print("[bold cyan]Comandos para o Agendador de Tarefas do Windows (cmd como Administrador):[/bold cyan]\n")
+        for t in target_times:
+            cmd = generate_windows_task_cmd(script_path, t, task_prefix="BriefingNews")
+            console.print(f"[green]{cmd}[/green]")
+        console.print(f"\n[dim]Esses comandos criarão as tarefas para executar 3 vezes por dia ({', '.join(target_times)}).[/dim]")
         return
 
     selected_feeds = [f.strip() for f in args.feeds.split(",")] if args.feeds else None
-    hours = 16 if args.morning else args.hours
+    hours = 14 if args.morning else args.hours
 
     def job():
         run_pipeline(
@@ -269,8 +286,9 @@ def main():
             send_whatsapp=args.whatsapp
         )
 
-    if args.schedule:
-        run_at_schedule(args.schedule, job)
+    if args.schedule is not None or "--schedule" in sys.argv:
+        sched_arg = args.schedule if args.schedule else "08:00,13:00,19:00"
+        run_at_schedule(sched_arg, job)
     else:
         job()
 

@@ -78,8 +78,8 @@ class ClusteredStory:
         }
 
 
-def filter_by_time(items: List[NewsItem], hours: int = 16) -> List[NewsItem]:
-    """Filtra itens publicados dentro da janela de tempo (padrão 16h para briefing matinal)."""
+def filter_by_time(items: List[NewsItem], hours: int = 14) -> List[NewsItem]:
+    """Filtra itens publicados dentro da janela de tempo informada em horas."""
     now = datetime.now(timezone.utc)
     cutoff = now - timedelta(hours=hours)
 

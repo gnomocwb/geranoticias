@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """
-Fatos da Região — Briefing Matinal de Curitiba, RMC e Paraná com Google Gemini
+Fatos da Região — Notícias de Curitiba, RMC e Paraná com Google Gemini (3 Edições Diárias)
 Fontes: Tribuna do Paraná, Bem Paraná e Banda B.
-Execução recomendada: Diariamente às 09:00 (cobrindo o dia anterior e o começo da manhã).
+Execuções recomendadas: 3 vezes ao dia (08:00, 13:00 e 19:00).
 """
 
 import sys
 import os
 import argparse
 import logging
+from datetime import datetime
 from pathlib import Path
 
 # Garante suporte a UTF-8 no Windows PowerShell/CMD
@@ -39,18 +40,28 @@ from news_briefing.gemini_synthesizer import (
     generate_fallback_regional_report
 )
 from news_briefing.formatters import save_markdown_report, save_html_report, archive_edition
-from news_briefing.scheduler import run_at_schedule, generate_windows_task_cmd
+from news_briefing.scheduler import run_at_schedule, generate_windows_task_cmd, DEFAULT_SCHEDULE_TIMES
 from news_briefing.whatsapp_sender import send_whatsapp_message
 
 console = Console()
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
 REGIONAL_FEEDS_FILE = Path(__file__).resolve().parent / "news_briefing" / "feeds_regional.json"
-DEFAULT_REGIONAL_HOURS = 22  # Janela ideal às 09:00: cobre a tarde/noite do dia anterior e a manhã atual
+
+
+def get_default_lookback_hours() -> int:
+    """Calcula a janela retroativa ideal em horas com base na hora atual para as 3 edições diárias."""
+    current_hour = datetime.now().hour
+    if current_hour < 11:
+        return 14  # Edição da Manhã (08h): cobre noite anterior + começo do dia
+    elif current_hour < 16:
+        return 6   # Edição da Tarde (13h): cobre a manhã
+    else:
+        return 7   # Edição da Noite (19h): cobre a tarde
 
 
 def run_pipeline(
-    hours: int = DEFAULT_REGIONAL_HOURS,
+    hours: int = None,
     selected_feeds: list = None,
     output_formats: list = None,
     model_name: str = DEFAULT_MODEL,
@@ -59,6 +70,7 @@ def run_pipeline(
     send_whatsapp: bool = False
 ):
     """Executa o pipeline completo do Fatos da Região (Curitiba, RMC e Paraná)."""
+    effective_hours = hours if hours is not None else get_default_lookback_hours()
     reports_dir = ensure_reports_dir()
     all_feeds = load_configured_feeds(custom_file=REGIONAL_FEEDS_FILE)
 
@@ -70,9 +82,9 @@ def run_pipeline(
     else:
         active_feeds = all_feeds
 
-    console.print(f"[bold cyan]🏙️ Iniciando Fatos da Região — Curitiba & Paraná[/bold cyan]")
+    console.print(f"[bold cyan]🏙️ Iniciando Fatos da Região — Curitiba & Paraná (3 Edições Diárias)[/bold cyan]")
     console.print(f"📡 [cyan]Portais Ativos:[/cyan] {', '.join([f['name'] for f in active_feeds])}")
-    console.print(f"⏳ [cyan]Janela temporal:[/cyan] últimas {hours} horas (dia anterior + início da manhã)")
+    console.print(f"⏳ [cyan]Janela temporal:[/cyan] últimas {effective_hours} horas")
 
     with Progress(
         SpinnerColumn(),
@@ -85,8 +97,8 @@ def run_pipeline(
         progress.update(task1, completed=True)
 
         # 2. Filtro temporal
-        task2 = progress.add_task(f"Filtrando ocorrências e notícias das últimas {hours}h...", total=None)
-        recent_items = filter_by_time(items, hours=hours)
+        task2 = progress.add_task(f"Filtrando ocorrências e notícias das últimas {effective_hours}h...", total=None)
+        recent_items = filter_by_time(items, hours=effective_hours)
         progress.update(task2, completed=True)
 
         # 3. Deduplicação e Agrupamento
@@ -191,13 +203,13 @@ def run_pipeline(
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Fatos da Região — Notícias de Curitiba e Paraná via Tribuna PR, Bem Paraná e Banda B com Google Gemini"
+        description="Fatos da Região — Notícias de Curitiba e Paraná (3 Edições Diárias: 08h, 13h e 19h)"
     )
     parser.add_argument(
         "--hours",
         type=int,
-        default=DEFAULT_REGIONAL_HOURS,
-        help=f"Janela de tempo retroativa em horas (padrão: {DEFAULT_REGIONAL_HOURS}, ideal para cobrir dia anterior e início da manhã)"
+        default=None,
+        help="Janela de tempo retroativa em horas (padrão: dinâmico - 14h de manhã, 6h de tarde, 7h de noite)"
     )
     parser.add_argument(
         "--feeds",
@@ -232,15 +244,15 @@ def main():
         "--schedule",
         type=str,
         default=None,
-        metavar="HH:MM",
-        help="Executa o pipeline diariamente no horário agendado (ex: 09:00)"
+        metavar="HH:MM,...",
+        help="Executa nos horários agendados (padrão: 08:00,13:00,19:00 ou especifique horários separados por vírgula)"
     )
     parser.add_argument(
         "--register-task",
         type=str,
         default=None,
-        metavar="HH:MM",
-        help="Exibe o comando do Agendador de Tarefas do Windows para executar às HH:MM (ex: 09:00)"
+        metavar="HH:MM ou all",
+        help="Gera o comando schtasks do Windows para automação (ex: 'all' para 08:00, 13:00 e 19:00, ou especifique HH:MM)"
     )
     parser.add_argument(
         "--whatsapp",
@@ -266,13 +278,15 @@ def main():
 
     if args.register_task:
         script_path = str(Path(__file__).resolve())
-        # Cria a tarefa com nome diferenciado FatosDaRegiaoBriefing
         venv_python = Path(sys.executable).resolve()
-        task_name = "FatosDaRegiaoBriefing"
-        cmd = f'schtasks /create /tn "{task_name}" /tr "\"{venv_python}\" \"{script_path}\" --hours {args.hours}" /sc daily /st {args.register_task} /f'
-        console.print("[bold cyan]Comando para o Agendador de Tarefas do Windows (cmd como Administrador):[/bold cyan]")
-        console.print(f"\n[green]{cmd}[/green]\n")
-        console.print(f"[dim]Esse comando criará a tarefa '{task_name}' que roda diariamente às {args.register_task}.[/dim]")
+        target_times = DEFAULT_SCHEDULE_TIMES if args.register_task.lower() in ["all", "3x", "default"] else [args.register_task]
+        console.print("[bold cyan]Comandos para o Agendador de Tarefas do Windows (cmd como Administrador):[/bold cyan]\n")
+        for t in target_times:
+            time_tag = t.replace(":", "")[:4]
+            task_name = f"FatosDaRegiao_{time_tag}"
+            cmd = f'schtasks /create /tn "{task_name}" /tr "\"{venv_python}\" \"{script_path}\"" /sc daily /st {t} /f'
+            console.print(f"[green]{cmd}[/green]")
+        console.print(f"\n[dim]Esses comandos criarão as tarefas para executar 3 vezes por dia ({', '.join(target_times)}).[/dim]")
         return
 
     selected_feeds = [f.strip() for f in args.feeds.split(",")] if args.feeds else None
@@ -288,9 +302,9 @@ def main():
             send_whatsapp=args.whatsapp
         )
 
-    if args.schedule:
-        console.print(f"[bold cyan]⏰ Modo Agendador Ativado:[/bold cyan] Executando diariamente às [bold green]{args.schedule}[/bold green]...")
-        run_at_schedule(args.schedule, job)
+    if args.schedule is not None or "--schedule" in sys.argv:
+        sched_arg = args.schedule if args.schedule else "08:00,13:00,19:00"
+        run_at_schedule(sched_arg, job)
     else:
         job()
 

@@ -36,9 +36,20 @@ def save_markdown_report(content: str, output_dir: Path, filename_prefix: str = 
     return md_path
 
 
+def get_edition_period_label(dt: Optional[datetime] = None) -> str:
+    """Retorna o rótulo do período da edição (08h, 13h ou 19h) com base no horário."""
+    hour = (dt or datetime.now()).hour
+    if hour < 11:
+        return "Edição da Manhã (08h)"
+    elif hour < 16:
+        return "Edição da Tarde (13h)"
+    else:
+        return "Edição da Noite (19h)"
+
+
 def convert_markdown_to_html(
     markdown_content: str,
-    title: str = "Briefing Matinal de Notícias",
+    title: str = "Briefing Geral de Notícias",
     badge_text: Optional[str] = None,
     footer_text: Optional[str] = None
 ) -> str:
@@ -89,8 +100,8 @@ def convert_markdown_to_html(
 
     inner_html = "\n".join(new_lines)
 
-    badge = badge_text or "☀️ Briefing Matinal Executivo"
-    footer = footer_text or "Gerado automaticamente via RSS Feeds & Google Gemini • News Briefing AI"
+    badge = badge_text or f"⚡ Resumo Executivo • {get_edition_period_label()}"
+    footer = footer_text or "Gerado automaticamente 3 vezes ao dia (08h, 13h e 19h) via RSS Feeds & Google Gemini • News Briefing AI"
 
     full_html = f"""<!DOCTYPE html>
 <html lang="pt-BR">
@@ -296,9 +307,10 @@ def save_html_report(
         timestamp = datetime.now().strftime("%H%M%S")
         html_path = output_dir / f"{filename_prefix}_{today_str}_{timestamp}.html"
 
-    eff_title = title or ("Fatos da Região — Curitiba & Paraná" if "fatos" in filename_prefix else "Briefing Matinal de Notícias")
-    eff_badge = badge_text or ("🏙️ Fatos da Região — Curitiba & Paraná" if "fatos" in filename_prefix else "☀️ Briefing Matinal Executivo")
-    eff_footer = footer_text or ("Gerado via Tribuna do Paraná, Bem Paraná e Banda B & Google Gemini • Fatos da Região" if "fatos" in filename_prefix else "Gerado automaticamente via RSS Feeds & Google Gemini • News Briefing AI")
+    period_label = get_edition_period_label()
+    eff_title = title or ("Fatos da Região — Curitiba & Paraná" if "fatos" in filename_prefix else "Briefing Geral de Notícias")
+    eff_badge = badge_text or (f"🏙️ Fatos da Região • {period_label}" if "fatos" in filename_prefix else f"📰 Briefing Geral • {period_label}")
+    eff_footer = footer_text or ("Gerado via Tribuna do Paraná, Bem Paraná e Banda B & Google Gemini • 3 Edições ao Dia" if "fatos" in filename_prefix else "Gerado automaticamente 3 vezes ao dia via RSS Feeds & Google Gemini • News Briefing AI")
 
     html_content = convert_markdown_to_html(
         markdown_content,
@@ -318,7 +330,7 @@ def render_terminal(markdown_content: str):
     console.print(
         Panel(
             md,
-            title="[bold cyan]🌅 BRIEFING MATINAL DE NOTÍCIAS[/bold cyan]",
+            title="[bold cyan]📰 RESUMO DE NOTÍCIAS (3 EDIÇÕES AO DIA)[/bold cyan]",
             border_style="bright_blue",
             padding=(1, 2)
         )
@@ -349,12 +361,13 @@ def archive_edition(
         filename = f"{filename_prefix}_{today_str}_{timestamp}.html"
         file_path = editions_dir / filename
 
-    eff_title = "Fatos da Região — Curitiba & Paraná" if edition_type == "regional" else "Briefing Matinal de Notícias"
-    eff_badge = "🏙️ Fatos da Região — Curitiba & Paraná" if edition_type == "regional" else "☀️ Briefing Matinal Executivo"
+    period_label = get_edition_period_label()
+    eff_title = "Fatos da Região — Curitiba & Paraná" if edition_type == "regional" else "Briefing Geral de Notícias"
+    eff_badge = f"🏙️ Fatos da Região • {period_label}" if edition_type == "regional" else f"📰 Briefing Geral • {period_label}"
     eff_footer = (
-        "Gerado via Tribuna do Paraná, Bem Paraná e Banda B & Google Gemini • Fatos da Região"
+        "Gerado via Tribuna do Paraná, Bem Paraná e Banda B & Google Gemini • 3 Edições ao Dia"
         if edition_type == "regional" else
-        "Gerado via Reuters, CNN, UOL, G1, BBC & Google Gemini • News Briefing AI"
+        "Gerado via Reuters, CNN, UOL, G1, BBC & Google Gemini • 3 Edições ao Dia"
     )
 
     summary = ""
@@ -365,7 +378,7 @@ def archive_edition(
             summary = clean_l[:140] + ("..." if len(clean_l) > 140 else "")
             break
     if not summary:
-        summary = f"Resumo executivo com os principais acontecimentos de {datetime.now().strftime('%d/%m/%Y')}."
+        summary = f"Resumo executivo com os principais acontecimentos (3 edições ao dia: 08h, 13h e 19h)."
 
     html_content = convert_markdown_to_html(
         markdown_content,
@@ -389,7 +402,7 @@ def archive_edition(
     new_entry = {
         "id": edition_id,
         "type": edition_type,
-        "type_label": "🏙️ Fatos da Região" if edition_type == "regional" else "☀️ Briefing Matinal",
+        "type_label": f"🏙️ Fatos da Região ({period_label})" if edition_type == "regional" else f"📰 Briefing Geral ({period_label})",
         "title": eff_title,
         "date": today_str,
         "time": now_time,
