@@ -1,0 +1,14 @@
+{
+  "name": "geranoticias",
+  "version": "1.0.0",
+  "description": "News Briefing AI — Fatos da Região & Briefing Matinal",
+  "type": "module",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "build": "echo 'No build step required for static site'"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.3.1"
+  },
+  "private": true
+}
