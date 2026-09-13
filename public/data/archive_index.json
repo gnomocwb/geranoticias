@@ -1,5 +1,38 @@
 [
   {
+    "id": "briefing_2026-09-13",
+    "type": "nacional",
+    "type_label": "📰 Briefing Geral (Edição da Tarde (13h))",
+    "title": "Briefing Geral de Notícias",
+    "date": "2026-09-13",
+    "time": "13:10",
+    "summary": "[Caso Master e Filme 'Dark Horse'] Queda de sigilo revela suspeitas de desvio de verbas e repercussão política: O ministro Flávio Dino (STF)...",
+    "file": "data/editions/briefing_2026-09-13.html",
+    "sources": [
+      "Reuters",
+      "CNN",
+      "UOL",
+      "G1",
+      "BBC",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-13_130939",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-13",
+    "time": "13:09",
+    "summary": "Eleitores com deficiência têm até segunda-feira para solicitar transporte gratuito: Eleitores com deficiência ou mobilidade reduzida que pre...",
+    "file": "data/editions/fatos_da_regiao_2026-09-13_130939.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B"
+    ]
+  },
+  {
     "id": "fatos_da_regiao_2026-09-13_100909",
     "type": "regional",
     "type_label": "🏙️ Fatos da Região (Edição da Manhã)",
