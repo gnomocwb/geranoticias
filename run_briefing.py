@@ -35,7 +35,7 @@ from news_briefing.config import (
 from news_briefing.fetcher import fetch_all_feeds
 from news_briefing.deduplicator import filter_by_time, cluster_and_deduplicate
 from news_briefing.gemini_synthesizer import generate_briefing_with_gemini, generate_fallback_report
-from news_briefing.formatters import save_markdown_report, save_html_report, render_terminal, archive_edition
+from news_briefing.formatters import save_markdown_report, save_html_report, render_terminal, archive_edition, get_now_brt
 from news_briefing.scheduler import run_at_schedule, generate_windows_task_cmd, DEFAULT_SCHEDULE_TIMES
 from news_briefing.whatsapp_sender import send_whatsapp_message
 
@@ -44,11 +44,11 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 
 
 def get_default_lookback_hours() -> int:
-    """Calcula a janela retroativa ideal em horas com base na hora atual para as 3 edições diárias."""
-    current_hour = datetime.now().hour
+    """Calcula a janela retroativa ideal em horas com base na hora oficial de Brasília para as 3 edições diárias."""
+    current_hour = get_now_brt().hour
     if current_hour < 11:
         return 14  # Edição da Manhã (08h): cobre noite anterior + começo do dia
-    elif current_hour < 16:
+    elif current_hour < 18:
         return 6   # Edição da Tarde (13h): cobre a manhã
     else:
         return 7   # Edição da Noite (19h): cobre a tarde

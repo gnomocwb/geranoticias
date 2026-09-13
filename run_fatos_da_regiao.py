@@ -39,7 +39,7 @@ from news_briefing.gemini_synthesizer import (
     generate_regional_briefing_with_gemini,
     generate_fallback_regional_report
 )
-from news_briefing.formatters import save_markdown_report, save_html_report, archive_edition
+from news_briefing.formatters import save_markdown_report, save_html_report, archive_edition, get_now_brt
 from news_briefing.scheduler import run_at_schedule, generate_windows_task_cmd, DEFAULT_SCHEDULE_TIMES
 from news_briefing.whatsapp_sender import send_whatsapp_message
 
@@ -50,11 +50,11 @@ REGIONAL_FEEDS_FILE = Path(__file__).resolve().parent / "news_briefing" / "feeds
 
 
 def get_default_lookback_hours() -> int:
-    """Calcula a janela retroativa ideal em horas com base na hora atual para as 3 edições diárias."""
-    current_hour = datetime.now().hour
+    """Calcula a janela retroativa ideal em horas com base na hora oficial de Brasília para as 3 edições diárias."""
+    current_hour = get_now_brt().hour
     if current_hour < 11:
         return 14  # Edição da Manhã (08h): cobre noite anterior + começo do dia
-    elif current_hour < 16:
+    elif current_hour < 18:
         return 6   # Edição da Tarde (13h): cobre a manhã
     else:
         return 7   # Edição da Noite (19h): cobre a tarde
@@ -182,9 +182,10 @@ def run_pipeline(
             )
         )
 
-    # 6. Arquivamento Web (Catálogo Histórico da Vercel)
-    web_entry = archive_edition(briefing_md, edition_type="regional", filename_prefix="fatos_da_regiao")
-    saved_files.append(f"Web Vercel: [bold underline]public/{web_entry['file']}[/bold underline]")
+    # 6. Arquivamento Web (Catálogo Histórico da Vercel - apenas em execuções normais)
+    if not dry_run:
+        web_entry = archive_edition(briefing_md, edition_type="regional", filename_prefix="fatos_da_regiao")
+        saved_files.append(f"Web Vercel: [bold underline]public/{web_entry['file']}[/bold underline]")
 
     # 6. Envio via WhatsApp (se habilitado)
     should_wa = send_whatsapp or (os.getenv("WHATSAPP_ENABLED", "").lower() in ["true", "1", "yes"])

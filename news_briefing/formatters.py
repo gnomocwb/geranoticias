@@ -1,9 +1,18 @@
 import sys
 import re
 import json
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import Optional, Dict, Any, List
+
+# Fuso Horário Oficial de Brasília (BRT, UTC-3)
+BRT_TIMEZONE = timezone(timedelta(hours=-3))
+
+
+def get_now_brt() -> datetime:
+    """Retorna a data e hora atual no Horário Oficial de Brasília (BRT, UTC-3)."""
+    return datetime.now(BRT_TIMEZONE)
+
 
 if sys.platform == "win32":
     try:
@@ -22,12 +31,13 @@ console = Console(highlight=False)
 def save_markdown_report(content: str, output_dir: Path, filename_prefix: str = "briefing") -> Path:
     """Salva o briefing em formato Markdown (.md)."""
     output_dir.mkdir(parents=True, exist_ok=True)
-    today_str = datetime.now().strftime("%Y-%m-%d")
+    now = get_now_brt()
+    today_str = now.strftime("%Y-%m-%d")
     md_path = output_dir / f"{filename_prefix}_{today_str}.md"
 
     # Se já existir um arquivo hoje, cria com timestamp para não sobrescrever acidentalmente
     if md_path.exists():
-        timestamp = datetime.now().strftime("%H%M%S")
+        timestamp = now.strftime("%H%M%S")
         md_path = output_dir / f"{filename_prefix}_{today_str}_{timestamp}.md"
 
     with open(md_path, "w", encoding="utf-8") as f:
@@ -37,11 +47,11 @@ def save_markdown_report(content: str, output_dir: Path, filename_prefix: str = 
 
 
 def get_edition_period_label(dt: Optional[datetime] = None) -> str:
-    """Retorna o rótulo do período da edição (08h, 13h ou 19h) com base no horário."""
-    hour = (dt or datetime.now()).hour
+    """Retorna o rótulo do período da edição (08h, 13h ou 19h) com base no horário oficial de Brasília."""
+    hour = (dt or get_now_brt()).hour
     if hour < 11:
         return "Edição da Manhã (08h)"
-    elif hour < 16:
+    elif hour < 18:
         return "Edição da Tarde (13h)"
     else:
         return "Edição da Noite (19h)"
@@ -108,7 +118,7 @@ def convert_markdown_to_html(
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{title} — {datetime.now().strftime('%d/%m/%Y')}</title>
+  <title>{title} — {get_now_brt().strftime('%d/%m/%Y')}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -275,7 +285,7 @@ def convert_markdown_to_html(
   <div class="container">
     <div class="top-bar">
       <span class="badge">{badge}</span>
-      <span class="date-pill">{datetime.now().strftime('%d/%m/%Y')}</span>
+      <span class="date-pill">{get_now_brt().strftime('%d/%m/%Y')}</span>
     </div>
     
     {inner_html}
@@ -300,11 +310,12 @@ def save_html_report(
 ) -> Path:
     """Salva o relatório em HTML moderno."""
     output_dir.mkdir(parents=True, exist_ok=True)
-    today_str = datetime.now().strftime("%Y-%m-%d")
+    now = get_now_brt()
+    today_str = now.strftime("%Y-%m-%d")
     html_path = output_dir / f"{filename_prefix}_{today_str}.html"
 
     if html_path.exists():
-        timestamp = datetime.now().strftime("%H%M%S")
+        timestamp = now.strftime("%H%M%S")
         html_path = output_dir / f"{filename_prefix}_{today_str}_{timestamp}.html"
 
     period_label = get_edition_period_label()
@@ -350,14 +361,15 @@ def archive_edition(
     editions_dir = data_dir / "editions"
     editions_dir.mkdir(parents=True, exist_ok=True)
 
-    today_str = datetime.now().strftime("%Y-%m-%d")
-    now_time = datetime.now().strftime("%H:%M")
+    now = get_now_brt()
+    today_str = now.strftime("%Y-%m-%d")
+    now_time = now.strftime("%H:%M")
 
     filename = f"{filename_prefix}_{today_str}.html"
     file_path = editions_dir / filename
 
     if file_path.exists():
-        timestamp = datetime.now().strftime("%H%M%S")
+        timestamp = now.strftime("%H%M%S")
         filename = f"{filename_prefix}_{today_str}_{timestamp}.html"
         file_path = editions_dir / filename
 

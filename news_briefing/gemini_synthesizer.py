@@ -4,16 +4,17 @@ import logging
 from datetime import datetime, timezone
 from typing import List, Dict, Any, Optional
 from .deduplicator import ClusteredStory
+from .formatters import get_now_brt
 
 logger = logging.getLogger("news_briefing.synthesizer")
 
 
 def get_edition_period_info(dt: Optional[datetime] = None) -> tuple:
-    """Retorna (nome_da_edicao, descricao_cobertura) com base na hora atual."""
-    hour = (dt or datetime.now()).hour
+    """Retorna (nome_da_edicao, descricao_cobertura) com base no horário oficial de Brasília."""
+    hour = (dt or get_now_brt()).hour
     if hour < 11:
         return ("Edição da Manhã (08h)", "Fatos da noite anterior e início da manhã")
-    elif hour < 16:
+    elif hour < 18:
         return ("Edição da Tarde (13h)", "Fatos e acontecimentos da manhã")
     else:
         return ("Edição da Noite (19h)", "Desdobramentos e fatos da tarde")
@@ -42,7 +43,7 @@ def build_editorial_prompt(stories: List[ClusteredStory], language: str = "pt-BR
 Sua missão é ler a lista de fatos e notícias recentes coletados a partir de grandes agências e veículos (Reuters, CNN, UOL, G1, BBC, InfoMoney, etc.) e produzir um **Briefing Executivo ({period_name})**.
 O serviço entrega resumos 3 vezes por dia (08h, 13h e 19h).
 
-Data do Briefing: {datetime.now().strftime('%d/%m/%Y')}
+Data do Briefing: {get_now_brt().strftime('%d/%m/%Y')}
 Edição: {period_name} ({period_desc})
 Idioma de saída: Português (Brasil)
 
@@ -53,7 +54,7 @@ Idioma de saída: Português (Brasil)
 
 ### Estrutura Obrigatória do Relatório:
 
-# 📰 Briefing Geral de Notícias — {period_name} ({datetime.now().strftime('%d/%m/%Y')})
+# 📰 Briefing Geral de Notícias — {period_name} ({get_now_brt().strftime('%d/%m/%Y')})
 
 > **{period_name}** | {period_desc} | Atualizado 3 vezes ao dia (08h • 13h • 19h)  
 > **Tempo estimado de leitura:** 3 minutos  
@@ -174,7 +175,7 @@ def generate_briefing_with_gemini(
 def generate_fallback_report(stories: List[ClusteredStory], error_msg: Optional[str] = None) -> str:
     """Gera um relatório estruturado localmente quando o Gemini não está acessível."""
     period_name, period_desc = get_edition_period_info()
-    now_str = datetime.now().strftime("%d/%m/%Y às %H:%M")
+    now_str = get_now_brt().strftime("%d/%m/%Y às %H:%M")
     lines = [
         f"# 📰 Briefing Geral de Notícias — {period_name} (Modo Estruturado)",
         f"> **{period_name}** | {period_desc} | Atualizado 3 vezes ao dia (08h • 13h • 19h)",
@@ -257,7 +258,7 @@ def build_regional_editorial_prompt(stories: List[ClusteredStory], language: str
 Sua missão é analisar as notícias recentes publicadas pelos principais veículos paranaenses (**Tribuna do Paraná, Bem Paraná e Banda B**) e produzir o informativo **"Fatos da Região" ({period_name})**.
 O serviço entrega resumos 3 vezes por dia (08h, 13h e 19h).
 
-Data do Briefing: {datetime.now().strftime('%d/%m/%Y')}
+Data do Briefing: {get_now_brt().strftime('%d/%m/%Y')}
 Edição: {period_name} ({period_desc})
 Idioma de saída: Português (Brasil)
 
@@ -269,7 +270,7 @@ Idioma de saída: Português (Brasil)
 
 ### Estrutura Obrigatória do Relatório:
 
-# 🏙️ Fatos da Região — Curitiba & Paraná ({datetime.now().strftime('%d/%m/%Y')})
+# 🏙️ Fatos da Região — Curitiba & Paraná ({get_now_brt().strftime('%d/%m/%Y')})
 
 > **{period_name}** | {period_desc} | Resumos 3 vezes por dia (08h • 13h • 19h)  
 > **Fontes:** Tribuna do Paraná • Bem Paraná • Banda B  
@@ -393,7 +394,7 @@ def generate_regional_briefing_with_gemini(
 def generate_fallback_regional_report(stories: List[ClusteredStory], error_msg: Optional[str] = None) -> str:
     """Gera um relatório estruturado localmente para Fatos da Região quando Gemini não está ativo."""
     period_name, period_desc = get_edition_period_info()
-    now_str = datetime.now().strftime("%d/%m/%Y às %H:%M")
+    now_str = get_now_brt().strftime("%d/%m/%Y às %H:%M")
     lines = [
         f"# 🏙️ Fatos da Região — Curitiba & Paraná ({period_name})",
         f"> **{period_name}** | {period_desc} | Resumos 3 vezes por dia (08h • 13h • 19h)",

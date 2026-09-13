@@ -17,6 +17,8 @@ permissions:
 jobs:
   generate-and-publish:
     runs-on: ubuntu-latest
+    env:
+      TZ: 'America/Sao_Paulo'
 
     steps:
       - name: Checkout do Repositório
