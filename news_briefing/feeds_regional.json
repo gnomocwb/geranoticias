@@ -1,0 +1,56 @@
+[
+  {
+    "id": "tribunapr_direct",
+    "name": "Tribuna do Paraná",
+    "url": "https://www.tribunapr.com.br/feed/",
+    "category": "Paraná / Curitiba",
+    "language": "pt",
+    "enabled": true,
+    "description": "Últimas notícias de Curitiba, RMC, trânsito e ocorrências policiais pela Tribuna"
+  },
+  {
+    "id": "tribunapr_gnews",
+    "name": "Tribuna do Paraná (Arquivo Recente)",
+    "url": "https://news.google.com/rss/search?q=site:tribunapr.com.br&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+    "category": "Paraná / Curitiba",
+    "language": "pt",
+    "enabled": true,
+    "description": "Feed expandido do portal Tribuna do Paraná cobrindo as últimas 24 horas"
+  },
+  {
+    "id": "bemparana_direct",
+    "name": "Bem Paraná",
+    "url": "https://www.bemparana.com.br/feed/",
+    "category": "Paraná / Geral",
+    "language": "pt",
+    "enabled": true,
+    "description": "Notícias em tempo real de Curitiba, política estadual e fatos do Paraná pelo Bem Paraná"
+  },
+  {
+    "id": "bemparana_gnews",
+    "name": "Bem Paraná (Arquivo Recente)",
+    "url": "https://news.google.com/rss/search?q=site:bemparana.com.br&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+    "category": "Paraná / Geral",
+    "language": "pt",
+    "enabled": true,
+    "description": "Feed expandido do portal Bem Paraná cobrindo as últimas 24 horas"
+  },
+  {
+    "id": "bandab_direct",
+    "name": "Banda B",
+    "url": "https://www.bandab.com.br/feed/",
+    "category": "Curitiba / RMC",
+    "language": "pt",
+    "enabled": true,
+    "description": "Cobertura jornalística popular, segurança, trânsito e bairros da Grande Curitiba pela Banda B"
+  },
+  {
+    "id": "bandab_gnews",
+    "name": "Banda B (Arquivo Recente)",
+    "url": "https://news.google.com/rss/search?q=site:bandab.com.br&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+    "category": "Curitiba / RMC",
+    "language": "pt",
+    "enabled": true,
+    "description": "Feed expandido do portal Banda B cobrindo as últimas 24 horas"
+  }
+]

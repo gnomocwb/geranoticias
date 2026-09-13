@@ -158,6 +158,57 @@ python run_briefing.py --schedule "07:00"
 
 ---
 
+## 🏙️ Fatos da Região — Curitiba & Paraná (Execução às 09:00)
+
+Além do briefing nacional e global, o sistema conta com o informativo **Fatos da Região**, dedicado a cobrir os acontecimentos de **Curitiba, Região Metropolitana (RMC) e Paraná**.
+
+### 📡 Fontes Monitoradas:
+- **Tribuna do Paraná** (`https://www.tribunapr.com.br/noticias/`)
+- **Bem Paraná** (`https://www.bemparana.com.br/ultimas/`)
+- **Banda B** (`https://www.bandab.com.br/ultimas-noticias/`)
+
+Configurados em [`news_briefing/feeds_regional.json`](news_briefing/feeds_regional.json) com suporte a canais diretos e arquivo ampliado das últimas 24 horas.
+
+### 🎯 Seções do Boletim Regional:
+- ⚡ **Destaques da Região (Top 3)**
+- 🚨 **Segurança Pública & Ocorrências** (acidentes na BR/rápida, ações policiais, Defesa Civil)
+- 🚗 **Trânsito, Mobilidade & Cidade** (bloqueios, ônibus, clima, obras)
+- ⚖️ **Política Paranaense & Gestão** (Prefeitura de Curitiba, Palácio Iguaçu, Alep)
+- 💼 **Economia Local & Negócios** (empresas locais, vagas, comércio e agro paranaense)
+- 🎭 **Cidade, Comunidade & Lazer** (parques, cultura, gastronomia)
+- 🎯 **Giro RMC & Interior** (São José dos Pinhais, Colombo, Araucária, Fazenda Rio Grande, Litoral e Interior)
+
+### 💻 Como Executar o Fatos da Região:
+
+1. **Execução Imediata (Dia anterior + início da manhã — 22 horas):**
+   ```powershell
+   python run_fatos_da_regiao.py
+   ```
+
+2. **Agendamento Diário às 09:00 no Windows (Recomendado):**
+   Gere o comando do Agendador de Tarefas do Windows:
+   ```powershell
+   python run_fatos_da_regiao.py --register-task 09:00
+   ```
+   Execute o comando `schtasks` retornado no Prompt de Comando (CMD) como Administrador.
+
+3. **Monitor Contínuo no Terminal:**
+   ```powershell
+   python run_fatos_da_regiao.py --schedule 09:00
+   ```
+
+4. **Enviar para o WhatsApp:**
+   ```powershell
+   python run_fatos_da_regiao.py --whatsapp
+   ```
+
+5. **Modo Dry-Run (Teste sem IA):**
+   ```powershell
+   python run_fatos_da_regiao.py --dry-run
+   ```
+
+---
+
 ## ⚙️ Como Adicionar Novos Feeds RSS
 
 Abra o arquivo [`news_briefing/feeds.json`](news_briefing/feeds.json) e adicione seu novo feed:

@@ -35,7 +35,12 @@ def save_markdown_report(content: str, output_dir: Path, filename_prefix: str = 
     return md_path
 
 
-def convert_markdown_to_html(markdown_content: str, title: str = "Briefing Matinal de Notícias") -> str:
+def convert_markdown_to_html(
+    markdown_content: str,
+    title: str = "Briefing Matinal de Notícias",
+    badge_text: Optional[str] = None,
+    footer_text: Optional[str] = None
+) -> str:
     """Converte o texto Markdown em um HTML executivo, responsivo e moderno."""
     # Conversões simples de Markdown para HTML básico
     html_body = markdown_content
@@ -83,6 +88,9 @@ def convert_markdown_to_html(markdown_content: str, title: str = "Briefing Matin
 
     inner_html = "\n".join(new_lines)
 
+    badge = badge_text or "☀️ Briefing Matinal Executivo"
+    footer = footer_text or "Gerado automaticamente via RSS Feeds & Google Gemini • News Briefing AI"
+
     full_html = f"""<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -99,47 +107,30 @@ def convert_markdown_to_html(markdown_content: str, title: str = "Briefing Matin
       --border-color: #30363d;
       --text-main: #e6edf3;
       --text-muted: #8b949e;
-      --accent-blue: #388bfd;
+      --accent-blue: #58a6ff;
+      --accent-purple: #bc8cff;
       --accent-cyan: #39c5cf;
-      --accent-amber: #d29922;
-      --accent-green: #3fb950;
       --badge-bg: rgba(56, 139, 253, 0.15);
-      --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-    }}
-    
-    @media (prefers-color-scheme: light) {{
-      :root {{
-        --bg-color: #f6f8fa;
-        --card-bg: #ffffff;
-        --border-color: #d0d7de;
-        --text-main: #1f2328;
-        --text-muted: #656d76;
-        --accent-blue: #0969da;
-        --accent-cyan: #0550ae;
-        --badge-bg: #ddf4ff;
-      }}
+      --font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     }}
 
-    * {{ box-sizing: border-box; margin: 0; padding: 0; }}
-    
     body {{
       background-color: var(--bg-color);
       color: var(--text-main);
-      font-family: var(--font-sans);
+      font-family: var(--font-family);
       line-height: 1.65;
+      margin: 0;
       padding: 40px 20px;
-      display: flex;
-      justify-content: center;
     }}
 
     .container {{
-      max-width: 860px;
-      width: 100%;
+      max-width: 780px;
+      margin: 0 auto;
       background: var(--card-bg);
       border: 1px solid var(--border-color);
       border-radius: 16px;
-      padding: 48px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      padding: 40px;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
     }}
 
     .top-bar {{
@@ -181,12 +172,11 @@ def convert_markdown_to_html(markdown_content: str, title: str = "Briefing Matin
     }}
 
     h2 {{
-      font-size: 1.45rem;
+      font-size: 1.4rem;
       font-weight: 700;
+      letter-spacing: -0.01em;
       margin-top: 36px;
       margin-bottom: 16px;
-      padding-bottom: 8px;
-      border-bottom: 2px solid var(--border-color);
       color: var(--accent-blue);
       display: flex;
       align-items: center;
@@ -196,47 +186,42 @@ def convert_markdown_to_html(markdown_content: str, title: str = "Briefing Matin
     h3 {{
       font-size: 1.15rem;
       font-weight: 600;
-      margin-top: 20px;
+      margin-top: 24px;
       margin-bottom: 8px;
-    }}
-
-    blockquote {{
-      background: rgba(56, 139, 253, 0.08);
-      border-left: 4px solid var(--accent-blue);
-      padding: 12px 18px;
-      border-radius: 0 8px 8px 0;
-      margin: 16px 0 24px 0;
-      color: var(--text-muted);
-      font-size: 0.95rem;
+      color: var(--accent-purple);
     }}
 
     p {{
-      margin-bottom: 14px;
-      color: var(--text-main);
+      margin: 12px 0;
+      color: #c9d1d9;
+    }}
+
+    blockquote {{
+      margin: 20px 0;
+      padding: 12px 18px;
+      background: rgba(110, 118, 129, 0.1);
+      border-left: 4px solid var(--accent-blue);
+      border-radius: 4px 8px 8px 4px;
+      font-size: 0.95rem;
+      color: var(--text-muted);
+    }}
+
+    blockquote p {{
+      margin: 4px 0;
     }}
 
     ul {{
-      list-style-type: none;
-      margin-bottom: 20px;
+      padding-left: 20px;
+      margin: 16px 0;
     }}
 
     li {{
-      position: relative;
-      padding-left: 24px;
       margin-bottom: 12px;
-    }}
-
-    li::before {{
-      content: "•";
-      position: absolute;
-      left: 6px;
-      color: var(--accent-blue);
-      font-size: 1.3rem;
-      line-height: 1;
+      color: #c9d1d9;
     }}
 
     strong {{
-      color: var(--text-main);
+      color: #ffffff;
       font-weight: 600;
     }}
 
@@ -277,14 +262,14 @@ def convert_markdown_to_html(markdown_content: str, title: str = "Briefing Matin
 <body>
   <div class="container">
     <div class="top-bar">
-      <span class="badge">☀️ Briefing Matinal Executivo</span>
-      <span class="date-pill">{datetime.now().strftime('%A, %d de %B de %Y')}</span>
+      <span class="badge">{badge}</span>
+      <span class="date-pill">{datetime.now().strftime('%d/%m/%Y')}</span>
     </div>
     
     {inner_html}
 
     <div class="footer">
-      Gerado automaticamente via RSS Feeds (Reuters, CNN, UOL, G1, BBC) & Google Gemini • News Briefing AI
+      {footer}
     </div>
   </div>
 </body>
@@ -293,7 +278,14 @@ def convert_markdown_to_html(markdown_content: str, title: str = "Briefing Matin
     return full_html
 
 
-def save_html_report(markdown_content: str, output_dir: Path, filename_prefix: str = "briefing") -> Path:
+def save_html_report(
+    markdown_content: str,
+    output_dir: Path,
+    filename_prefix: str = "briefing",
+    title: Optional[str] = None,
+    badge_text: Optional[str] = None,
+    footer_text: Optional[str] = None
+) -> Path:
     """Salva o relatório em HTML moderno."""
     output_dir.mkdir(parents=True, exist_ok=True)
     today_str = datetime.now().strftime("%Y-%m-%d")
@@ -303,7 +295,16 @@ def save_html_report(markdown_content: str, output_dir: Path, filename_prefix: s
         timestamp = datetime.now().strftime("%H%M%S")
         html_path = output_dir / f"{filename_prefix}_{today_str}_{timestamp}.html"
 
-    html_content = convert_markdown_to_html(markdown_content)
+    eff_title = title or ("Fatos da Região — Curitiba & Paraná" if "fatos" in filename_prefix else "Briefing Matinal de Notícias")
+    eff_badge = badge_text or ("🏙️ Fatos da Região — Curitiba & Paraná" if "fatos" in filename_prefix else "☀️ Briefing Matinal Executivo")
+    eff_footer = footer_text or ("Gerado via Tribuna do Paraná, Bem Paraná e Banda B & Google Gemini • Fatos da Região" if "fatos" in filename_prefix else "Gerado automaticamente via RSS Feeds & Google Gemini • News Briefing AI")
+
+    html_content = convert_markdown_to_html(
+        markdown_content,
+        title=eff_title,
+        badge_text=eff_badge,
+        footer_text=eff_footer
+    )
     with open(html_path, "w", encoding="utf-8") as f:
         f.write(html_content)
 
