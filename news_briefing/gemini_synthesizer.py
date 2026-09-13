@@ -167,8 +167,6 @@ def generate_fallback_report(stories: List[ClusteredStory], error_msg: Optional[
 
     if error_msg:
         lines.append(f"> ⚠️ **Aviso de IA:** A síntese com Gemini não pôde ser executada ({error_msg}). Exibindo agregação estruturada direta das fontes.")
-    else:
-        lines.append("> 💡 **Dica:** Configure `GEMINI_API_KEY` no arquivo `.env` para ativar a síntese com IA executiva.")
 
     lines.append("\n---\n")
 
@@ -385,8 +383,6 @@ def generate_fallback_regional_report(stories: List[ClusteredStory], error_msg: 
 
     if error_msg:
         lines.append(f"> ⚠️ **Aviso de IA:** A síntese com Gemini não pôde ser executada ({error_msg}). Exibindo agregação direta das fontes.")
-    else:
-        lines.append("> 💡 **Dica:** Configure `GEMINI_API_KEY` no `.env` para ativar a síntese com IA executiva.")
 
     lines.append("\n---\n")
 
