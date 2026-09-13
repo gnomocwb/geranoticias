@@ -1,5 +1,25 @@
 [
   {
+    "id": "fatos_da_regiao_2026-09-13_205254",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-13",
+    "time": "20:52",
+    "summary": "Chuva extrema mobiliza Defesa Civil e deixa mais de 2 mil desalojados no Paraná: As fortes chuvas que atingem o estado desde a última semana...",
+    "file": "data/editions/fatos_da_regiao_2026-09-13_205254.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "fatos_da_regiao_2026-09-13_200236",
     "type": "regional",
     "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
