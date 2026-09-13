@@ -161,10 +161,6 @@ def run_pipeline(
     if "all" in formats or "cli" in formats:
         render_terminal(briefing_md)
 
-    # 6. Arquivamento Web (Catálogo Histórico da Vercel)
-    web_entry = archive_edition(briefing_md, edition_type="nacional", filename_prefix="briefing")
-    saved_files.append(f"Web Vercel: [bold underline]public/{web_entry['file']}[/bold underline]")
-
     # 6. Envio via WhatsApp (se solicitado via argumento ou habilitado no .env)
     should_wa = send_whatsapp or (os.getenv("WHATSAPP_ENABLED", "").lower() in ["true", "1", "yes"])
     if should_wa:

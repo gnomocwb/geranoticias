@@ -7,7 +7,6 @@ echo [%date% %time%] Executando Edicao Agendada (Fatos da Regiao)
 echo ======================================================
 
 "C:\Users\mlori\toco\antigravity\.venv\Scripts\python.exe" run_fatos_da_regiao.py
-"C:\Users\mlori\toco\antigravity\.venv\Scripts\python.exe" run_briefing.py
 
 echo Enviando atualizacao para o GitHub / Vercel...
 git add public/data/

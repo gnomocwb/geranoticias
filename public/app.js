@@ -59,9 +59,8 @@ function renderHero(latest) {
   }
   heroSection.style.display = 'block';
 
-  const isRegional = latest.type === 'regional';
-  const badgeClass = isRegional ? 'type-regional' : 'type-nacional';
-  const badgeText = latest.type_label ? `${latest.type_label} — Mais Recente` : (isRegional ? '🏙️ Fatos da Região — Mais Recente' : '📰 Briefing Geral — Mais Recente');
+  const badgeClass = 'type-regional';
+  const badgeText = latest.type_label ? `${latest.type_label} — Mais Recente` : '🏙️ Fatos da Região — Mais Recente';
   const formattedDate = formatDatePT(latest.date);
 
   const sourcesHtml = (latest.sources || [])
@@ -91,10 +90,18 @@ function renderHero(latest) {
 // Renderiza o grid de edições arquivadas
 function renderGrid() {
   const filtered = allEditions.filter(ed => {
-    // Filtro por aba
-    if (currentFilter !== 'all' && ed.type !== currentFilter) {
-      return false;
+    // Filtro por turno
+    if (currentFilter === 'tarde') {
+      const isTarde = (ed.type_label || '').toLowerCase().includes('tarde') || (ed.time || '').startsWith('13:');
+      if (!isTarde) return false;
+    } else if (currentFilter === 'manha') {
+      const isManha = (ed.type_label || '').toLowerCase().includes('manhã') || (ed.time || '').startsWith('08:') || (ed.time || '').startsWith('09:') || (ed.time || '').startsWith('10:');
+      if (!isManha) return false;
+    } else if (currentFilter === 'noite') {
+      const isNoite = (ed.type_label || '').toLowerCase().includes('noite') || (ed.time || '').startsWith('19:');
+      if (!isNoite) return false;
     }
+
     // Filtro de busca
     if (searchQuery) {
       const q = searchQuery.toLowerCase();
@@ -119,9 +126,8 @@ function renderGrid() {
   }
 
   editionsGrid.innerHTML = filtered.map(ed => {
-    const isRegional = ed.type === 'regional';
-    const badgeClass = isRegional ? 'type-regional' : 'type-nacional';
-    const badgeText = ed.type_label || (isRegional ? '🏙️ Fatos da Região' : '📰 Briefing Geral');
+    const badgeClass = 'type-regional';
+    const badgeText = ed.type_label || '🏙️ Fatos da Região';
     const formattedDate = formatDatePT(ed.date);
 
     return `

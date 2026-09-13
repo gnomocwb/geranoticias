@@ -1,4 +1,4 @@
-name: News Briefing 3x/Dia (Linux)
+name: Fatos da Região — Curitiba & PR (3x/Dia)
 
 on:
   schedule:
@@ -10,16 +10,6 @@ on:
     - cron: '0 16 * * *'
     - cron: '0 22 * * *'
   workflow_dispatch:
-    inputs:
-      profile:
-        description: 'Qual briefing executar?'
-        required: true
-        default: 'both'
-        type: choice
-        options:
-          - 'both'
-          - 'regional'
-          - 'national'
 
 permissions:
   contents: write
@@ -43,18 +33,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Executar Briefing Geral (Nacional/Mundo)
-        if: ${{ github.event_name == 'schedule' || inputs.profile == 'both' || inputs.profile == 'national' }}
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          WHATSAPP_ENABLED: ${{ secrets.WHATSAPP_ENABLED }}
-          WHATSAPP_PHONE: ${{ secrets.WHATSAPP_PHONE }}
-          WHATSAPP_APIKEY: ${{ secrets.WHATSAPP_APIKEY }}
-        run: |
-          python run_briefing.py
-
       - name: Executar Fatos da Região (Curitiba & PR)
-        if: ${{ github.event_name == 'schedule' || inputs.profile == 'both' || inputs.profile == 'regional' }}
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           WHATSAPP_ENABLED: ${{ secrets.WHATSAPP_ENABLED }}
