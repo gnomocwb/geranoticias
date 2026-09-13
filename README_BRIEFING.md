@@ -19,7 +19,7 @@ O sistema gera boletins dinâmicos adaptados ao ciclo de notícias do dia:
 ## 🚀 Funcionalidades Principais
 
 - **📡 Coleta Paralela de Múltiplos Portais**:
-  - **Fatos da Região (Curitiba & PR)**: Tribuna do Paraná, Bem Paraná, Banda B e Gazeta do Povo.
+  - **Fatos da Região (Curitiba, RMC & Interior do PR)**: Tribuna do Paraná, Bem Paraná, Banda B, Gazeta do Povo, O Maringá, Folha de Londrina, Diário de Foz e Rede Sul de Notícias.
   - **Briefing Geral (Brasil & Mundo)**: Reuters, CNN, UOL, G1, BBC e InfoMoney.
   - *Customizável:* adicione qualquer feed em `news_briefing/feeds.json` ou `feeds_regional.json`.
 - **⏳ Janela Temporal Dinâmica**:

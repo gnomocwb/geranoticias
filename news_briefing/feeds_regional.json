@@ -70,5 +70,77 @@
     "language": "pt",
     "enabled": true,
     "description": "Feed expandido do portal Gazeta do Povo cobrindo as últimas 24 horas"
+  },
+  {
+    "id": "omaringa_direct",
+    "name": "O Maringá",
+    "url": "https://omaringa.com.br/feed/",
+    "category": "Paraná / Maringá",
+    "language": "pt",
+    "enabled": true,
+    "description": "Notícias de Maringá e região noroeste do Paraná pelo portal O Maringá"
+  },
+  {
+    "id": "omaringa_gnews",
+    "name": "O Maringá (Arquivo Recente)",
+    "url": "https://news.google.com/rss/search?q=site:omaringa.com.br&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+    "category": "Paraná / Maringá",
+    "language": "pt",
+    "enabled": true,
+    "description": "Feed expandido do portal O Maringá cobrindo as últimas 24 horas"
+  },
+  {
+    "id": "folhadelondrina_direct",
+    "name": "Folha de Londrina",
+    "url": "https://www.folhadelondrina.com.br/rss",
+    "category": "Paraná / Londrina",
+    "language": "pt",
+    "enabled": true,
+    "description": "Notícias de Londrina, região norte e fatos do Paraná pela Folha de Londrina"
+  },
+  {
+    "id": "folhadelondrina_gnews",
+    "name": "Folha de Londrina (Arquivo Recente)",
+    "url": "https://news.google.com/rss/search?q=site:folhadelondrina.com.br&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+    "category": "Paraná / Londrina",
+    "language": "pt",
+    "enabled": true,
+    "description": "Feed expandido do portal Folha de Londrina cobrindo as últimas 24 horas"
+  },
+  {
+    "id": "diariodefoz_direct",
+    "name": "Diário de Foz",
+    "url": "https://diariodefoz.com/feed/",
+    "category": "Paraná / Foz do Iguaçu",
+    "language": "pt",
+    "enabled": true,
+    "description": "Notícias de Foz do Iguaçu, Tríplice Fronteira e região oeste pelo Diário de Foz"
+  },
+  {
+    "id": "diariodefoz_gnews",
+    "name": "Diário de Foz (Arquivo Recente)",
+    "url": "https://news.google.com/rss/search?q=site:diariodefoz.com&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+    "category": "Paraná / Foz do Iguaçu",
+    "language": "pt",
+    "enabled": true,
+    "description": "Feed expandido do portal Diário de Foz cobrindo as últimas 24 horas"
+  },
+  {
+    "id": "redesulnoticias_direct",
+    "name": "Rede Sul de Notícias",
+    "url": "https://redesuldenoticias.com.br/feed/",
+    "category": "Paraná / Centro-Sul",
+    "language": "pt",
+    "enabled": true,
+    "description": "Notícias de Guarapuava, região Centro-Sul e interior do Paraná pela Rede Sul de Notícias"
+  },
+  {
+    "id": "redesulnoticias_gnews",
+    "name": "Rede Sul de Notícias (Arquivo Recente)",
+    "url": "https://news.google.com/rss/search?q=site:redesuldenoticias.com.br&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+    "category": "Paraná / Centro-Sul",
+    "language": "pt",
+    "enabled": true,
+    "description": "Feed expandido da Rede Sul de Notícias cobrindo as últimas 24 horas"
   }
 ]

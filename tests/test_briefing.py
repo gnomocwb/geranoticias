@@ -29,15 +29,32 @@ class TestNewsBriefing(unittest.TestCase):
             self.assertTrue(feed["url"].startswith("http"))
 
     def test_regional_feeds_json_loads(self):
-        """Verifica se os feeds regionais (incluindo Gazeta do Povo) são válidos."""
+        """Verifica se os feeds regionais (Curitiba e interior do Paraná) são válidos."""
         reg_path = Path(__file__).resolve().parent.parent / "news_briefing" / "feeds_regional.json"
         feeds = load_configured_feeds(custom_file=reg_path)
         self.assertGreater(len(feeds), 0)
         feed_ids = [f["id"] for f in feeds]
         self.assertIn("gazetadopovo_direct", feed_ids)
+        self.assertIn("omaringa_direct", feed_ids)
+        self.assertIn("folhadelondrina_direct", feed_ids)
+        self.assertIn("diariodefoz_direct", feed_ids)
+        self.assertIn("redesulnoticias_direct", feed_ids)
+
         gazeta = next(f for f in feeds if f["id"] == "gazetadopovo_direct")
         self.assertEqual(gazeta["url"], "https://www.gazetadopovo.com.br/rss/")
         self.assertEqual(gazeta["name"], "Gazeta do Povo")
+
+        maringa = next(f for f in feeds if f["id"] == "omaringa_direct")
+        self.assertEqual(maringa["url"], "https://omaringa.com.br/feed/")
+
+        folha = next(f for f in feeds if f["id"] == "folhadelondrina_direct")
+        self.assertEqual(folha["url"], "https://www.folhadelondrina.com.br/rss")
+
+        foz = next(f for f in feeds if f["id"] == "diariodefoz_direct")
+        self.assertEqual(foz["url"], "https://diariodefoz.com/feed/")
+
+        rsn = next(f for f in feeds if f["id"] == "redesulnoticias_direct")
+        self.assertEqual(rsn["url"], "https://redesuldenoticias.com.br/feed/")
 
     def test_clean_html_text(self):
         """Testa remoção de tags HTML e entidades."""

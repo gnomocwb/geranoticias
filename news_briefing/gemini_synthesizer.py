@@ -255,7 +255,7 @@ def build_regional_editorial_prompt(stories: List[ClusteredStory], language: str
     period_name, period_desc = get_edition_period_info()
 
     prompt = f"""Você é o Editor-Chefe de Notícias de Curitiba e do Paraná.
-Sua missão é analisar as notícias recentes publicadas pelos principais veículos paranaenses (**Tribuna do Paraná, Bem Paraná, Banda B e Gazeta do Povo**) e produzir o informativo **"Fatos da Região" ({period_name})**.
+Sua missão é analisar as notícias recentes publicadas pelos principais veículos paranaenses (**Tribuna do Paraná, Bem Paraná, Banda B, Gazeta do Povo, O Maringá, Folha de Londrina, Diário de Foz e Rede Sul de Notícias**) e produzir o informativo **"Fatos da Região" ({period_name})**.
 O serviço entrega resumos 3 vezes por dia (08h, 13h e 19h).
 
 Data do Briefing: {get_now_brt().strftime('%d/%m/%Y')}
@@ -263,9 +263,9 @@ Edição: {period_name} ({period_desc})
 Idioma de saída: Português (Brasil)
 
 ### Diretrizes Editoriais:
-1. **Foco Estritamente Regional**: Curitiba, Região Metropolitana (São José dos Pinhais, Colombo, Araucária, Fazenda Rio Grande, Pinhais, etc.), Litoral e Interior do Paraná.
+1. **Foco Estritamente Regional**: Curitiba, Região Metropolitana (São José dos Pinhais, Colombo, Araucária, Fazenda Rio Grande, Pinhais, etc.), Litoral e Interior do Paraná (Maringá, Londrina, Foz do Iguaçu, Guarapuava, Ponta Grossa, Cascavel, etc.).
 2. **Elimine Frivolidades**: Ignore completamente horóscopo, previsões de signos, tarot, fofocas ou sorteios de loteria. Foque em jornalismo factual, prestação de serviços, segurança, trânsito e decisões públicas.
-3. **Visão Sintetizada**: Quando múltiplos veículos noticiarem o mesmo fato (ex: fato coberto por Gazeta do Povo, Banda B e Tribuna), una as informações em um único parágrafo completo e cite as fontes.
+3. **Visão Sintetizada**: Quando múltiplos veículos noticiarem o mesmo fato (ex: fato coberto por múltiplos portais locais ou estaduais), una as informações em um único parágrafo completo e cite as fontes.
 4. **Impacto Prático ('Por que importa')**: Destaque como o fato afeta a vida, o deslocamento ou o bolso do cidadão paranaense.
 
 ### Estrutura Obrigatória do Relatório:
@@ -273,7 +273,7 @@ Idioma de saída: Português (Brasil)
 # 🏙️ Fatos da Região — Curitiba & Paraná ({get_now_brt().strftime('%d/%m/%Y')})
 
 > **{period_name}** | {period_desc} | Resumos 3 vezes por dia (08h • 13h • 19h)  
-> **Fontes:** Tribuna do Paraná • Bem Paraná • Banda B • Gazeta do Povo  
+> **Fontes:** Tribuna do Paraná • Bem Paraná • Banda B • Gazeta do Povo • O Maringá • Folha de Londrina • Diário de Foz • Rede Sul de Notícias  
 
 ---
 
@@ -398,7 +398,7 @@ def generate_fallback_regional_report(stories: List[ClusteredStory], error_msg: 
     lines = [
         f"# 🏙️ Fatos da Região — Curitiba & Paraná ({period_name})",
         f"> **{period_name}** | {period_desc} | Resumos 3 vezes por dia (08h • 13h • 19h)",
-        f"> **Gerado em:** {now_str} | **Fontes:** Tribuna do Paraná • Bem Paraná • Banda B • Gazeta do Povo",
+        f"> **Gerado em:** {now_str} | **Fontes:** Tribuna do Paraná • Bem Paraná • Banda B • Gazeta do Povo • O Maringá • Folha de Londrina • Diário de Foz • Rede Sul de Notícias",
         f"> **Total de histórias agrupadas:** {len(stories)}",
         ""
     ]

@@ -136,6 +136,17 @@ def fetch_single_feed(feed_config: Dict[str, Any], timeout: int = 12) -> List[Ne
                 except Exception as sub_e:
                     logger.debug(f"Erro ao obter sub-feed Gazeta do Povo ({sub_url}): {sub_e}")
 
+        # Suporte especial à Rede Sul de Notícias (RSN) cujo endpoint raiz /feed/ pode manter itens arquivados
+        if "redesuldenoticias.com.br" in url and "noticias/feed" not in url:
+            try:
+                rsn_sub_url = "https://redesuldenoticias.com.br/noticias/feed/"
+                rsn_req = urllib.request.Request(rsn_sub_url, headers={"User-Agent": DEFAULT_USER_AGENT})
+                with urllib.request.urlopen(rsn_req, timeout=timeout) as rsn_resp:
+                    rsn_parsed = feedparser.parse(rsn_resp.read())
+                    parsed.entries.extend(rsn_parsed.entries)
+            except Exception as rsn_e:
+                logger.debug(f"Erro ao obter sub-feed RSN ({rsn_sub_url}): {rsn_e}")
+
         for entry in parsed.entries:
             title = clean_html_text(getattr(entry, "title", ""))
             if not title:

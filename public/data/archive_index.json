@@ -1,5 +1,25 @@
 [
   {
+    "id": "fatos_da_regiao_2026-09-13_200236",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-13",
+    "time": "20:02",
+    "summary": "Chuva intensa provoca estragos, interdição de rodovias e abertura de comportas na Grande Curitiba: O forte volume de precipitações ao longo ...",
+    "file": "data/editions/fatos_da_regiao_2026-09-13_200236.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "fatos_da_regiao_2026-09-13_190024",
     "type": "regional",
     "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
@@ -12,7 +32,11 @@
       "Tribuna do Paraná",
       "Bem Paraná",
       "Banda B",
-      "Gazeta do Povo"
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
@@ -28,7 +52,11 @@
       "Tribuna do Paraná",
       "Bem Paraná",
       "Banda B",
-      "Gazeta do Povo"
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
@@ -44,7 +72,11 @@
       "Tribuna do Paraná",
       "Bem Paraná",
       "Banda B",
-      "Gazeta do Povo"
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
@@ -60,7 +92,11 @@
       "Tribuna do Paraná",
       "Bem Paraná",
       "Banda B",
-      "Gazeta do Povo"
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   }
 ]

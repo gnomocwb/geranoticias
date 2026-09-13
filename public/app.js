@@ -141,8 +141,9 @@ function renderGrid() {
           <p class="card-summary">${ed.summary}</p>
         </div>
         <div class="card-footer">
-          <div class="sources-pills" style="max-width: 65%;">
-            ${(ed.sources || []).slice(0, 3).map(s => `<span class="source-pill" style="font-size: 0.7rem; padding: 2px 7px;">${s}</span>`).join('')}
+          <div class="sources-pills" style="max-width: 68%;">
+            ${(ed.sources || []).slice(0, 4).map(s => `<span class="source-pill" style="font-size: 0.7rem; padding: 2px 7px;">${s}</span>`).join('')}
+            ${(ed.sources && ed.sources.length > 4) ? `<span class="source-pill" style="font-size: 0.7rem; padding: 2px 7px; color: var(--accent-cyan); border-color: rgba(56, 189, 248, 0.3);">+${ed.sources.length - 4}</span>` : ''}
           </div>
           <button class="btn-view-edition" onclick="openEditionModal('${ed.id}')">
             Abrir ➔

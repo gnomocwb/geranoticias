@@ -321,7 +321,7 @@ def save_html_report(
     period_label = get_edition_period_label()
     eff_title = title or ("Fatos da Região — Curitiba & Paraná" if "fatos" in filename_prefix else "Briefing Geral de Notícias")
     eff_badge = badge_text or (f"🏙️ Fatos da Região • {period_label}" if "fatos" in filename_prefix else f"📰 Briefing Geral • {period_label}")
-    eff_footer = footer_text or ("Gerado via Tribuna do Paraná, Bem Paraná, Banda B e Gazeta do Povo & Google Gemini • 3 Edições ao Dia" if "fatos" in filename_prefix else "Gerado automaticamente 3 vezes ao dia via RSS Feeds & Google Gemini • News Briefing AI")
+    eff_footer = footer_text or ("Gerado via Tribuna PR, Bem Paraná, Banda B, Gazeta do Povo, O Maringá, Folha de Londrina, Diário de Foz, RSN & Google Gemini • 3 Edições ao Dia" if "fatos" in filename_prefix else "Gerado automaticamente 3 vezes ao dia via RSS Feeds & Google Gemini • News Briefing AI")
 
     html_content = convert_markdown_to_html(
         markdown_content,
@@ -377,7 +377,7 @@ def archive_edition(
     eff_title = "Fatos da Região — Curitiba & Paraná" if edition_type == "regional" else "Briefing Geral de Notícias"
     eff_badge = f"🏙️ Fatos da Região • {period_label}" if edition_type == "regional" else f"📰 Briefing Geral • {period_label}"
     eff_footer = (
-        "Gerado via Tribuna do Paraná, Bem Paraná, Banda B e Gazeta do Povo & Google Gemini • 3 Edições ao Dia"
+        "Gerado via Tribuna PR, Bem Paraná, Banda B, Gazeta do Povo, O Maringá, Folha de Londrina, Diário de Foz, RSN & Google Gemini • 3 Edições ao Dia"
         if edition_type == "regional" else
         "Gerado via Reuters, CNN, UOL, G1, BBC & Google Gemini • 3 Edições ao Dia"
     )
@@ -411,6 +411,16 @@ def archive_edition(
             archive_list = []
 
     edition_id = filename.replace(".html", "")
+    regional_sources = [
+        "Tribuna do Paraná",
+        "Bem Paraná",
+        "Banda B",
+        "Gazeta do Povo",
+        "O Maringá",
+        "Folha de Londrina",
+        "Diário de Foz",
+        "Rede Sul de Notícias"
+    ]
     new_entry = {
         "id": edition_id,
         "type": edition_type,
@@ -420,7 +430,7 @@ def archive_edition(
         "time": now_time,
         "summary": summary,
         "file": f"data/editions/{filename}",
-        "sources": ["Tribuna do Paraná", "Bem Paraná", "Banda B", "Gazeta do Povo"] if edition_type == "regional" else ["Reuters", "CNN", "UOL", "G1", "BBC", "InfoMoney"]
+        "sources": regional_sources if edition_type == "regional" else ["Reuters", "CNN", "UOL", "G1", "BBC", "InfoMoney"]
     }
 
     archive_list = [item for item in archive_list if item.get("id") != edition_id]
