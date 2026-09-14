@@ -1,5 +1,25 @@
 [
   {
+    "id": "fatos_da_regiao_2026-09-14",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-14",
+    "time": "08:00",
+    "summary": "Chuvas intensas provocam danos e suspendem aulas em dezenas de cidades paranaenses: Cinco dias consecutivos de temporais afetaram cerca de 1...",
+    "file": "data/editions/fatos_da_regiao_2026-09-14.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "fatos_da_regiao_2026-09-13_205254",
     "type": "regional",
     "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
