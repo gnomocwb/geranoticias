@@ -1,5 +1,25 @@
 [
   {
+    "id": "fatos_da_regiao_2026-09-14_193504",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-14",
+    "time": "19:35",
+    "summary": "Operação no Vale do Ribeira e Resgate Aéreo: As fortes chuvas deixaram Adrianópolis isolado, exigindo uma operação aérea emergencial do Esta...",
+    "file": "data/editions/fatos_da_regiao_2026-09-14_193504.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "fatos_da_regiao_2026-09-14_170933",
     "type": "regional",
     "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
