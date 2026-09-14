@@ -1,5 +1,25 @@
 [
   {
+    "id": "fatos_da_regiao_2026-09-14_130017",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-14",
+    "time": "13:00",
+    "summary": "Governo do Estado anuncia pacote de socorro para o Vale do Ribeira: O governador Ratinho Junior confirmou, nesta segunda-feira (14), o envio...",
+    "file": "data/editions/fatos_da_regiao_2026-09-14_130017.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "fatos_da_regiao_2026-09-14",
     "type": "regional",
     "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
