@@ -1,5 +1,25 @@
 [
   {
+    "id": "fatos_da_regiao_2026-09-14_134332",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-14",
+    "time": "13:43",
+    "summary": "Defesa Civil envia ajuda humanitária a cidades atingidas por temporais: A Defesa Civil do Paraná mobilizou veículos para entregar suprimento...",
+    "file": "data/editions/fatos_da_regiao_2026-09-14_134332.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "fatos_da_regiao_2026-09-14_130017",
     "type": "regional",
     "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
