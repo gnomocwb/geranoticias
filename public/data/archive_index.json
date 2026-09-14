@@ -1,5 +1,25 @@
 [
   {
+    "id": "fatos_da_regiao_2026-09-14_170933",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-14",
+    "time": "17:09",
+    "summary": "[Pesquisa Quaest aponta cenário eleitoral e desaprovação de Lula]: Levantamento divulgado nesta manhã aponta a liderança numérica de Lula no...",
+    "file": "data/editions/fatos_da_regiao_2026-09-14_170933.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "fatos_da_regiao_2026-09-14_134332",
     "type": "regional",
     "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
