@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-15_163032",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-09-15",
+    "time": "16:30",
+    "summary": "Crise institucional sem precedentes no STF atinge nível máximo em julgamento sobre Moraes: O Plenário do STF iniciou a análise do relatório ...",
+    "file": "data/editions/noticias_brasil_2026-09-15_163032.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-15_163021",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-15",
+    "time": "16:30",
+    "summary": "Cheia do Rio Iguaçu suspende aulas e desabrigam centenas em União da Vitória: A Defesa Civil do Paraná retirou 420 famílias de áreas atingid...",
+    "file": "data/editions/fatos_da_regiao_2026-09-15_163021.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-15_134158",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -29,24 +67,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-15_130345",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-09-15",
-    "time": "13:03",
-    "summary": "Choque institucional no STF: Bate-boca e acusações cruzadas sobre a PF: O plenário do Supremo Tribunal Federal foi palco de um confronto ten...",
-    "file": "data/editions/noticias_brasil_2026-09-15_130345.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
