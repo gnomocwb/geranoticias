@@ -1,5 +1,25 @@
 [
   {
+    "id": "fatos_da_regiao_2026-09-14_211639",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-14",
+    "time": "21:16",
+    "summary": "Novo Viaduto do Orleans na BR-277: O projeto para a construção do novo viaduto foi oficialmente apresentado nesta segunda-feira (14), com o ...",
+    "file": "data/editions/fatos_da_regiao_2026-09-14_211639.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "fatos_da_regiao_2026-09-14_193504",
     "type": "regional",
     "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
