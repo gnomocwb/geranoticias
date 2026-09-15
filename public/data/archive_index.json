@@ -1,13 +1,29 @@
 [
   {
-    "id": "noticias_brasil_2026-09-15_163032",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "id": "noticias_autismo_2026-09-15_190059",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
     "date": "2026-09-15",
-    "time": "16:30",
-    "summary": "Crise institucional sem precedentes no STF atinge nível máximo em julgamento sobre Moraes: O Plenário do STF iniciou a análise do relatório ...",
-    "file": "data/editions/noticias_brasil_2026-09-15_163032.html",
+    "time": "19:00",
+    "summary": "Alerta Crítico sobre Interrupção de Tratamentos em MT: O Tribunal de Contas do Estado (TCE) e entidades locais emitiram alertas preocupantes...",
+    "file": "data/editions/noticias_autismo_2026-09-15_190059.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-15_190044",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-09-15",
+    "time": "19:00",
+    "summary": "[STF suspende julgamento sobre investigação de Alexandre de Moraes]: O Supremo Tribunal Federal suspendeu nesta terça-feira (15) a análise s...",
+    "file": "data/editions/noticias_brasil_2026-09-15_190044.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +31,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-15_190025",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-15",
+    "time": "19:00",
+    "summary": "[Licenciamento no Executivo]: O governador Ratinho Junior (PSD) anunciou que se licencia do comando do Governo do Paraná nesta quinta-feira ...",
+    "file": "data/editions/fatos_da_regiao_2026-09-15_190025.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
