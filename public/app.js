@@ -36,10 +36,11 @@ async function init() {
     allEditions = await res.json();
     
     // O Hero principal mostra a edição mais recente de Fatos da Região (Curitiba & PR)
-    const latestRegional = allEditions.find(ed => ed.type === 'regional') || allEditions.find(ed => ed.type !== 'autismo') || allEditions[0];
+    const latestRegional = allEditions.find(ed => ed.type === 'regional') || allEditions.find(ed => ed.type !== 'autismo' && ed.type !== 'brasil') || allEditions[0];
     renderHero(latestRegional);
     renderGrid();
     setupEventListeners();
+    setupBrasilButton();
     setupAutismoButton();
     checkUrlParams();
   } catch (err) {
@@ -52,6 +53,27 @@ async function init() {
       </div>
     `;
   }
+}
+
+// Configura o botão específico para abrir o relatório de Notícias Brasil & Mundo
+function setupBrasilButton() {
+  const btn = document.getElementById('btn-open-brasil');
+  if (!btn) return;
+
+  btn.addEventListener('click', (e) => {
+    e.preventDefault();
+    const latestBrasil = allEditions.find(ed => ed.type === 'brasil' || ed.type === 'geral');
+    if (latestBrasil) {
+      openEditionModal(latestBrasil.id);
+    } else {
+      modalTitle.textContent = 'Notícias Brasil & Mundo — Edição Atualizada';
+      modalDate.textContent = 'Boletim Nacional';
+      modalExternalLink.href = 'data/editions/noticias_brasil_2026-09-14.html';
+      modalIframe.src = 'data/editions/noticias_brasil_2026-09-14.html';
+      modalOverlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  });
 }
 
 // Configura o botão específico para abrir o relatório de Notícias de Autismo

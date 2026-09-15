@@ -323,6 +323,10 @@ def save_html_report(
         eff_title = title or "Notícias Autismo Brasil — Edição Diária (09h)"
         eff_badge = badge_text or "🧩 Notícias Autismo Brasil • Edição Diária (09h)"
         eff_footer = footer_text or "Gerado via Canal Autismo (Revista Autismo), Portais Nacionais & Google Gemini • Edição Diária às 09h"
+    elif "brasil" in filename_prefix:
+        eff_title = title or f"Notícias Brasil & Mundo — {period_label}"
+        eff_badge = badge_text or f"🇧🇷 Notícias Brasil & Mundo • {period_label}"
+        eff_footer = footer_text or "Gerado via G1, UOL, CNN Brasil, Reuters, BBC, InfoMoney & Google Gemini • 3 Edições ao Dia"
     elif "fatos" in filename_prefix:
         eff_title = title or "Fatos da Região — Curitiba & Paraná"
         eff_badge = badge_text or f"🏙️ Fatos da Região • {period_label}"
@@ -389,6 +393,12 @@ def archive_edition(
         eff_footer = "Gerado via Canal Autismo (Revista Autismo), Portais Nacionais & Google Gemini • Edição Diária às 09h"
         type_label = "🧩 Notícias Autismo (09h)"
         sources_list = ["Canal Autismo", "Revista Autismo", "Google News Brasil", "Agência Brasil"]
+    elif edition_type in ["brasil", "geral"]:
+        eff_title = f"Notícias Brasil & Mundo — {period_label}"
+        eff_badge = f"🇧🇷 Notícias Brasil & Mundo • {period_label}"
+        eff_footer = "Gerado via G1, UOL, CNN Brasil, Reuters, BBC, InfoMoney & Google Gemini • 3 Edições ao Dia"
+        type_label = f"🇧🇷 Notícias Brasil ({period_label})"
+        sources_list = ["G1", "UOL", "CNN Brasil", "Reuters", "BBC Brasil", "InfoMoney"]
     elif edition_type == "regional":
         eff_title = "Fatos da Região — Curitiba & Paraná"
         eff_badge = f"🏙️ Fatos da Região • {period_label}"
@@ -419,11 +429,12 @@ def archive_edition(
             summary = clean_l[:140] + ("..." if len(clean_l) > 140 else "")
             break
     if not summary:
-        summary = (
-            "Boletim diário com os principais acontecimentos, decisões e novidades sobre autismo no Brasil."
-            if edition_type == "autismo" else
-            "Resumo executivo com os principais acontecimentos (3 edições ao dia: 08h, 13h e 19h)."
-        )
+        if edition_type == "autismo":
+            summary = "Boletim diário com os principais acontecimentos, decisões e novidades sobre autismo no Brasil."
+        elif edition_type in ["brasil", "geral"]:
+            summary = f"Síntese das principais manchetes do Brasil e do mundo ({period_label})."
+        else:
+            summary = f"Resumo executivo com os principais acontecimentos (3 edições ao dia: 08h, 13h e 19h)."
 
     html_content = convert_markdown_to_html(
         markdown_content,
@@ -456,7 +467,12 @@ def archive_edition(
         "sources": sources_list
     }
 
-    archive_list = [item for item in archive_list if item.get("id") != edition_id]
+    # Para Brasil/Geral, não mantemos histórico cumulativo no índice, apenas a edição mais atualizada
+    if edition_type in ["brasil", "geral"]:
+        archive_list = [item for item in archive_list if item.get("type") not in ["brasil", "geral"] and item.get("id") != edition_id]
+    else:
+        archive_list = [item for item in archive_list if item.get("id") != edition_id]
+
     archive_list.insert(0, new_entry)
     archive_list.sort(key=lambda x: (x.get("date", ""), x.get("time", "")), reverse=True)
 

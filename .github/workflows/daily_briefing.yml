@@ -44,6 +44,15 @@ jobs:
         run: |
           python run_fatos_da_regiao.py
 
+      - name: Executar Notícias Brasil & Mundo
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          WHATSAPP_ENABLED: ${{ secrets.WHATSAPP_ENABLED }}
+          WHATSAPP_PHONE: ${{ secrets.WHATSAPP_PHONE }}
+          WHATSAPP_APIKEY: ${{ secrets.WHATSAPP_APIKEY }}
+        run: |
+          python run_briefing.py
+
       - name: Comitar e Enviar Novas Edições para Vercel
         run: |
           git config --global user.name 'github-actions[bot]'

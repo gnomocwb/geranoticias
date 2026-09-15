@@ -151,17 +151,22 @@ def run_pipeline(
     saved_files = []
 
     if "all" in formats or "md" in formats:
-        md_file = save_markdown_report(briefing_md, reports_dir)
+        md_file = save_markdown_report(briefing_md, reports_dir, filename_prefix="noticias_brasil")
         saved_files.append(f"Markdown: [bold underline]{md_file}[/bold underline]")
 
     if "all" in formats or "html" in formats:
-        html_file = save_html_report(briefing_md, reports_dir)
+        html_file = save_html_report(briefing_md, reports_dir, filename_prefix="noticias_brasil")
         saved_files.append(f"HTML: [bold underline]{html_file}[/bold underline]")
 
     if "all" in formats or "cli" in formats:
         render_terminal(briefing_md)
 
-    # 6. Envio via WhatsApp (se solicitado via argumento ou habilitado no .env)
+    # 6. Arquivamento Web (Catálogo da Vercel - apenas a edição mais atualizada)
+    if not dry_run:
+        web_entry = archive_edition(briefing_md, edition_type="brasil", filename_prefix="noticias_brasil")
+        saved_files.append(f"Web Vercel: [bold underline]public/{web_entry['file']}[/bold underline]")
+
+    # 7. Envio via WhatsApp (se solicitado via argumento ou habilitado no .env)
     should_wa = send_whatsapp or (os.getenv("WHATSAPP_ENABLED", "").lower() in ["true", "1", "yes"])
     if should_wa:
         console.print("\n[cyan]📱 Enviando briefing via WhatsApp...[/cyan]")
