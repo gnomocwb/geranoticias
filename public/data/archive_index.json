@@ -1,5 +1,25 @@
 [
   {
+    "id": "fatos_da_regiao_2026-09-15",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-15",
+    "time": "08:00",
+    "summary": "Balanço das Chuvas Extensas no Estado: O número de municípios paranaenses afetados pelas chuvas torrenciais subiu para 80, deixando um rastr...",
+    "file": "data/editions/fatos_da_regiao_2026-09-15.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-09-14",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
