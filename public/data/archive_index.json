@@ -1,5 +1,39 @@
 [
   {
+    "id": "noticias_autismo_2026-09-15",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-15",
+    "time": "09:12",
+    "summary": "[Justiça Federal autoriza dedução integral de gastos escolares no IR para filhos com autismo](https://news.google.com/rss/articles/CBMiywFBV...",
+    "file": "data/editions/noticias_autismo_2026-09-15.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-15",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
+    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "date": "2026-09-15",
+    "time": "09:11",
+    "summary": "[STF Inicia Julgamento Histórico sobre Relatório da PF Envolvendo Alexandre de Moraes](https://g1.globo.com/politica/ao-vivo/stf-investigaca...",
+    "file": "data/editions/noticias_brasil_2026-09-15.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
     "id": "fatos_da_regiao_2026-09-15",
     "type": "regional",
     "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
@@ -17,24 +51,6 @@
       "Folha de Londrina",
       "Diário de Foz",
       "Rede Sul de Notícias"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-14",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-09-14",
-    "time": "21:43",
-    "summary": "[EUA] Suprema Corte barra restrições de Trump ao voto por correio: Em nova derrota jurídica para a administração Trump, a Suprema Corte dos ...",
-    "file": "data/editions/noticias_brasil_2026-09-14.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
