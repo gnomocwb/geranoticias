@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-15_205748",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-09-15",
+    "time": "20:57",
+    "summary": "STF adia unificação de investigações e gera crise institucional: O ministro Flávio Dino pediu vista e suspendeu o julgamento no Supremo Trib...",
+    "file": "data/editions/noticias_brasil_2026-09-15_205748.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-15_205736",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-15",
+    "time": "20:57",
+    "summary": "Impasse no STF e desdobramentos sobre investigações: O Supremo Tribunal Federal encerrou a sessão do dia sem definir se unirá os casos envol...",
+    "file": "data/editions/fatos_da_regiao_2026-09-15_205736.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-15_190059",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-15_190044",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-09-15",
-    "time": "19:00",
-    "summary": "[STF suspende julgamento sobre investigação de Alexandre de Moraes]: O Supremo Tribunal Federal suspendeu nesta terça-feira (15) a análise s...",
-    "file": "data/editions/noticias_brasil_2026-09-15_190044.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
