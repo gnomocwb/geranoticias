@@ -1,0 +1,48 @@
+name: Notícias Autismo Brasil (1x/Dia às 09h)
+
+on:
+  schedule:
+    # 1 execução diária às 09:00 BRT (UTC-3) -> 12:00 UTC:
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-and-publish:
+    runs-on: ubuntu-latest
+    env:
+      TZ: 'America/Sao_Paulo'
+
+    steps:
+      - name: Checkout do Repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Instalar Dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Executar Notícias Autismo Brasil
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          WHATSAPP_ENABLED: ${{ secrets.WHATSAPP_ENABLED }}
+          WHATSAPP_PHONE: ${{ secrets.WHATSAPP_PHONE }}
+          WHATSAPP_APIKEY: ${{ secrets.WHATSAPP_APIKEY }}
+        run: |
+          python run_noticias_autismo.py
+
+      - name: Comitar e Enviar Novas Edições
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git pull --rebase origin main || true
+          git add public/data/ reports/
+          git diff --staged --quiet || (git commit -m "chore(autismo): nova edição diária de autismo gerada [skip ci]" && git pull --rebase origin main && git push origin main)

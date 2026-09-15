@@ -1,0 +1,56 @@
+[
+  {
+    "id": "canal_autismo",
+    "name": "Canal Autismo (Revista Autismo)",
+    "url": "https://canalautismo.com.br/feed/",
+    "category": "Especializado",
+    "language": "pt",
+    "enabled": true,
+    "description": "Principal portal de jornalismo e matérias aprofundadas sobre autismo no Brasil (Revista Autismo)"
+  },
+  {
+    "id": "gnews_autismo_geral",
+    "name": "Google News — Autismo Brasil",
+    "url": "https://news.google.com/rss/search?q=autismo+brasil+when:2d&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+    "category": "Geral",
+    "language": "pt",
+    "enabled": true,
+    "description": "Principais notícias nacionais recentes sobre autismo em grandes portais e veículos"
+  },
+  {
+    "id": "gnews_autismo_direitos",
+    "name": "Google News — Direitos & Legislação TEA",
+    "url": "https://news.google.com/rss/search?q=(autismo+OR+%22transtorno+do+espectro+autista%22)+(lei+OR+direitos+OR+CIPTEA+OR+SUS+OR+%22plano+de+saude%22+OR+STJ+OR+STF+OR+ANS)+when:2d&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+    "category": "Direitos & Legislação",
+    "language": "pt",
+    "enabled": true,
+    "description": "Decisões judiciais, cobertura de planos de saúde/ANS, CIPTEA, SUS e direitos das pessoas com TEA"
+  },
+  {
+    "id": "gnews_autismo_educacao",
+    "name": "Google News — Educação & Inclusão Escolar",
+    "url": "https://news.google.com/rss/search?q=(autismo+OR+%22transtorno+do+espectro+autista%22)+(escola+OR+educacao+OR+inclusao+OR+mediador+OR+AEE)+when:2d&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+    "category": "Educação & Inclusão",
+    "language": "pt",
+    "enabled": true,
+    "description": "Inclusão escolar, apoio pedagógico especializado (AEE), mediadores e vivência acadêmica"
+  },
+  {
+    "id": "gnews_autismo_ciencia",
+    "name": "Google News — Ciência & Saúde TEA",
+    "url": "https://news.google.com/rss/search?q=(autismo+OR+%22transtorno+do+espectro+autista%22)+(ciencia+OR+pesquisa+OR+diagnostico+OR+terapia+OR+estudo)+when:2d&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+    "category": "Ciência & Saúde",
+    "language": "pt",
+    "enabled": true,
+    "description": "Avanços científicos, pesquisas médicas, intervenções baseadas em evidências e diagnósticos"
+  },
+  {
+    "id": "gnews_agencia_brasil_autismo",
+    "name": "Agência Brasil — Autismo & Direitos",
+    "url": "https://news.google.com/rss/search?q=site:agenciabrasil.ebc.com.br+autismo+when:7d&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+    "category": "Políticas Públicas",
+    "language": "pt",
+    "enabled": true,
+    "description": "Notícias oficiais do poder público, ministérios e políticas públicas para autistas via Agência Brasil"
+  }
+]

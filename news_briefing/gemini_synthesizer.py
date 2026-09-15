@@ -427,3 +427,211 @@ def generate_fallback_regional_report(stories: List[ClusteredStory], error_msg: 
 
     return "\n".join(lines)
 
+
+def build_autismo_editorial_prompt(stories: List[ClusteredStory], language: str = "pt-BR") -> str:
+    """Monta o prompt para o Gemini focado em notícias sobre Transtorno do Espectro Autista (TEA) no Brasil."""
+    stories_data = []
+    for idx, story in enumerate(stories[:45], 1):
+        sources_str = ", ".join(story.sources)
+        links_preview = [f"{l['source']}: {l['url']}" for l in story.links[:2]]
+        stories_data.append({
+            "id": idx,
+            "titulo": story.primary_title,
+            "categoria": story.category,
+            "veiculos": sources_str,
+            "qtd_fontes": len(story.sources),
+            "resumos": story.items[0].summary if story.items else "",
+            "links": links_preview
+        })
+
+    json_payload = json.dumps(stories_data, ensure_ascii=False, indent=2)
+    today_str = get_now_brt().strftime('%d/%m/%Y')
+
+    prompt = f"""Você é o Editor-Chefe de Notícias sobre Neurodiversidade e Autismo no Brasil.
+Sua missão é ler a lista de notícias e reportagens recentes coletadas sobre o Transtorno do Espectro Autista (TEA) no Brasil e produzir o informativo **"Notícias Autismo Brasil"**.
+O informativo é publicado 1 vez ao dia (às 09h da manhã) trazendo um resumo das últimas 24 horas.
+
+Data do Informativo: {today_str}
+Edição: Edição Diária (09h) — Giro de 24 horas
+Idioma de saída: Português (Brasil)
+
+### Diretrizes Editoriais & Princípios Neuroafirmativos:
+1. **Linguagem Respeitosa e Atualizada**: Adote linguagem neuroafirmativa e alinhada às preferências da comunidade autista (prefira "pessoas autistas" ou "pessoas no espectro autista"). Não utilize linguagem pejorativa, capacitista ou sensacionalista.
+2. **Foco Prático e Útil**: Destaque como os fatos afetam diretamente a vida de pessoas autistas, familiares, educadores e profissionais de saúde (direitos, acesso a terapias, decisões sobre planos de saúde e inclusão escolar).
+3. **Imparcialidade e Precisão Jurídica/Científica**: Destaque decisões judiciais (STF, STJ), decisões da ANS, leis municipais/estaduais/federais, CIPTEA e estudos científicos com evidências comprovadas.
+4. **Visão Sintetizada**: Se vários veículos cobrirem o mesmo fato, consolide em uma única análise de alta qualidade citando as fontes.
+
+### Estrutura Obrigatória do Relatório:
+
+# 🧩 Notícias Autismo Brasil — Edição Diária ({today_str})
+
+> **Edição Diária (09h)** | Cobertura das últimas 24 horas sobre TEA no Brasil  
+> **Fontes monitoradas:** Canal Autismo (Revista Autismo), Veículos Nacionais, Agência Brasil & Portais Jurídicos  
+> **Tempo estimado de leitura:** 3 minutos  
+
+---
+
+## ⚡ Destaques do Dia (Top 3 Acontecimentos)
+*Os acontecimentos e decisões mais impactantes do dia sobre autismo no país.*
+- **[Título da Matéria 1]**: Síntese explicativa em 2 ou 3 frases. *Por que importa:* Impacto direto para a comunidade e famílias. *(Fontes: Veículos)*
+- ...
+
+---
+
+## ⚖️ Direitos, Legislação & Políticas Públicas
+*Leis sancionadas, CIPTEA, SUS, decisões jurídicas (STJ/STF), resoluções da ANS e planos de saúde.*
+- ...
+
+---
+
+## 🏫 Educação & Inclusão Escolar
+*Apoio escolar, mediadores, Atendimento Educacional Especializado (AEE), direitos em salas de aula e universidades.*
+- ...
+
+---
+
+## 🧬 Ciência, Saúde & Terapias
+*Pesquisas médicas, diagnósticos precoces e terapias baseadas em evidências científicas.*
+- ...
+
+---
+
+## 🤝 Comunidade, Voz dos Autistas & Conscientização
+*Projetos sociais, eventos, relatos de vivência e iniciativas de conscientização.*
+- ...
+
+---
+
+## 🎯 Radar Rápido do Dia
+*Pílulas rápidas em 1 linha sobre outras novidades e eventos.*
+- ...
+
+---
+
+### Dados brutos coletados das notícias:
+```json
+{json_payload}
+```
+
+Escreva agora o informativo completo em Markdown profissional, empático, claro e bem diagramado.
+"""
+    return prompt
+
+
+def generate_autismo_briefing_with_gemini(
+    stories: List[ClusteredStory],
+    api_key: Optional[str] = None,
+    model_name: str = "gemini-3.6-flash",
+    language: str = "pt-BR"
+) -> str:
+    """Gera o relatório de Notícias Autismo Brasil via Google Gemini com modelo neuroafirmativo."""
+    if not stories:
+        return "# 🧩 Notícias Autismo Brasil\n\nNenhuma notícia sobre autismo identificada nas últimas 24 horas."
+
+    effective_key = api_key or os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+
+    if not effective_key:
+        logger.warning("GEMINI_API_KEY não encontrada. Gerando Notícias Autismo em modo fallback.")
+        return generate_fallback_autismo_report(stories)
+
+    try:
+        from google import genai
+        from google.genai import types
+
+        client = genai.Client(api_key=effective_key)
+        prompt = build_autismo_editorial_prompt(stories, language=language)
+
+        config = types.GenerateContentConfig(
+            temperature=0.3,
+            max_output_tokens=4000,
+        )
+
+        candidate_models = [model_name]
+        for fallback_m in ["gemini-3.5-flash-lite", "gemini-3.6-flash", "gemini-3.7-flash"]:
+            if fallback_m not in candidate_models:
+                candidate_models.append(fallback_m)
+
+        last_error = None
+        for current_model in candidate_models:
+            try:
+                logger.info(f"Tentando gerar Notícias Autismo com o modelo: {current_model}")
+                response = client.models.generate_content(
+                    model=current_model,
+                    contents=prompt,
+                    config=config
+                )
+                if response and response.text:
+                    return response.text.strip()
+            except Exception as e:
+                last_error = e
+                err_str = str(e)
+                if any(code in err_str for code in ["404", "503", "NOT_FOUND", "UNAVAILABLE", "high demand"]):
+                    logger.warning(f"Modelo {current_model} indisponível ({err_str[:80]}...). Tentando próximo...")
+                    continue
+                else:
+                    raise e
+
+        logger.error(f"Nenhum modelo respondeu com sucesso para Notícias Autismo: {last_error}")
+        return generate_fallback_autismo_report(stories, error_msg=str(last_error))
+
+    except Exception as e:
+        logger.error(f"Erro ao chamar a API Gemini para Notícias Autismo: {e}")
+        return generate_fallback_autismo_report(stories, error_msg=str(e))
+
+
+def generate_fallback_autismo_report(stories: List[ClusteredStory], error_msg: Optional[str] = None) -> str:
+    """Gera um relatório estruturado direto das fontes para Notícias Autismo quando o Gemini não está ativo."""
+    now_str = get_now_brt().strftime("%d/%m/%Y às %H:%M")
+    today_str = get_now_brt().strftime("%d/%m/%Y")
+    lines = [
+        f"# 🧩 Notícias Autismo Brasil — Edição Diária ({today_str})",
+        f"> **Edição Diária (09h)** | Cobertura das últimas 24 horas sobre TEA no Brasil",
+        f"> **Gerado em:** {now_str} | **Total de matérias agrupadas:** {len(stories)}",
+        f"> **Fontes:** Canal Autismo (Revista Autismo) • Google News Brasil • Agência Brasil",
+        ""
+    ]
+
+    if error_msg:
+        lines.append(f"> ⚠️ **Aviso de IA:** A síntese com Gemini não pôde ser executada ({error_msg}). Exibindo agregação direta das fontes.")
+
+    lines.append("\n---\n")
+
+    # Agrupar por categoria
+    by_category: Dict[str, List[ClusteredStory]] = {}
+    for st in stories:
+        cat = st.category or "Geral"
+        by_category.setdefault(cat, []).append(st)
+
+    lines.append("## ⚡ Principais Notícias sobre Autismo no Brasil\n")
+    for st in stories[:8]:
+        sources_str = ", ".join(st.sources)
+        first_link = st.links[0]["url"] if st.links else "#"
+        lines.append(f"- **[{st.primary_title}]({first_link})**")
+        lines.append(f"  *Fontes:* {sources_str}")
+        if st.items and st.items[0].summary:
+            lines.append(f"  {st.items[0].summary[:180]}...")
+        lines.append("")
+
+    lines.append("---\n")
+
+    cat_icons = {
+        "Especializado": "🧩",
+        "Direitos & Legislação": "⚖️",
+        "Educação & Inclusão": "🏫",
+        "Ciência & Saúde": "🧬",
+        "Políticas Públicas": "🏛️",
+        "Geral": "📰"
+    }
+
+    for cat, cat_stories in by_category.items():
+        icon = cat_icons.get(cat, "📌")
+        lines.append(f"## {icon} {cat}\n")
+        for st in cat_stories[:6]:
+            sources_str = ", ".join(st.sources)
+            first_link = st.links[0]["url"] if st.links else "#"
+            lines.append(f"- [{st.primary_title}]({first_link}) *({sources_str})*")
+        lines.append("")
+
+    return "\n".join(lines)
+
+

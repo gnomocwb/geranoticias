@@ -35,9 +35,12 @@ async function init() {
     if (!res.ok) throw new Error('Não foi possível carregar o índice de edições');
     allEditions = await res.json();
     
-    renderHero(allEditions[0]);
+    // O Hero principal mostra a edição mais recente de Fatos da Região (Curitiba & PR)
+    const latestRegional = allEditions.find(ed => ed.type === 'regional') || allEditions.find(ed => ed.type !== 'autismo') || allEditions[0];
+    renderHero(latestRegional);
     renderGrid();
     setupEventListeners();
+    setupAutismoButton();
     checkUrlParams();
   } catch (err) {
     console.error('Erro ao carregar dados:', err);
@@ -49,6 +52,27 @@ async function init() {
       </div>
     `;
   }
+}
+
+// Configura o botão específico para abrir o relatório de Notícias de Autismo
+function setupAutismoButton() {
+  const btn = document.getElementById('btn-open-autismo');
+  if (!btn) return;
+
+  btn.addEventListener('click', (e) => {
+    e.preventDefault();
+    const latestAutismo = allEditions.find(ed => ed.type === 'autismo');
+    if (latestAutismo) {
+      openEditionModal(latestAutismo.id);
+    } else {
+      modalTitle.textContent = 'Notícias Autismo Brasil — Edição Diária (09h)';
+      modalDate.textContent = 'Boletim Especial';
+      modalExternalLink.href = 'data/editions/noticias_autismo_2026-09-14.html';
+      modalIframe.src = 'data/editions/noticias_autismo_2026-09-14.html';
+      modalOverlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  });
 }
 
 // Renderiza a edição mais recente no Hero
@@ -90,6 +114,9 @@ function renderHero(latest) {
 // Renderiza o grid de edições arquivadas
 function renderGrid() {
   const filtered = allEditions.filter(ed => {
+    // Preserva a grade da página inicial exclusivamente para as notícias regionais de Curitiba & PR
+    if (ed.type && ed.type !== 'regional') return false;
+
     // Filtro por turno
     if (currentFilter === 'tarde') {
       const isTarde = (ed.type_label || '').toLowerCase().includes('tarde') || (ed.time || '').startsWith('13:');

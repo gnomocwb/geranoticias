@@ -319,9 +319,18 @@ def save_html_report(
         html_path = output_dir / f"{filename_prefix}_{today_str}_{timestamp}.html"
 
     period_label = get_edition_period_label()
-    eff_title = title or ("Fatos da Região — Curitiba & Paraná" if "fatos" in filename_prefix else "Briefing Geral de Notícias")
-    eff_badge = badge_text or (f"🏙️ Fatos da Região • {period_label}" if "fatos" in filename_prefix else f"📰 Briefing Geral • {period_label}")
-    eff_footer = footer_text or ("Gerado via Tribuna PR, Bem Paraná, Banda B, Gazeta do Povo, O Maringá, Folha de Londrina, Diário de Foz, RSN & Google Gemini • 3 Edições ao Dia" if "fatos" in filename_prefix else "Gerado automaticamente 3 vezes ao dia via RSS Feeds & Google Gemini • News Briefing AI")
+    if "autismo" in filename_prefix:
+        eff_title = title or "Notícias Autismo Brasil — Edição Diária (09h)"
+        eff_badge = badge_text or "🧩 Notícias Autismo Brasil • Edição Diária (09h)"
+        eff_footer = footer_text or "Gerado via Canal Autismo (Revista Autismo), Portais Nacionais & Google Gemini • Edição Diária às 09h"
+    elif "fatos" in filename_prefix:
+        eff_title = title or "Fatos da Região — Curitiba & Paraná"
+        eff_badge = badge_text or f"🏙️ Fatos da Região • {period_label}"
+        eff_footer = footer_text or "Gerado via Tribuna PR, Bem Paraná, Banda B, Gazeta do Povo, O Maringá, Folha de Londrina, Diário de Foz, RSN & Google Gemini • 3 Edições ao Dia"
+    else:
+        eff_title = title or "Briefing Geral de Notícias"
+        eff_badge = badge_text or f"📰 Briefing Geral • {period_label}"
+        eff_footer = footer_text or "Gerado automaticamente 3 vezes ao dia via RSS Feeds & Google Gemini • News Briefing AI"
 
     html_content = convert_markdown_to_html(
         markdown_content,
@@ -374,13 +383,33 @@ def archive_edition(
         file_path = editions_dir / filename
 
     period_label = get_edition_period_label()
-    eff_title = "Fatos da Região — Curitiba & Paraná" if edition_type == "regional" else "Briefing Geral de Notícias"
-    eff_badge = f"🏙️ Fatos da Região • {period_label}" if edition_type == "regional" else f"📰 Briefing Geral • {period_label}"
-    eff_footer = (
-        "Gerado via Tribuna PR, Bem Paraná, Banda B, Gazeta do Povo, O Maringá, Folha de Londrina, Diário de Foz, RSN & Google Gemini • 3 Edições ao Dia"
-        if edition_type == "regional" else
-        "Gerado via Reuters, CNN, UOL, G1, BBC & Google Gemini • 3 Edições ao Dia"
-    )
+    if edition_type == "autismo":
+        eff_title = "Notícias Autismo Brasil — Edição Diária (09h)"
+        eff_badge = "🧩 Notícias Autismo Brasil • Edição Diária (09h)"
+        eff_footer = "Gerado via Canal Autismo (Revista Autismo), Portais Nacionais & Google Gemini • Edição Diária às 09h"
+        type_label = "🧩 Notícias Autismo (09h)"
+        sources_list = ["Canal Autismo", "Revista Autismo", "Google News Brasil", "Agência Brasil"]
+    elif edition_type == "regional":
+        eff_title = "Fatos da Região — Curitiba & Paraná"
+        eff_badge = f"🏙️ Fatos da Região • {period_label}"
+        eff_footer = "Gerado via Tribuna PR, Bem Paraná, Banda B, Gazeta do Povo, O Maringá, Folha de Londrina, Diário de Foz, RSN & Google Gemini • 3 Edições ao Dia"
+        type_label = f"🏙️ Fatos da Região ({period_label})"
+        sources_list = [
+            "Tribuna do Paraná",
+            "Bem Paraná",
+            "Banda B",
+            "Gazeta do Povo",
+            "O Maringá",
+            "Folha de Londrina",
+            "Diário de Foz",
+            "Rede Sul de Notícias"
+        ]
+    else:
+        eff_title = "Briefing Geral de Notícias"
+        eff_badge = f"📰 Briefing Geral • {period_label}"
+        eff_footer = "Gerado via Reuters, CNN, UOL, G1, BBC & Google Gemini • 3 Edições ao Dia"
+        type_label = f"📰 Briefing Geral ({period_label})"
+        sources_list = ["Reuters", "CNN", "UOL", "G1", "BBC", "InfoMoney"]
 
     summary = ""
     lines = [l.strip() for l in markdown_content.split("\n") if l.strip()]
@@ -390,7 +419,11 @@ def archive_edition(
             summary = clean_l[:140] + ("..." if len(clean_l) > 140 else "")
             break
     if not summary:
-        summary = f"Resumo executivo com os principais acontecimentos (3 edições ao dia: 08h, 13h e 19h)."
+        summary = (
+            "Boletim diário com os principais acontecimentos, decisões e novidades sobre autismo no Brasil."
+            if edition_type == "autismo" else
+            "Resumo executivo com os principais acontecimentos (3 edições ao dia: 08h, 13h e 19h)."
+        )
 
     html_content = convert_markdown_to_html(
         markdown_content,
@@ -411,26 +444,16 @@ def archive_edition(
             archive_list = []
 
     edition_id = filename.replace(".html", "")
-    regional_sources = [
-        "Tribuna do Paraná",
-        "Bem Paraná",
-        "Banda B",
-        "Gazeta do Povo",
-        "O Maringá",
-        "Folha de Londrina",
-        "Diário de Foz",
-        "Rede Sul de Notícias"
-    ]
     new_entry = {
         "id": edition_id,
         "type": edition_type,
-        "type_label": f"🏙️ Fatos da Região ({period_label})" if edition_type == "regional" else f"📰 Briefing Geral ({period_label})",
+        "type_label": type_label,
         "title": eff_title,
         "date": today_str,
         "time": now_time,
         "summary": summary,
         "file": f"data/editions/{filename}",
-        "sources": regional_sources if edition_type == "regional" else ["Reuters", "CNN", "UOL", "G1", "BBC", "InfoMoney"]
+        "sources": sources_list
     }
 
     archive_list = [item for item in archive_list if item.get("id") != edition_id]
