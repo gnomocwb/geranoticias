@@ -18,7 +18,7 @@
     href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css?v=5">
+  <link rel="stylesheet" href="style.css?v=6">
 
   <!-- Vercel Web Analytics -->
   <script>
@@ -98,9 +98,9 @@
           <div class="sources-group brasil-group">
             <span class="sources-group-label">🇧🇷 Notícias Brasil & Mundo:</span>
             <div class="sources-chip-list">
-              <button type="button" class="source-chip brasil-chip" id="btn-open-brasil" title="Clique para ler o resumo mais atualizado de Notícias do Brasil e Mundo">
+              <button type="button" class="source-chip brasil-chip" id="btn-open-brasil" title="Clique para ler o resumo da edição atual de Notícias do Brasil e Mundo">
                 <span class="brasil-dot"></span>
-                <span>Acessar Report Brasil (Atualizado) ➔</span>
+                <span>Acessar Report Brasil (Edição Atual) ➔</span>
               </button>
               <a href="https://g1.globo.com" target="_blank" rel="noopener" class="source-chip"
                 title="G1 Globo">G1</a>
@@ -149,9 +149,29 @@
         </div>
       </div>
 
-      <!-- Grid de Edições Anteriores (Arquivo Histórico) -->
+      <!-- Grid das Últimas 24 Horas (Edição Atual + 2 de Histórico) -->
       <div class="editions-grid" id="editions-grid">
         <!-- Renderizado dinamicamente via app.js -->
+      </div>
+
+      <!-- Seção de Edições Históricas (Arquivo Anterior) -->
+      <div class="historical-section" id="historical-section">
+        <div class="historical-trigger-wrap">
+          <button type="button" class="btn-historical" id="btn-historical" aria-expanded="false" aria-controls="historical-container">
+            <span class="historical-icon">📚</span>
+            <span class="historical-label">Edições Históricas</span>
+            <span class="historical-badge" id="historical-count">Carregando arquivo...</span>
+            <span class="historical-chevron" id="historical-chevron">▾</span>
+          </button>
+        </div>
+        <div class="historical-container" id="historical-container" style="display: none;">
+          <div class="historical-header-info">
+            <p class="historical-desc">Arquivo completo das edições anteriores de Fatos da Região — Curitiba & Paraná</p>
+          </div>
+          <div class="editions-grid historical-grid" id="historical-grid">
+            <!-- Renderizado dinamicamente via app.js -->
+          </div>
+        </div>
       </div>
     </section>
 
@@ -194,7 +214,7 @@
     </div>
   </footer>
 
-  <script src="app.js?v=5"></script>
+  <script src="app.js?v=6"></script>
 </body>
 
 </html>

@@ -551,7 +551,7 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   gap: 24px;
-  margin-bottom: 60px;
+  margin-bottom: 36px;
 }
 
 .edition-card {
@@ -671,6 +671,114 @@ header {
 .empty-state p {
   color: var(--text-muted);
   font-size: 0.9rem;
+}
+
+/* Seção de Edições Históricas */
+.historical-section {
+  margin-top: 24px;
+  margin-bottom: 60px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.12);
+  padding-top: 36px;
+}
+
+.historical-trigger-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.btn-historical {
+  background: rgba(17, 23, 38, 0.85);
+  border: 1px solid rgba(56, 189, 248, 0.35);
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 700;
+  padding: 12px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(12px);
+}
+
+.btn-historical:hover {
+  background: rgba(26, 35, 54, 0.95);
+  border-color: var(--accent-cyan);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 22px rgba(56, 189, 248, 0.25);
+}
+
+.btn-historical.active {
+  background: rgba(56, 189, 248, 0.15);
+  border-color: var(--accent-cyan);
+  color: var(--accent-cyan);
+  box-shadow: 0 0 18px rgba(56, 189, 248, 0.3);
+}
+
+.historical-icon {
+  font-size: 1.15rem;
+}
+
+.historical-label {
+  letter-spacing: -0.01em;
+}
+
+.historical-badge {
+  font-size: 0.76rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-secondary);
+  padding: 3px 10px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.btn-historical.active .historical-badge {
+  background: rgba(56, 189, 248, 0.22);
+  color: var(--accent-cyan);
+  border-color: rgba(56, 189, 248, 0.35);
+}
+
+.historical-chevron {
+  font-size: 0.95rem;
+  color: var(--accent-cyan);
+  transition: transform 0.25s ease;
+  display: inline-block;
+}
+
+.historical-container {
+  animation: fadeInHistorical 0.3s ease;
+}
+
+.historical-header-info {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.historical-desc {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.historical-grid {
+  margin-bottom: 0;
+}
+
+@keyframes fadeInHistorical {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Modal Leitor de Edição */

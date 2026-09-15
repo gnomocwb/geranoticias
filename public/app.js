@@ -1,8 +1,11 @@
 // News Portal & Archive App — Vercel Deploy
 
 let allEditions = [];
+let recentRegionalEditions = [];
+let historicalRegionalEditions = [];
 let currentFilter = 'all';
 let searchQuery = '';
+let isHistoricalOpen = false;
 
 // Elementos do DOM
 const heroSection = document.getElementById('hero-featured');
@@ -15,6 +18,13 @@ const modalTitle = document.getElementById('modal-title');
 const modalDate = document.getElementById('modal-date');
 const modalExternalLink = document.getElementById('modal-external-link');
 const btnCloseModal = document.getElementById('btn-close-modal');
+
+// Elementos das Edições Históricas
+const btnHistorical = document.getElementById('btn-historical');
+const historicalContainer = document.getElementById('historical-container');
+const historicalGrid = document.getElementById('historical-grid');
+const historicalCount = document.getElementById('historical-count');
+const historicalChevron = document.getElementById('historical-chevron');
 
 // Formatação de data em português
 function formatDatePT(dateStr) {
@@ -35,13 +45,24 @@ async function init() {
     if (!res.ok) throw new Error('Não foi possível carregar o índice de edições');
     allEditions = await res.json();
     
-    // O Hero principal mostra a edição mais recente de Fatos da Região (Curitiba & PR)
-    const latestRegional = allEditions.find(ed => ed.type === 'regional') || allEditions.find(ed => ed.type !== 'autismo' && ed.type !== 'brasil') || allEditions[0];
+    // Separa as edições regionais de Fatos da Região (Curitiba & PR)
+    const regionalEditions = allEditions.filter(ed => ed.type === 'regional' || (!ed.type || (ed.type !== 'autismo' && ed.type !== 'brasil')));
+
+    // O Hero principal mostra a edição mais recente de Fatos da Região
+    const latestRegional = regionalEditions[0] || allEditions[0];
     renderHero(latestRegional);
+
+    // Mantém em tela apenas as últimas 24 horas: a edição atual e mais 2 de histórico (ciclo de 3 turnos: 08h, 13h, 19h)
+    recentRegionalEditions = regionalEditions.slice(0, 3);
+    // As demais edições compõem o arquivo histórico acessível sob demanda
+    historicalRegionalEditions = regionalEditions.slice(3);
+
     renderGrid();
+    renderHistoricalGrid();
     setupEventListeners();
     setupBrasilButton();
     setupAutismoButton();
+    setupHistoricalToggle();
     checkUrlParams();
   } catch (err) {
     console.error('Erro ao carregar dados:', err);
@@ -66,7 +87,7 @@ function setupBrasilButton() {
     if (latestBrasil) {
       openEditionModal(latestBrasil.id);
     } else {
-      modalTitle.textContent = 'Notícias Brasil & Mundo — Edição Atualizada';
+      modalTitle.textContent = 'Notícias Brasil & Mundo — Edição Atual';
       modalDate.textContent = 'Boletim Nacional';
       modalExternalLink.href = 'data/editions/noticias_brasil_2026-09-14.html';
       modalIframe.src = 'data/editions/noticias_brasil_2026-09-14.html';
@@ -133,12 +154,38 @@ function renderHero(latest) {
   `;
 }
 
-// Renderiza o grid de edições arquivadas
-function renderGrid() {
-  const filtered = allEditions.filter(ed => {
-    // Preserva a grade da página inicial exclusivamente para as notícias regionais de Curitiba & PR
-    if (ed.type && ed.type !== 'regional') return false;
+// Cria o HTML padronizado para um card de edição
+function createEditionCardHtml(ed) {
+  const badgeClass = 'type-regional';
+  const badgeText = ed.type_label || '🏙️ Fatos da Região';
+  const formattedDate = formatDatePT(ed.date);
 
+  return `
+    <div class="edition-card">
+      <div>
+        <div class="card-meta">
+          <span class="card-type-badge ${badgeClass}">${badgeText}</span>
+          <span class="card-date">${formattedDate} • ${ed.time}</span>
+        </div>
+        <h3>${ed.title}</h3>
+        <p class="card-summary">${ed.summary}</p>
+      </div>
+      <div class="card-footer">
+        <div class="sources-pills" style="max-width: 68%;">
+          ${(ed.sources || []).slice(0, 4).map(s => `<span class="source-pill" style="font-size: 0.7rem; padding: 2px 7px;">${s}</span>`).join('')}
+          ${(ed.sources && ed.sources.length > 4) ? `<span class="source-pill" style="font-size: 0.7rem; padding: 2px 7px; color: var(--accent-cyan); border-color: rgba(56, 189, 248, 0.3);">+${ed.sources.length - 4}</span>` : ''}
+        </div>
+        <button class="btn-view-edition" onclick="openEditionModal('${ed.id}')">
+          Abrir ➔
+        </button>
+      </div>
+    </div>
+  `;
+}
+
+// Filtra uma lista de edições de acordo com o turno e a busca
+function filterEditionList(list) {
+  return list.filter(ed => {
     // Filtro por turno
     if (currentFilter === 'tarde') {
       const isTarde = (ed.type_label || '').toLowerCase().includes('tarde') || (ed.time || '').startsWith('13:');
@@ -162,45 +209,79 @@ function renderGrid() {
     }
     return true;
   });
+}
+
+// Renderiza o grid de edições recentes (últimas 24h)
+function renderGrid() {
+  const filtered = filterEditionList(recentRegionalEditions);
 
   if (filtered.length === 0) {
     editionsGrid.innerHTML = `
-      <div class="empty-state">
+      <div class="empty-state" style="grid-column: 1 / -1;">
         <span>🔍</span>
-        <h3>Nenhuma edição encontrada</h3>
-        <p>Tente alterar o filtro de categoria ou os termos da busca.</p>
+        <h3>Nenhuma edição recente encontrada</h3>
+        <p>Tente alterar o filtro de categoria ou consulte as edições em "Edições Históricas" abaixo.</p>
       </div>
     `;
     return;
   }
 
-  editionsGrid.innerHTML = filtered.map(ed => {
-    const badgeClass = 'type-regional';
-    const badgeText = ed.type_label || '🏙️ Fatos da Região';
-    const formattedDate = formatDatePT(ed.date);
+  editionsGrid.innerHTML = filtered.map(createEditionCardHtml).join('');
+}
 
-    return `
-      <div class="edition-card">
-        <div>
-          <div class="card-meta">
-            <span class="card-type-badge ${badgeClass}">${badgeText}</span>
-            <span class="card-date">${formattedDate} • ${ed.time}</span>
-          </div>
-          <h3>${ed.title}</h3>
-          <p class="card-summary">${ed.summary}</p>
-        </div>
-        <div class="card-footer">
-          <div class="sources-pills" style="max-width: 68%;">
-            ${(ed.sources || []).slice(0, 4).map(s => `<span class="source-pill" style="font-size: 0.7rem; padding: 2px 7px;">${s}</span>`).join('')}
-            ${(ed.sources && ed.sources.length > 4) ? `<span class="source-pill" style="font-size: 0.7rem; padding: 2px 7px; color: var(--accent-cyan); border-color: rgba(56, 189, 248, 0.3);">+${ed.sources.length - 4}</span>` : ''}
-          </div>
-          <button class="btn-view-edition" onclick="openEditionModal('${ed.id}')">
-            Abrir ➔
-          </button>
-        </div>
+// Renderiza o grid de edições históricas arquivadas
+function renderHistoricalGrid() {
+  if (!historicalGrid) return;
+  const filtered = filterEditionList(historicalRegionalEditions);
+
+  // Atualiza contador do badge
+  if (historicalCount) {
+    const total = historicalRegionalEditions.length;
+    if (searchQuery || currentFilter !== 'all') {
+      historicalCount.textContent = `${filtered.length} de ${total} encontradas`;
+    } else {
+      historicalCount.textContent = `${total} edições arquivadas`;
+    }
+  }
+
+  if (filtered.length === 0) {
+    historicalGrid.innerHTML = `
+      <div class="empty-state" style="grid-column: 1 / -1;">
+        <span>📁</span>
+        <h3>Nenhuma edição histórica encontrada</h3>
+        <p>Não há edições no arquivo histórico correspondentes ao filtro atual.</p>
       </div>
     `;
-  }).join('');
+    return;
+  }
+
+  historicalGrid.innerHTML = filtered.map(createEditionCardHtml).join('');
+}
+
+// Alterna a exibição da seção de Edições Históricas
+function setupHistoricalToggle() {
+  if (!btnHistorical || !historicalContainer) return;
+
+  btnHistorical.addEventListener('click', () => {
+    isHistoricalOpen = !isHistoricalOpen;
+    updateHistoricalVisibility();
+  });
+}
+
+function updateHistoricalVisibility() {
+  if (!btnHistorical || !historicalContainer) return;
+
+  if (isHistoricalOpen) {
+    historicalContainer.style.display = 'block';
+    btnHistorical.setAttribute('aria-expanded', 'true');
+    btnHistorical.classList.add('active');
+    if (historicalChevron) historicalChevron.textContent = '▴';
+  } else {
+    historicalContainer.style.display = 'none';
+    btnHistorical.setAttribute('aria-expanded', 'false');
+    btnHistorical.classList.remove('active');
+    if (historicalChevron) historicalChevron.textContent = '▾';
+  }
 }
 
 // Configura eventos de clique e input
@@ -212,6 +293,7 @@ function setupEventListeners() {
       btn.classList.add('active');
       currentFilter = btn.dataset.filter;
       renderGrid();
+      renderHistoricalGrid();
     });
   });
 
@@ -219,6 +301,13 @@ function setupEventListeners() {
   searchInput.addEventListener('input', (e) => {
     searchQuery = e.target.value.trim();
     renderGrid();
+    renderHistoricalGrid();
+
+    // Se o usuário estiver pesquisando e houver resultados históricos, expande automaticamente
+    if (searchQuery && filterEditionList(historicalRegionalEditions).length > 0 && !isHistoricalOpen) {
+      isHistoricalOpen = true;
+      updateHistoricalVisibility();
+    }
   });
 
   // Fechar Modal
