@@ -251,16 +251,6 @@ header {
   transform: translateY(-1px);
 }
 
-.source-chip.highlight-chip {
-  border-color: rgba(56, 189, 248, 0.25);
-  color: #bae6fd;
-}
-
-.source-chip.highlight-chip:hover {
-  background: rgba(56, 189, 248, 0.2);
-  color: #ffffff;
-  border-color: var(--accent-cyan);
-}
 
 /* Grupo e Chip Especial de Notícias Brasil & Mundo */
 .sources-group.brasil-group {
