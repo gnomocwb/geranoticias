@@ -1,13 +1,29 @@
 [
   {
-    "id": "noticias_brasil_2026-09-15_205748",
+    "id": "noticias_autismo_2026-09-16",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-16",
+    "time": "08:29",
+    "summary": "[Poconé (MT) proíbe exigência de laudo médico para atendimento escolar especializado]: A Prefeitura de Poconé sancionou uma medida que veda ...",
+    "file": "data/editions/noticias_autismo_2026-09-16.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-16",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-09-15",
-    "time": "20:57",
-    "summary": "STF adia unificação de investigações e gera crise institucional: O ministro Flávio Dino pediu vista e suspendeu o julgamento no Supremo Trib...",
-    "file": "data/editions/noticias_brasil_2026-09-15_205748.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
+    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "date": "2026-09-16",
+    "time": "08:29",
+    "summary": "[Megaoperação Nacional contra o Crime Organizado]: Uma força-tarefa integrada envolvendo a Polícia Federal e forças de segurança estaduais c...",
+    "file": "data/editions/noticias_brasil_2026-09-16.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +31,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-16",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-16",
+    "time": "08:28",
+    "summary": "Governo do Estado assina contrato para duplicação do Contorno Sul de Maringá: O governador Ratinho Júnior cumpre agenda em Maringá nesta qua...",
+    "file": "data/editions/fatos_da_regiao_2026-09-16.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
