@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-16_162140",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-09-16",
+    "time": "16:21",
+    "summary": "Oposição de centro-esquerda vence eleições na Suécia: De acordo com a emissora SVT, o bloco de oposição de centro-esquerda garantiu a vitóri...",
+    "file": "data/editions/noticias_brasil_2026-09-16_162140.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-16_162128",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-16",
+    "time": "16:21",
+    "summary": "Escalada política e embate eleitoral no Paraná: O governador Ratinho Junior elevou o tom contra o ex-juiz e senador Sergio Moro em vídeo nas...",
+    "file": "data/editions/fatos_da_regiao_2026-09-16_162128.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-16_160605",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-16_160549",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-09-16",
-    "time": "16:05",
-    "summary": "[EUA retiram a Venezuela da lista de nações negligentes contra o narcotráfico]: Os Estados Unidos removeram a Venezuela da lista de países q...",
-    "file": "data/editions/noticias_brasil_2026-09-16_160549.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
