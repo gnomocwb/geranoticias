@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-09-16_133522",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-16",
+    "time": "13:35",
+    "summary": "[OMS Reafirma Segurança de Vacinas]: A Organização Mundial da Saúde (OMS) reiterou enfaticamente a total segurança dos imunizantes e reforço...",
+    "file": "data/editions/noticias_autismo_2026-09-16_133522.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-09-16_121418",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
