@@ -1,13 +1,29 @@
 [
   {
-    "id": "noticias_brasil_2026-09-16_162140",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "id": "noticias_autismo_2026-09-16_190052",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
     "date": "2026-09-16",
-    "time": "16:21",
-    "summary": "Oposição de centro-esquerda vence eleições na Suécia: De acordo com a emissora SVT, o bloco de oposição de centro-esquerda garantiu a vitóri...",
-    "file": "data/editions/noticias_brasil_2026-09-16_162140.html",
+    "time": "19:00",
+    "summary": "Porto Alegre expande atendimento especializado com mais de 300 novas vagas no SUS: A Prefeitura anunciou a disponibilização de mais de 300 n...",
+    "file": "data/editions/noticias_autismo_2026-09-16_190052.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-16_190026",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-09-16",
+    "time": "19:00",
+    "summary": "[Brasil mantém o maior juro real do mundo após corte da Selic]: O Banco Central reduziu a taxa Selic em 0,25 ponto percentual para 13,75% ao...",
+    "file": "data/editions/noticias_brasil_2026-09-16_190026.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +31,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-16_190015",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-16",
+    "time": "19:00",
+    "summary": "Ratinho Junior eleva tom contra Sergio Moro e relembra prisão de agricultores: O governador do estado usou as redes sociais para responder a...",
+    "file": "data/editions/fatos_da_regiao_2026-09-16_190015.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
