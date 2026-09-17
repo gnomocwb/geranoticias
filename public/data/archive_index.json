@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-09-17_163057",
+    "id": "noticias_brasil_2026-09-17_205440",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-09-17",
-    "time": "16:30",
-    "summary": "[EUA concedem visto a delegação iraniana e ONU aponta crimes de guerra]: O governo dos Estados Unidos permitiu a emissão de vistos para a de...",
-    "file": "data/editions/noticias_brasil_2026-09-17_163057.html",
+    "time": "20:54",
+    "summary": "[Datafolha Acirrado]: Nova pesquisa Datafolha para a corrida presidencial mostra cenário de empate técnico tanto no 1º quanto no 2º turno. N...",
+    "file": "data/editions/noticias_brasil_2026-09-17_205440.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-17_205428",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-17",
+    "time": "20:54",
+    "summary": "Reajuste do Bolsa Família e repercussão política: O governo federal anunciou um reajuste de cerca de 15% no Bolsa Família, elevando o piso d...",
+    "file": "data/editions/fatos_da_regiao_2026-09-17_205428.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
