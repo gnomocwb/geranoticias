@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-09-17_134125",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-17",
+    "time": "13:41",
+    "summary": "[Câmara aprova Auxílio Mãe Atípica de R$ 600]: A proposta avança na Câmara dos Deputados para instituir um auxílio financeiro voltado a mães...",
+    "file": "data/editions/noticias_autismo_2026-09-17_134125.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-09-17_122322",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
