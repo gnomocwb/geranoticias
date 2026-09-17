@@ -1,13 +1,29 @@
 [
   {
-    "id": "noticias_brasil_2026-09-16_210442",
+    "id": "noticias_autismo_2026-09-17",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-17",
+    "time": "08:49",
+    "summary": "[Avanço em Benefícios Sociais] Câmara aprova Auxílio Mãe Atípica de R$ 600: A proposta visa amparar financeiramente famílias de crianças com...",
+    "file": "data/editions/noticias_autismo_2026-09-17.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-17",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-09-16",
-    "time": "21:04",
-    "summary": "Superquarta com Divergência Monetária Global: Enquanto o Banco Central brasileiro reduziu a taxa Selic pela quinta vez consecutiva para 13,7...",
-    "file": "data/editions/noticias_brasil_2026-09-16_210442.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
+    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "date": "2026-09-17",
+    "time": "08:48",
+    "summary": "[Infiltração do PCC no Transporte de SP]: O ex-vereador Milton Leite é alvo de pedido de prisão na Operação Vectura Corrupta, que apura o co...",
+    "file": "data/editions/noticias_brasil_2026-09-17.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +31,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-17",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-17",
+    "time": "08:48",
+    "summary": "[Pesquisa Eleitoral ao Governo do Paraná]: Nova pesquisa AtlasIntel divulgada nesta quinta-feira aponta o cenário para a disputa ao Palácio ...",
+    "file": "data/editions/fatos_da_regiao_2026-09-17.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
