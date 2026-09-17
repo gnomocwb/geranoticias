@@ -1,5 +1,59 @@
 [
   {
+    "id": "noticias_autismo_2026-09-17_202103",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-17",
+    "time": "20:21",
+    "summary": "[Advogado autista aprovado em concurso para juiz é considerado inapto]: Um caso emblemático repercutiu nacionalmente após um advogado autist...",
+    "file": "data/editions/noticias_autismo_2026-09-17_202103.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-17_202055",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-09-17",
+    "time": "20:20",
+    "summary": "[Datafolha] Corrida presidencial acirrada com Lula (39%) e Flávio Bolsonaro (36%) empatados tecnicamente no 1º turno: Nova pesquisa divulgad...",
+    "file": "data/editions/noticias_brasil_2026-09-17_202055.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-17_202043",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-17",
+    "time": "20:20",
+    "summary": "Reajuste do Bolsa Família e Impactos Políticos: O governo federal anunciou um reajuste de cerca de 15% no Bolsa Família, elevando o valor mí...",
+    "file": "data/editions/fatos_da_regiao_2026-09-17_202043.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-17",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +67,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-17",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
-    "date": "2026-09-17",
-    "time": "08:48",
-    "summary": "[Infiltração do PCC no Transporte de SP]: O ex-vereador Milton Leite é alvo de pedido de prisão na Operação Vectura Corrupta, que apura o co...",
-    "file": "data/editions/noticias_brasil_2026-09-17.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
