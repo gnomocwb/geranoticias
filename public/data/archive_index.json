@@ -1,13 +1,29 @@
 [
   {
-    "id": "noticias_brasil_2026-09-18_155118",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "id": "noticias_autismo_2026-09-18_193655",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
     "date": "2026-09-18",
-    "time": "15:51",
-    "summary": "[MP junto ao TCU pede suspensão do reajuste do Bolsa Família](https://www.infomoney.com.br/politica/mp-junto-ao-tcu-pede-suspensao-de-reajus...",
-    "file": "data/editions/noticias_brasil_2026-09-18_155118.html",
+    "time": "19:36",
+    "summary": "[Advogado autista barrado em concurso para juiz no TJ-SC gera debates sobre capacitismo institucional]: A decisão do Tribunal de Justiça de ...",
+    "file": "data/editions/noticias_autismo_2026-09-18_193655.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-18_193644",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-09-18",
+    "time": "19:36",
+    "summary": "[EUA anunciam acordo permanente de segurança na Groenlândia]: O presidente dos EUA, Donald Trump, afirmou ter fechado um acordo com a Dinama...",
+    "file": "data/editions/noticias_brasil_2026-09-18_193644.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +31,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-18_193632",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-18",
+    "time": "19:36",
+    "summary": "Curitiba regulamenta circulação de patinetes e bicicletas elétricas: A Prefeitura assinou o Decreto Municipal nº 1.520/2026, estabelecendo r...",
+    "file": "data/editions/fatos_da_regiao_2026-09-18_193632.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
