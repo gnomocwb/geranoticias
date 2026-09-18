@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-18_155118",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-09-18",
+    "time": "15:51",
+    "summary": "[MP junto ao TCU pede suspensão do reajuste do Bolsa Família](https://www.infomoney.com.br/politica/mp-junto-ao-tcu-pede-suspensao-de-reajus...",
+    "file": "data/editions/noticias_brasil_2026-09-18_155118.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-18_155104",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-18",
+    "time": "15:51",
+    "summary": "Operação policial desarticula ONG suspeita de desvio milionário no PR: Uma organização não governamental voltada à proteção animal com atuaç...",
+    "file": "data/editions/fatos_da_regiao_2026-09-18_155104.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-18_131132",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -29,24 +67,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-18_130040",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-09-18",
-    "time": "13:00",
-    "summary": "Warren Buffett deixa o comando da Berkshire Hathaway: O lendário investidor Warren Buffett anunciou sua saída do cargo de chairman da holdin...",
-    "file": "data/editions/noticias_brasil_2026-09-18_130040.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
