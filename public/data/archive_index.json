@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-18_114308",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-09-18",
+    "time": "11:43",
+    "summary": "[Warren Buffett deixa cargo de presidente da Berkshire Hathaway](https://news.google.com/rss/articles/CBMikwFBVV95cUxOQWd5RDJ6M2RZN25McU1CLX...",
+    "file": "data/editions/noticias_brasil_2026-09-18_114308.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-18_114258",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-18",
+    "time": "11:42",
+    "summary": "Cenário acirrado para o Senado em 2026: Novas pesquisas divulgadas pelo Paraná Pesquisas e veículos estaduais apontam uma disputa intensa pe...",
+    "file": "data/editions/fatos_da_regiao_2026-09-18_114258.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-18",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-18",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
-    "date": "2026-09-18",
-    "time": "09:14",
-    "summary": "[Juros no Japão na máxima em 31 anos]: O Banco do Japão elevou a taxa básica de juros para 1,25% ao ano, o maior patamar desde 1995. O presi...",
-    "file": "data/editions/noticias_brasil_2026-09-18.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
@@ -51,24 +71,6 @@
       "Folha de Londrina",
       "Diário de Foz",
       "Rede Sul de Notícias"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-17_205440",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-09-17",
-    "time": "20:54",
-    "summary": "[Datafolha Acirrado]: Nova pesquisa Datafolha para a corrida presidencial mostra cenário de empate técnico tanto no 1º quanto no 2º turno. N...",
-    "file": "data/editions/noticias_brasil_2026-09-17_205440.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
