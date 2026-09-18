@@ -45,3 +45,8 @@ reports/*.html
 *.zip
 Thumbs.db
 .DS_Store
+
+# Sub-projetos independentes (repositórios próprios)
+bigquery_slot_advisor/
+gcp_to_bigquery_migrator/
+
