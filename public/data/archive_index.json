@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-18_205252",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-09-18",
+    "time": "20:52",
+    "summary": "[EUA e Dinamarca firmam acordo de segurança para a Groenlândia]: O presidente Donald Trump anunciou um tratado que garante aos Estados Unido...",
+    "file": "data/editions/noticias_brasil_2026-09-18_205252.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-18_205239",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-18",
+    "time": "20:52",
+    "summary": "Investigação por Injúria Racial no Athletico Paranaense: O centroavante colombiano Kevin Viveros compareceu na tarde desta sexta-feira à DEM...",
+    "file": "data/editions/fatos_da_regiao_2026-09-18_205239.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-18_193655",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-18_193644",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-09-18",
-    "time": "19:36",
-    "summary": "[EUA anunciam acordo permanente de segurança na Groenlândia]: O presidente dos EUA, Donald Trump, afirmou ter fechado um acordo com a Dinama...",
-    "file": "data/editions/noticias_brasil_2026-09-18_193644.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
