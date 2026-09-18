@@ -1,5 +1,59 @@
 [
   {
+    "id": "noticias_autismo_2026-09-18",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-18",
+    "time": "09:14",
+    "summary": "[Advogado autista recorre ao STF após ser considerado inapto em concurso para magistratura]: Um caso de grande repercussão jurídica e social...",
+    "file": "data/editions/noticias_autismo_2026-09-18.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-18",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
+    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "date": "2026-09-18",
+    "time": "09:14",
+    "summary": "[Juros no Japão na máxima em 31 anos]: O Banco do Japão elevou a taxa básica de juros para 1,25% ao ano, o maior patamar desde 1995. O presi...",
+    "file": "data/editions/noticias_brasil_2026-09-18.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-18",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-18",
+    "time": "09:13",
+    "summary": "Quadrilha familiar cria rota logística com hangar próprio para enviar armas do Paraná ao Rio de Janeiro: Uma investigação conduzida pelas au...",
+    "file": "data/editions/fatos_da_regiao_2026-09-18.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-17_202103",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +67,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-17_202055",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-09-17",
-    "time": "20:20",
-    "summary": "[Datafolha] Corrida presidencial acirrada com Lula (39%) e Flávio Bolsonaro (36%) empatados tecnicamente no 1º turno: Nova pesquisa divulgad...",
-    "file": "data/editions/noticias_brasil_2026-09-17_202055.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
