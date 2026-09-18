@@ -1,13 +1,29 @@
 [
   {
-    "id": "noticias_brasil_2026-09-18_114308",
+    "id": "noticias_autismo_2026-09-18_130050",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-18",
+    "time": "13:00",
+    "summary": "[Advogado autista barrado em concurso para juiz pelo TJ-SC]: A decisão do Tribunal de Justiça de Santa Catarina de barrar a nomeação de um a...",
+    "file": "data/editions/noticias_autismo_2026-09-18_130050.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-18_130040",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
     "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
     "date": "2026-09-18",
-    "time": "11:43",
-    "summary": "[Warren Buffett deixa cargo de presidente da Berkshire Hathaway](https://news.google.com/rss/articles/CBMikwFBVV95cUxOQWd5RDJ6M2RZN25McU1CLX...",
-    "file": "data/editions/noticias_brasil_2026-09-18_114308.html",
+    "time": "13:00",
+    "summary": "Warren Buffett deixa o comando da Berkshire Hathaway: O lendário investidor Warren Buffett anunciou sua saída do cargo de chairman da holdin...",
+    "file": "data/editions/noticias_brasil_2026-09-18_130040.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +31,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-18_130031",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-18",
+    "time": "13:00",
+    "summary": "Quadrilha familiar desmantelada no PR por envio de armas para o RJ: A Polícia Civil do Paraná desarticulou uma organização criminosa familia...",
+    "file": "data/editions/fatos_da_regiao_2026-09-18_130031.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
