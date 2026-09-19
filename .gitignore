@@ -49,4 +49,5 @@ Thumbs.db
 # Sub-projetos independentes (repositórios próprios)
 bigquery_slot_advisor/
 gcp_to_bigquery_migrator/
+radar_precos_mercado/
 
