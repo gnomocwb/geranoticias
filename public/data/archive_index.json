@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-09-18_205252",
+    "id": "noticias_brasil_2026-09-19",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-09-18",
-    "time": "20:52",
-    "summary": "[EUA e Dinamarca firmam acordo de segurança para a Groenlândia]: O presidente Donald Trump anunciou um tratado que garante aos Estados Unido...",
-    "file": "data/editions/noticias_brasil_2026-09-18_205252.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
+    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "date": "2026-09-19",
+    "time": "10:39",
+    "summary": "Eleições 2026: Imunidade de prisão para candidatos começa neste sábado: A partir de hoje, 15 dias antes do primeiro turno, candidatos não po...",
+    "file": "data/editions/noticias_brasil_2026-09-19.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-19",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-19",
+    "time": "10:39",
+    "summary": "Alerta Laranja de Tempestades no Paraná: Às vésperas da chegada da primavera, o estado amanheceu sob alerta da Defesa Civil para tempestades...",
+    "file": "data/editions/fatos_da_regiao_2026-09-19.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
