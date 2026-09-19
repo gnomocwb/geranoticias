@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-09-19",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-19",
+    "time": "10:45",
+    "summary": "[Justiça condena banco por dispensa discriminatória de engenheiro autista](https://news.google.com/rss/articles/CBMigFBVV95cUxOVzhmRkNtMjNfZ...",
+    "file": "data/editions/noticias_autismo_2026-09-19.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-09-19",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
