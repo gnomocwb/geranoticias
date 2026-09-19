@@ -275,6 +275,10 @@ async function openReader(filePath, title, badge) {
 
   readerTitle.textContent = title || "Edição";
   readerBadge.textContent = badge || "Leitura";
+  const btnOpenInSite = document.getElementById("btnOpenInSite");
+  if (btnOpenInSite) {
+    btnOpenInSite.href = `https://fatosenoticiascwb.online/${filePath ? filePath : ""}`;
+  }
   readerBody.innerHTML = `
     <div style="text-align: center; padding: 40px; color: var(--text-muted);">
       <div class="spinner" style="margin: 0 auto 10px;"></div>
@@ -307,7 +311,7 @@ async function openReader(filePath, title, badge) {
       <div style="text-align: center; padding: 30px; color: #ff7b72;">
         <p>⚠️ Falha ao carregar a edição: ${escapeHtml(err.message)}</p>
         <p style="margin-top: 10px;">
-          <a href="https://github.com/gnomocwb/geranoticias" target="_blank" style="color: var(--accent-curitiba);">Abrir portal no GitHub</a>
+          <a href="https://fatosenoticiascwb.online/" target="_blank" style="color: var(--accent-curitiba);">Abrir portal fatosenoticiascwb.online</a>
         </p>
       </div>
     `;

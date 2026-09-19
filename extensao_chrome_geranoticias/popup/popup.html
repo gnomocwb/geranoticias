@@ -20,7 +20,7 @@
       <button id="btnRefresh" class="icon-btn" title="Atualizar Notícias" aria-label="Atualizar Notícias">
         <span class="refresh-icon">🔄</span>
       </button>
-      <a id="btnWebPortal" href="https://github.com/gnomocwb/geranoticias" target="_blank" class="icon-btn" title="Abrir no Navegador" aria-label="Abrir no Navegador">
+      <a id="btnWebPortal" href="https://fatosenoticiascwb.online/" target="_blank" class="icon-btn" title="Abrir no Navegador (fatosenoticiascwb.online)" aria-label="Abrir portal no Navegador">
         ↗
       </a>
     </div>
@@ -81,7 +81,10 @@
         <span id="readerBadge" class="reader-badge">Edição</span>
         <h2 id="readerTitle" class="reader-title">Título da Edição</h2>
       </div>
-      <button id="btnCloseReader" class="btn-close-reader" title="Fechar">✕</button>
+      <div class="reader-actions" style="display: flex; gap: 6px; align-items: center;">
+        <a id="btnOpenInSite" href="https://fatosenoticiascwb.online/" target="_blank" class="btn-close-reader" title="Abrir edição no site fatosenoticiascwb.online" style="text-decoration: none;">↗</a>
+        <button id="btnCloseReader" class="btn-close-reader" title="Fechar">✕</button>
+      </div>
     </div>
     <div id="readerBody" class="reader-body">
       <!-- Conteúdo completo injetado dinamicamente -->
