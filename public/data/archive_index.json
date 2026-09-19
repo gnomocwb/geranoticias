@@ -1,5 +1,59 @@
 [
   {
+    "id": "noticias_autismo_2026-09-19_133824",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-19",
+    "time": "13:38",
+    "summary": "[TJSC nega posse a advogado autista aprovado para juiz leigo e caso vai ao STF]: O Tribunal de Justiça de Santa Catarina impediu a posse de ...",
+    "file": "data/editions/noticias_autismo_2026-09-19_133824.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-19_133813",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-09-19",
+    "time": "13:38",
+    "summary": "[Milton Leite se entrega e pede atendimento médico em SP]: O ex-presidente da Câmara Municipal de São Paulo, preso no âmbito da Operação Vec...",
+    "file": "data/editions/noticias_brasil_2026-09-19_133813.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-19_133758",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-19",
+    "time": "13:37",
+    "summary": "Alerta Laranja para tempestades e granizo no Paraná: A Defesa Civil e órgãos meteorológicos emitiram aviso de perigo para temporais e altos ...",
+    "file": "data/editions/fatos_da_regiao_2026-09-19_133758.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-19",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +67,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-19",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
-    "date": "2026-09-19",
-    "time": "10:39",
-    "summary": "Eleições 2026: Imunidade de prisão para candidatos começa neste sábado: A partir de hoje, 15 dias antes do primeiro turno, candidatos não po...",
-    "file": "data/editions/noticias_brasil_2026-09-19.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
