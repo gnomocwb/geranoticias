@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gera Notícias — Curitiba & Autismo</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <!-- Cabeçalho da Extensão -->
+  <header class="header">
+    <div class="header-brand">
+      <span class="brand-icon">📰</span>
+      <div class="brand-titles">
+        <h1 class="brand-name">Gera Notícias</h1>
+        <span class="brand-focus">Curitiba, RMC & Autismo</span>
+      </div>
+    </div>
+    <div class="header-actions">
+      <button id="btnRefresh" class="icon-btn" title="Atualizar Notícias" aria-label="Atualizar Notícias">
+        <span class="refresh-icon">🔄</span>
+      </button>
+      <a id="btnWebPortal" href="https://github.com/gnomocwb/geranoticias" target="_blank" class="icon-btn" title="Abrir no Navegador" aria-label="Abrir no Navegador">
+        ↗
+      </a>
+    </div>
+  </header>
+
+  <!-- Abas de Navegação -->
+  <nav class="tabs-nav" role="tablist">
+    <button id="tabCuritiba" class="tab-item active" role="tab" aria-selected="true" data-tab="regional">
+      <span class="tab-emoji">🏙️</span>
+      <span class="tab-text">Curitiba & RMC</span>
+      <span id="badgeCuritiba" class="tab-badge">Novo</span>
+    </button>
+    <button id="tabAutismo" class="tab-item" role="tab" aria-selected="false" data-tab="autismo">
+      <span class="tab-emoji">🧩</span>
+      <span class="tab-text">Autismo Brasil</span>
+      <span id="badgeAutismo" class="tab-badge">Novo</span>
+    </button>
+  </nav>
+
+  <!-- Conteúdo Principal -->
+  <main class="content-area">
+    <!-- Estado de Carregamento -->
+    <div id="loadingState" class="loading-state">
+      <div class="spinner"></div>
+      <p>Buscando últimas edições...</p>
+    </div>
+
+    <!-- Estado de Erro / Aviso -->
+    <div id="errorState" class="error-state" style="display: none;">
+      <span class="error-icon">⚠️</span>
+      <p id="errorMessage">Não foi possível carregar as notícias no momento.</p>
+      <button id="btnRetry" class="btn-primary">Tentar Novamente</button>
+    </div>
+
+    <!-- Painel de Notícias: Curitiba & RMC -->
+    <section id="panelCuritiba" class="tab-panel active">
+      <div id="curitibaLatestContainer"></div>
+      <div class="history-section">
+        <h3 class="section-title">Edições Anteriores</h3>
+        <div id="curitibaHistoryContainer" class="history-list"></div>
+      </div>
+    </section>
+
+    <!-- Painel de Notícias: Autismo Brasil -->
+    <section id="panelAutismo" class="tab-panel" style="display: none;">
+      <div id="autismoLatestContainer"></div>
+      <div class="history-section">
+        <h3 class="section-title">Edições Anteriores</h3>
+        <div id="autismoHistoryContainer" class="history-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal do Leitor de Edição Completa -->
+  <div id="readerModal" class="reader-modal" style="display: none;">
+    <div class="reader-header">
+      <div class="reader-title-group">
+        <span id="readerBadge" class="reader-badge">Edição</span>
+        <h2 id="readerTitle" class="reader-title">Título da Edição</h2>
+      </div>
+      <button id="btnCloseReader" class="btn-close-reader" title="Fechar">✕</button>
+    </div>
+    <div id="readerBody" class="reader-body">
+      <!-- Conteúdo completo injetado dinamicamente -->
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <span id="lastUpdatedText" class="updated-time">Atualizado agora</span>
+    <span class="footer-tag">AI Editorial Gemini</span>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>
