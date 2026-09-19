@@ -1,13 +1,29 @@
 [
   {
-    "id": "noticias_brasil_2026-09-19_153657",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "id": "noticias_autismo_2026-09-19_191342",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
     "date": "2026-09-19",
-    "time": "15:36",
-    "summary": "[Comícios Simultâneos e Eleições 2026]: Os candidatos à Presidência Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) realizaram comíci...",
-    "file": "data/editions/noticias_brasil_2026-09-19_153657.html",
+    "time": "19:13",
+    "summary": "[TJSC nega posse a advogado autista aprovado para juiz leigo e caso vai ao STF](https://news.google.com/rss/articles/CBMipgFBVV95cUxPcUdaUGt...",
+    "file": "data/editions/noticias_autismo_2026-09-19_191342.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-19_191328",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-09-19",
+    "time": "19:13",
+    "summary": "[STF Pede Auxílio à PF em Investigação]: Os ministros do Supremo Tribunal Federal (STF) André Mendonça e Luiz Fux acionaram a Polícia Federa...",
+    "file": "data/editions/noticias_brasil_2026-09-19_191328.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +31,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-19_191317",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-19",
+    "time": "19:13",
+    "summary": "Alerta laranja de tempestade atinge todo o estado: O Instituto Nacional de Meteorologia (Inmet) emitiu um alerta laranja válido para as 399 ...",
+    "file": "data/editions/fatos_da_regiao_2026-09-19_191317.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
