@@ -2,8 +2,8 @@ name: Notícias Autismo Brasil (1x/Dia às 09h)
 
 on:
   schedule:
-    # 1 execução diária às 09:00 BRT (UTC-3) -> 12:00 UTC:
-    - cron: '0 12 * * *'
+    # 1 execução diária às 09:20 BRT (UTC-3) -> 12:20 UTC (minuto 20 evita fila do GitHub):
+    - cron: '20 12 * * *'
   workflow_dispatch:
 
 permissions:
