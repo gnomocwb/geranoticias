@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-19_211028",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-09-19",
+    "time": "21:10",
+    "summary": "Casa Branca barra jornalistas da CNN e outros veículos: O governo dos Estados Unidos elevou a tensão com a imprensa e suspendeu as credencia...",
+    "file": "data/editions/noticias_brasil_2026-09-19_211028.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-19_211017",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-19",
+    "time": "21:10",
+    "summary": "Alerta laranja e reajuste de pedágio no Paraná: Um alerta laranja do Inmet coloca todas as 399 cidades paranaenses em perigo devido a tempes...",
+    "file": "data/editions/fatos_da_regiao_2026-09-19_211017.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-19_191342",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-19_191328",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-09-19",
-    "time": "19:13",
-    "summary": "[STF Pede Auxílio à PF em Investigação]: Os ministros do Supremo Tribunal Federal (STF) André Mendonça e Luiz Fux acionaram a Polícia Federa...",
-    "file": "data/editions/noticias_brasil_2026-09-19_191328.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
