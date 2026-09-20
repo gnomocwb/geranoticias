@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-09-20_130906",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-20",
+    "time": "13:09",
+    "summary": "Inauguração do Novo Cema em Limeira (SP): A Prefeitura de Limeira inaugurou o novo Centro de Atendimento (Cema), consolidando-se como o maio...",
+    "file": "data/editions/noticias_autismo_2026-09-20_130906.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-20_130113",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
