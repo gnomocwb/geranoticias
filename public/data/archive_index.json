@@ -1,13 +1,29 @@
 [
   {
-    "id": "noticias_brasil_2026-09-19_211028",
+    "id": "noticias_autismo_2026-09-20",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-20",
+    "time": "08:20",
+    "summary": "Autista passa em concurso para juiz em SC, mas TJ o impede de assumir cargo: Um candidato autista aprovado em concurso público para o cargo ...",
+    "file": "data/editions/noticias_autismo_2026-09-20.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-20",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-09-19",
-    "time": "21:10",
-    "summary": "Casa Branca barra jornalistas da CNN e outros veículos: O governo dos Estados Unidos elevou a tensão com a imprensa e suspendeu as credencia...",
-    "file": "data/editions/noticias_brasil_2026-09-19_211028.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
+    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "date": "2026-09-20",
+    "time": "08:19",
+    "summary": "[Irã Informa Condições para Reabertura do Estreito de Ormuz aos EUA]: O governo iraniano comunicou oficialmente aos Estados Unidos os termos...",
+    "file": "data/editions/noticias_brasil_2026-09-20.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +31,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-20",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-20",
+    "time": "08:19",
+    "summary": "TSE suspende campanha de Deltan Dallagnol ao Senado: O Tribunal Superior Eleitoral (TSE), por meio de decisão liminar do ministro Floriano d...",
+    "file": "data/editions/fatos_da_regiao_2026-09-20.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
