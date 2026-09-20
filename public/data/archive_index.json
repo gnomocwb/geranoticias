@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-20_154759",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-09-20",
+    "time": "15:47",
+    "summary": "[Rússia Unida lidera eleições na Rússia]: Resultados preliminares e pesquisas de boca de urna indicam que o partido governista Rússia Unida,...",
+    "file": "data/editions/noticias_brasil_2026-09-20_154759.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-20_154747",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-20",
+    "time": "15:47",
+    "summary": "TSE suspende campanha de Deltan Dallagnol: O candidato ao Senado pelo Paraná Deltan Dallagnol (Novo), líder nas pesquisas, teve sua campanha...",
+    "file": "data/editions/fatos_da_regiao_2026-09-20_154747.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-20_130906",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -29,24 +67,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-20_130031",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-09-20",
-    "time": "13:00",
-    "summary": "[Trump avalia \"explodir\" o Irã e conflito no Oriente Médio se atrai]: Em declaração à Fox News, o presidente dos EUA, Donald Trump, afirmou ...",
-    "file": "data/editions/noticias_brasil_2026-09-20_130031.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
