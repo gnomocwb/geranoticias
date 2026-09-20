@@ -1,13 +1,29 @@
 [
   {
-    "id": "noticias_brasil_2026-09-20_114207",
+    "id": "noticias_autismo_2026-09-20_130113",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-20",
+    "time": "13:01",
+    "summary": "[Trump defende alterar calendário de vacinas infantis sob alegação de reduzir autismo, mas tese carece de respaldo científico]: O presidente...",
+    "file": "data/editions/noticias_autismo_2026-09-20_130113.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-20_130031",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
     "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
     "date": "2026-09-20",
-    "time": "11:42",
-    "summary": "[Eskalation Geopolítica] Donald Trump declara estar avaliando se \"explode o Irã inteiro\": Em declaração à emissora Fox News, o presidente do...",
-    "file": "data/editions/noticias_brasil_2026-09-20_114207.html",
+    "time": "13:00",
+    "summary": "[Trump avalia \"explodir\" o Irã e conflito no Oriente Médio se atrai]: Em declaração à Fox News, o presidente dos EUA, Donald Trump, afirmou ...",
+    "file": "data/editions/noticias_brasil_2026-09-20_130031.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +31,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-20_130017",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-20",
+    "time": "13:00",
+    "summary": "TSE suspende campanha de Deltan Dallagnol ao Senado: O candidato Deltan Dallagnol (Novo), que lidera as pesquisas para o Senado no Paraná, t...",
+    "file": "data/editions/fatos_da_regiao_2026-09-20_130017.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
