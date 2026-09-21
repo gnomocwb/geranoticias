@@ -1,13 +1,29 @@
 [
   {
-    "id": "noticias_brasil_2026-09-21_172555",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "id": "noticias_autismo_2026-09-21_193354",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
     "date": "2026-09-21",
-    "time": "17:25",
-    "summary": "[Meta] Novo Agente de IA \"Muse\" Dispara Ações e Lidera Lojas de Aplicativos: O lançamento e o sucesso estrondoso do agente de IA da Meta imp...",
-    "file": "data/editions/noticias_brasil_2026-09-21_172555.html",
+    "time": "19:33",
+    "summary": "[Mãe faz apelo após plano de saúde suspender medicamento de criança autista com a queda de liminar](https://news.google.com/rss/articles/CBM...",
+    "file": "data/editions/noticias_autismo_2026-09-21_193354.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-21_193341",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-09-21",
+    "time": "19:33",
+    "summary": "Desaparecimento de helicóptero com o cantor Rick em SC: A Força Aérea Brasileira (FAB) e o Corpo de Bombeiros mobilizaram equipes de busca —...",
+    "file": "data/editions/noticias_brasil_2026-09-21_193341.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +31,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-21_193329",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-21",
+    "time": "19:33",
+    "summary": "[TSE Mantém Suspensão de Campanha de Deltan Dallagnol]: O Tribunal Superior Eleitoral formou maioria, na tarde desta segunda-feira (21), par...",
+    "file": "data/editions/fatos_da_regiao_2026-09-21_193329.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
