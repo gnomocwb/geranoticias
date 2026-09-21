@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-09-21_151327",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-21",
+    "time": "15:13",
+    "summary": "[Escolas não podem recusar matrícula de alunos com deficiência](https://news.google.com/rss/articles/CBMinAFBVV95cUxNZDZjcXYtanJGN1VsQk5ndmR...",
+    "file": "data/editions/noticias_autismo_2026-09-21_151327.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-09-21_140124",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
