@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-21_140124",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-09-21",
+    "time": "14:01",
+    "summary": "Invasão a Escritório Ligado a Milton Leite: Criminosos invadiram um imóvel usado como escritório político do ex-vereador Milton Leite (União...",
+    "file": "data/editions/noticias_brasil_2026-09-21_140124.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-21_140111",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-21",
+    "time": "14:01",
+    "summary": "Cooperativas Paranaenses entre as Maiores do Brasil: O ranking Valor 1000 revelou a força do cooperativismo paranaense, emplacando 19 organi...",
+    "file": "data/editions/fatos_da_regiao_2026-09-21_140111.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-21_131007",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-21_130849",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-09-21",
-    "time": "13:08",
-    "summary": "[Abin registra alta de grupos extremistas voltados contra o STF]: A Agência Brasileira de Inteligência identificou um crescimento expressivo...",
-    "file": "data/editions/noticias_brasil_2026-09-21_130849.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
