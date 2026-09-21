@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-20_211836",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-09-20",
+    "time": "21:18",
+    "summary": "[Carga de cocaína disfarçada de xampu apreendida em SP](https://g1.globo.com/fantastico/noticia/2026/09/20/parece-xampu-mas-e-cocaina-operac...",
+    "file": "data/editions/noticias_brasil_2026-09-20_211836.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-20_211826",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-20",
+    "time": "21:18",
+    "summary": "Tragédia em Umuarama e Suspensão de Atendimentos em Cascavel: Um menino de 5 anos morreu após o desabamento de um barranco sobre um buraco o...",
+    "file": "data/editions/fatos_da_regiao_2026-09-20_211826.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-20_190037",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-20_190028",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-09-20",
-    "time": "19:00",
-    "summary": "[Manifesto Global pelo Multilateralismo]: Às vésperas da Assembleia Geral da ONU, Brasil (liderado por Luiz Inácio Lula da Silva), União Eur...",
-    "file": "data/editions/noticias_brasil_2026-09-20_190028.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
