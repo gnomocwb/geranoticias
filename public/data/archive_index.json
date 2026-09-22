@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-21_215306",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-09-21",
+    "time": "21:53",
+    "summary": "[Desaparecimento de Helicóptero em SC]: Uma aeronave que transportava o cantor Rick (da dupla com Renner) e o empresário Bruno Avelar desapa...",
+    "file": "data/editions/noticias_brasil_2026-09-21_215306.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-21_215254",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-21",
+    "time": "21:52",
+    "summary": "TSE mantém suspensão de campanha de Deltan Dallagnol: Por 5 votos a 2, o Tribunal Superior Eleitoral decidiu manter paralisados os atos de c...",
+    "file": "data/editions/fatos_da_regiao_2026-09-21_215254.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-21_193354",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-21_193341",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-09-21",
-    "time": "19:33",
-    "summary": "Desaparecimento de helicóptero com o cantor Rick em SC: A Força Aérea Brasileira (FAB) e o Corpo de Bombeiros mobilizaram equipes de busca —...",
-    "file": "data/editions/noticias_brasil_2026-09-21_193341.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
