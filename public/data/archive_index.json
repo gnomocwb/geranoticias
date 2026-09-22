@@ -1,13 +1,29 @@
 [
   {
-    "id": "noticias_brasil_2026-09-21_215306",
+    "id": "noticias_autismo_2026-09-22",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-22",
+    "time": "08:29",
+    "summary": "Justiça mantém condenação de plano de saúde por interrupção indevida de tratamento: O Tribunal manteve a condenação da Unimed Cuiabá após a ...",
+    "file": "data/editions/noticias_autismo_2026-09-22.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-22",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-09-21",
-    "time": "21:53",
-    "summary": "[Desaparecimento de Helicóptero em SC]: Uma aeronave que transportava o cantor Rick (da dupla com Renner) e o empresário Bruno Avelar desapa...",
-    "file": "data/editions/noticias_brasil_2026-09-21_215306.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
+    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "date": "2026-09-22",
+    "time": "08:28",
+    "summary": "Buscas intensificadas por helicóptero desaparecido em SC: Aeronave que transportava o cantor Rick (da dupla Rick & Renner), o empresário Bru...",
+    "file": "data/editions/noticias_brasil_2026-09-22.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +31,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-22",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-22",
+    "time": "08:28",
+    "summary": "Temporal severo causa estragos e rajadas de mais de 120 km/h no estado: Uma forte tempestade atingiu Curitiba, a Região Metropolitana e dive...",
+    "file": "data/editions/fatos_da_regiao_2026-09-22.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
