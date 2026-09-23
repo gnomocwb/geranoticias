@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-23_122855",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-09-23",
+    "time": "12:28",
+    "summary": "[Tigrayan leaders say new war with Ethiopian government has begun, as fighting erupts - CNN](https://news.google.com/rss/articles/CBMif0FVX3...",
+    "file": "data/editions/noticias_brasil_2026-09-23_122855.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-23_122702",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-23",
+    "time": "12:27",
+    "summary": "[Justiça anula marca Xantimed por semelhança com produto de 1943](https://www.tribunapr.com.br/noticias/economia/justica-anula-marca-xantime...",
+    "file": "data/editions/fatos_da_regiao_2026-09-23_122702.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-23",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-23",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
-    "date": "2026-09-23",
-    "time": "08:18",
-    "summary": "[Eleições 2026] Pesquisa Atlas/Bloomberg aponta empate técnico no 2º turno entre Lula e Flávio Bolsonaro: O levantamento mostra o presidente...",
-    "file": "data/editions/noticias_brasil_2026-09-23.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
