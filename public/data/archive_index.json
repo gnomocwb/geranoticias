@@ -1,5 +1,59 @@
 [
   {
+    "id": "noticias_autismo_2026-09-22_210939",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-22",
+    "time": "21:09",
+    "summary": "Tribunal de Contas do Distrito Federal (TCDF) garante direitos e proteção a servidores e candidatos autistas: O TCDF emitiu decisões e enten...",
+    "file": "data/editions/noticias_autismo_2026-09-22_210939.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-22_210906",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-09-22",
+    "time": "21:09",
+    "summary": "[Falha Global em GPS Afeta Voos da Azul]: Uma instabilidade global no sistema de GPS impactou diretamente a operação da frota de aeronaves E...",
+    "file": "data/editions/noticias_brasil_2026-09-22_210906.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-22_210854",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-22",
+    "time": "21:08",
+    "summary": "[ANTT suspende testes de radares de velocidade média no Paraná]: A Agência Nacional de Transportes Terrestres determinou a suspensão temporá...",
+    "file": "data/editions/fatos_da_regiao_2026-09-22_210854.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-22_174046",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +67,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-22_174037",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-09-22",
-    "time": "17:40",
-    "summary": "Queda de helicóptero em SC mata cantor Rick e mais quatro ocupantes: Os corpos dos cinco ocupantes do helicóptero que caiu em uma área de ma...",
-    "file": "data/editions/noticias_brasil_2026-09-22_174037.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
