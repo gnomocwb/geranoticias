@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-23_164121",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-09-23",
+    "time": "16:41",
+    "summary": "[STF Iguala Licença-Maternidade para Mães Biológicas e Adotivas](https://g1.globo.com/politica/noticia/2026/09/23/stf-conclui-julgamento-e-d...",
+    "file": "data/editions/noticias_brasil_2026-09-23_164121.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-23_164106",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-23",
+    "time": "16:41",
+    "summary": "Paraná enfrenta mais de 24 horas de apagão e destruição após temporais: Uma sequência de tempestades severas com granizo e rajadas de vento ...",
+    "file": "data/editions/fatos_da_regiao_2026-09-23_164106.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-23_140347",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -29,24 +67,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-23_134115",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-09-23",
-    "time": "13:41",
-    "summary": "[Milei chama ONU de “inútil” e reforça disputa pelas Malvinas](https://www.cnnbrasil.com.br/internacional/milei-acusa-onu-de-olhar-para-o-ou...",
-    "file": "data/editions/noticias_brasil_2026-09-23_134115.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
