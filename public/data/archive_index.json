@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-22_213759",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-09-22",
+    "time": "21:37",
+    "summary": "[Resgate de Vítimas em SC]: Equipes de resgate retiraram da mata os corpos do cantor Rick (da dupla Rick e Renner) e de outras quatro pessoa...",
+    "file": "data/editions/noticias_brasil_2026-09-22_213759.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-22_213751",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-22",
+    "time": "21:37",
+    "summary": "Temporais severos causam estragos e cortes de energia no Paraná: Fortes temporais atingiram cidades paranaenses, deixando municípios inteiro...",
+    "file": "data/editions/fatos_da_regiao_2026-09-22_213751.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-22_210939",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-22_210906",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-09-22",
-    "time": "21:09",
-    "summary": "[Falha Global em GPS Afeta Voos da Azul]: Uma instabilidade global no sistema de GPS impactou diretamente a operação da frota de aeronaves E...",
-    "file": "data/editions/noticias_brasil_2026-09-22_210906.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
