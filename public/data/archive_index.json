@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-09-24_141400",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-24",
+    "time": "14:14",
+    "summary": "[Servidores públicos com autismo no DF podem ter jornada reduzida em até 50%]: Projeto em tramitação e discussões recentes apontam para a po...",
+    "file": "data/editions/noticias_autismo_2026-09-24_141400.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-09-24_124911",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
