@@ -7,21 +7,18 @@ def resolve():
     index_path = public_dir / "data" / "archive_index.json"
     items_by_id = {}
 
-    # 1. Tenta recuperar versões do git se houver conflito de merge (:2 e :3)
-    in_conflict = False
-    try:
-        out_head = subprocess.check_output(['git', 'show', ':2:public/data/archive_index.json'], encoding='utf-8', stderr=subprocess.DEVNULL)
-        out_remote = subprocess.check_output(['git', 'show', ':3:public/data/archive_index.json'], encoding='utf-8', stderr=subprocess.DEVNULL)
-        for item in json.loads(out_remote):
-            items_by_id[item['id']] = item
-        for item in json.loads(out_head):
-            items_by_id[item['id']] = item
-        in_conflict = True
-    except Exception:
-        in_conflict = False
+    # 1. Tenta recuperar versões do git se houver conflito de merge ou de commits recentes
+    for ref in [':2', ':3', 'HEAD', 'HEAD~1', 'HEAD^1', 'HEAD^2']:
+        try:
+            target = f"{ref}:public/data/archive_index.json" if not ref.startswith(':') else f"{ref}:public/data/archive_index.json"
+            out = subprocess.check_output(['git', 'show', target], encoding='utf-8', stderr=subprocess.DEVNULL)
+            for item in json.loads(out):
+                items_by_id[item['id']] = item
+        except Exception:
+            pass
 
-    # 2. Se não estiver em conflito de merge, lê o arquivo existente (se for JSON válido)
-    if not in_conflict and index_path.exists():
+    # 2. Lê o arquivo local existente se for JSON válido
+    if index_path.exists():
         try:
             with open(index_path, 'r', encoding='utf-8') as f:
                 content = json.load(f)
