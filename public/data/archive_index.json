@@ -1,5 +1,59 @@
 [
   {
+    "id": "noticias_autismo_2026-09-24_080138",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-24",
+    "time": "08:01",
+    "summary": "STJ debate a obrigatoriedade de cobertura de musicoterapia por planos de saúde: A Corte Superior iniciou a análise crucial para definir se o...",
+    "file": "data/editions/noticias_autismo_2026-09-24_080138.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-24_080123",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
+    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "date": "2026-09-24",
+    "time": "08:01",
+    "summary": "[Discursos na ONU elevam tensão e petróleo dispara]: A troca de ameaças entre EUA e Irã na Assembleia Geral da ONU levou os preços do petról...",
+    "file": "data/editions/noticias_brasil_2026-09-24_080123.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-24_080102",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-24",
+    "time": "08:01",
+    "summary": "TRE-PR mantém candidatura de Deltan Dallagnol ao Senado: O Tribunal Regional Eleitoral do Paraná decidiu manter o registro de candidatura de...",
+    "file": "data/editions/fatos_da_regiao_2026-09-24_080102.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-24",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +67,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-24",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
-    "date": "2026-09-24",
-    "time": "07:56",
-    "summary": "['Por que decidi gastar dinheiro em vez de deixá-lo de herança para meus filhos'](https://g1.globo.com/economia/noticia/2026/09/24/por-que-d...",
-    "file": "data/editions/noticias_brasil_2026-09-24.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
