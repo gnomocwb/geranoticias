@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-09-24_203140",
+    "id": "noticias_brasil_2026-09-24_165953",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
     "date": "2026-09-24",
-    "time": "20:31",
-    "summary": "[TST Decide que Greve dos Correios Não é Abusiva]: O Tribunal Superior do Trabalho determinou que a paralisação da categoria, iniciada em 10...",
-    "file": "data/editions/noticias_brasil_2026-09-24_203140.html",
+    "time": "16:59",
+    "summary": "[TST decide que greve dos Correios não é abusiva]: O Tribunal Superior do Trabalho determinou que a paralisação iniciada em 10 de setembro é...",
+    "file": "data/editions/noticias_brasil_2026-09-24_165953.html",
     "sources": [
       "G1",
       "UOL",
@@ -18,14 +18,50 @@
     ]
   },
   {
-    "id": "fatos_da_regiao_2026-09-24_203010",
+    "id": "fatos_da_regiao_2026-09-24_165943",
     "type": "regional",
-    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
     "title": "Fatos da Região — Curitiba & Paraná",
     "date": "2026-09-24",
-    "time": "20:30",
-    "summary": "Tragedia e destruição por temporais no interior paranaense: Um forte temporal atingiu Apucarana, deixando cerca de 5 mil residências sem luz...",
-    "file": "data/editions/fatos_da_regiao_2026-09-24_203010.html",
+    "time": "16:59",
+    "summary": "Expansão de Investimento Logístico em Ponta Grossa: O município de Ponta Grossa recebeu um aporte robusto de R$ 150 milhões destinado à cons...",
+    "file": "data/editions/fatos_da_regiao_2026-09-24_165943.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
+    "id": "noticias_autismo_2026-09-24_141400",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-24",
+    "time": "14:14",
+    "summary": "[Servidores públicos com autismo no DF podem ter jornada reduzida em até 50%]: Projeto em tramitação e discussões recentes apontam para a po...",
+    "file": "data/editions/noticias_autismo_2026-09-24_141400.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-24_124847",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-24",
+    "time": "12:48",
+    "summary": "[Defesa de Bolsonaro pede suspensão da pena a Nunes Marques - Gazeta do Povo](https://news.google.com/rss/articles/CBMimwFBVV95cUxOWWpSVG1NY...",
+    "file": "data/editions/fatos_da_regiao_2026-09-24_124847.html",
     "sources": [
       "Tribuna do Paraná",
       "Bem Paraná",
