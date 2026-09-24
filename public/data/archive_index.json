@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-24_203140",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-09-24",
+    "time": "20:31",
+    "summary": "[TST Decide que Greve dos Correios Não é Abusiva]: O Tribunal Superior do Trabalho determinou que a paralisação da categoria, iniciada em 10...",
+    "file": "data/editions/noticias_brasil_2026-09-24_203140.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-24_203010",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-24",
+    "time": "20:30",
+    "summary": "Tragedia e destruição por temporais no interior paranaense: Um forte temporal atingiu Apucarana, deixando cerca de 5 mil residências sem luz...",
+    "file": "data/editions/fatos_da_regiao_2026-09-24_203010.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-24_080138",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-24_080123",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
-    "date": "2026-09-24",
-    "time": "08:01",
-    "summary": "[Discursos na ONU elevam tensão e petróleo dispara]: A troca de ameaças entre EUA e Irã na Assembleia Geral da ONU levou os preços do petról...",
-    "file": "data/editions/noticias_brasil_2026-09-24_080123.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
