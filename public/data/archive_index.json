@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-09-23_164121",
+    "id": "noticias_brasil_2026-09-23_213209",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-09-23",
-    "time": "16:41",
-    "summary": "[STF Iguala Licença-Maternidade para Mães Biológicas e Adotivas](https://g1.globo.com/politica/noticia/2026/09/23/stf-conclui-julgamento-e-d...",
-    "file": "data/editions/noticias_brasil_2026-09-23_164121.html",
+    "time": "21:32",
+    "summary": "[Queda de Helicóptero em SC] FAB localiza caixa-preta e avança nas investigações: A Força Aérea Brasileira localizou a caixa-preta da aerona...",
+    "file": "data/editions/noticias_brasil_2026-09-23_213209.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-23_213201",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-23",
+    "time": "21:32",
+    "summary": "TRE-PR mantém registro de Deltan Dallagnol ao Senado, mas definição final vai para o TSE: O Tribunal Regional Eleitoral do Paraná ratificou ...",
+    "file": "data/editions/fatos_da_regiao_2026-09-23_213201.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
