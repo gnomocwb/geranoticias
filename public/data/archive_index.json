@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-25_124837",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-09-25",
+    "time": "12:48",
+    "summary": "Governo articula restrição às apostas online e divide opiniões na política: O presidente Luiz Inácio Lula da Silva reforçou críticas às bets...",
+    "file": "data/editions/noticias_brasil_2026-09-25_124837.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-25_124824",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-25",
+    "time": "12:48",
+    "summary": "Carga milionária de celulares apreendida na BR-277: Um motorista foi preso em flagrante pela Polícia Rodoviária transportando ilegalmente um...",
+    "file": "data/editions/fatos_da_regiao_2026-09-25_124824.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-25",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-25",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
-    "date": "2026-09-25",
-    "time": "10:09",
-    "summary": "[IPCA-15 de Setembro Surpreende com Alta de 0,70% Puxado pela Energia Elétrica](https://g1.globo.com/economia/noticia/2026/09/25/ipca-15-pre...",
-    "file": "data/editions/noticias_brasil_2026-09-25.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
