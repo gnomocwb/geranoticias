@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-25_170123",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-09-25",
+    "time": "17:01",
+    "summary": "[Conselho do MPF forma maioria para manter Gonet nos casos do Banco Master](https://www.infomoney.com.br/politica/conselho-do-mpf-forma-maio...",
+    "file": "data/editions/noticias_brasil_2026-09-25_170123.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-25_170111",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-25",
+    "time": "17:01",
+    "summary": "Conselho do MPF empata e investigações do Caso Master respingam em Gonet: O Conselho do Ministério Público Federal registrou um empate de 3 ...",
+    "file": "data/editions/fatos_da_regiao_2026-09-25_170111.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-25_141411",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -29,24 +67,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-25_134214",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-09-25",
-    "time": "13:42",
-    "summary": "[Pacote Anti-Bets de Lula]: O presidente Luiz Inácio Lula da Silva anunciou um pacote enérgico contra as apostas on-line, propondo penas de ...",
-    "file": "data/editions/noticias_brasil_2026-09-25_134214.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
