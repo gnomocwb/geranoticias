@@ -1,13 +1,29 @@
 [
   {
-    "id": "noticias_brasil_2026-09-25_124837",
+    "id": "noticias_autismo_2026-09-25_134235",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-25",
+    "time": "13:42",
+    "summary": "[TJAL define que diagnóstico de autismo não exige neuropediatra]: O Tribunal de Justiça de Alagoas estabeleceu que a emissão do laudo diagnó...",
+    "file": "data/editions/noticias_autismo_2026-09-25_134235.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-25_134214",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
     "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
     "date": "2026-09-25",
-    "time": "12:48",
-    "summary": "Governo articula restrição às apostas online e divide opiniões na política: O presidente Luiz Inácio Lula da Silva reforçou críticas às bets...",
-    "file": "data/editions/noticias_brasil_2026-09-25_124837.html",
+    "time": "13:42",
+    "summary": "[Pacote Anti-Bets de Lula]: O presidente Luiz Inácio Lula da Silva anunciou um pacote enérgico contra as apostas on-line, propondo penas de ...",
+    "file": "data/editions/noticias_brasil_2026-09-25_134214.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +31,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-25_134150",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-25",
+    "time": "13:41",
+    "summary": "Prévia da inflação oficial (IPCA-15) sobe 0,70% em setembro pressionada por energia e alimentos: O indicador registrou alta impulsionado pri...",
+    "file": "data/editions/fatos_da_regiao_2026-09-25_134150.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
