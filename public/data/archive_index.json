@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-09-24_203140",
+    "id": "noticias_brasil_2026-09-24_213510",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
     "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-09-24",
-    "time": "20:31",
-    "summary": "[TST Decide que Greve dos Correios Não é Abusiva]: O Tribunal Superior do Trabalho determinou que a paralisação da categoria, iniciada em 10...",
-    "file": "data/editions/noticias_brasil_2026-09-24_203140.html",
+    "time": "21:35",
+    "summary": "Operação Carbono Oculto investiga fundos de investimento na lavagem de dinheiro do PCC: O Ministério Público de São Paulo e a Receita Federa...",
+    "file": "data/editions/noticias_brasil_2026-09-24_213510.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-24_213501",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-24",
+    "time": "21:35",
+    "summary": "[TRE-PR determina desativação de Instagram de Deltan Dallagnol]: O Tribunal Regional Eleitoral do Paraná determinou que o candidato ao Senad...",
+    "file": "data/editions/fatos_da_regiao_2026-09-24_213501.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
@@ -35,24 +55,6 @@
       "Folha de Londrina",
       "Diário de Foz",
       "Rede Sul de Notícias"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-24_165953",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-09-24",
-    "time": "16:59",
-    "summary": "[TST decide que greve dos Correios não é abusiva]: O Tribunal Superior do Trabalho determinou que a paralisação iniciada em 10 de setembro é...",
-    "file": "data/editions/noticias_brasil_2026-09-24_165953.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
