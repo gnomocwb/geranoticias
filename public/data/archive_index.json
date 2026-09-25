@@ -1,13 +1,29 @@
 [
   {
-    "id": "noticias_brasil_2026-09-24_213510",
+    "id": "noticias_autismo_2026-09-25",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-25",
+    "time": "10:10",
+    "summary": "[Diagnóstico de Autismo Não Exige Neuropediatra, Afirma TJAL]: O Tribunal de Justiça de Alagoas estabeleceu entendimento de que o diagnóstic...",
+    "file": "data/editions/noticias_autismo_2026-09-25.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-25",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-09-24",
-    "time": "21:35",
-    "summary": "Operação Carbono Oculto investiga fundos de investimento na lavagem de dinheiro do PCC: O Ministério Público de São Paulo e a Receita Federa...",
-    "file": "data/editions/noticias_brasil_2026-09-24_213510.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
+    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "date": "2026-09-25",
+    "time": "10:09",
+    "summary": "[IPCA-15 de Setembro Surpreende com Alta de 0,70% Puxado pela Energia Elétrica](https://g1.globo.com/economia/noticia/2026/09/25/ipca-15-pre...",
+    "file": "data/editions/noticias_brasil_2026-09-25.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +31,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-25",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-25",
+    "time": "10:09",
+    "summary": "Quadrilha que furtava farmácias é alvo de operação policial na Grande Curitiba: Uma força-tarefa da polícia cumpre mandados nesta sexta-feir...",
+    "file": "data/editions/fatos_da_regiao_2026-09-25.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
