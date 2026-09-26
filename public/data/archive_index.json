@@ -1,5 +1,59 @@
 [
   {
+    "id": "noticias_autismo_2026-09-26_133511",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-26",
+    "time": "13:35",
+    "summary": "[Avanço Histórico na Magistratura] Advogado autista recusado em concurso vai assumir posse como juiz: Uma decisão inspiradora e de grande pe...",
+    "file": "data/editions/noticias_autismo_2026-09-26_133511.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-26_133452",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-09-26",
+    "time": "13:34",
+    "summary": "Proibição Total das \"Bets\" e Cassinos Virtuais no Brasil: O presidente Luiz Inácio Lula da Silva assinou Medida Provisória (MP) proibindo ap...",
+    "file": "data/editions/noticias_brasil_2026-09-26_133452.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-26_133440",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-26",
+    "time": "13:34",
+    "summary": "Governo Federal Proíbe 'Bets' e Fixa Prazo para Saques: O presidente Luiz Inácio Lula da Silva assinou medida provisória que proíbe a explor...",
+    "file": "data/editions/fatos_da_regiao_2026-09-26_133440.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-26_132543",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +67,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-26_115818",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-09-26",
-    "time": "11:58",
-    "summary": "Governo prorroga subvenção ao diesel em R$ 2,12 por litro: O Ministério da Fazenda publicou em edição extra do Diário Oficial a prorrogação ...",
-    "file": "data/editions/noticias_brasil_2026-09-26_115818.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
