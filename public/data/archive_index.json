@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-26_115818",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-09-26",
+    "time": "11:58",
+    "summary": "Governo prorroga subvenção ao diesel em R$ 2,12 por litro: O Ministério da Fazenda publicou em edição extra do Diário Oficial a prorrogação ...",
+    "file": "data/editions/noticias_brasil_2026-09-26_115818.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-26_115808",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-26",
+    "time": "11:58",
+    "summary": "Conta de luz mais barata em outubro: A Agência Nacional de Energia Elétrica (Aneel) confirmou que a bandeira tarifária para o mês de outubro...",
+    "file": "data/editions/fatos_da_regiao_2026-09-26_115808.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-26",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-26",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
-    "date": "2026-09-26",
-    "time": "10:32",
-    "summary": "EUA e China fecham acordo tarifário de R$ 156 bilhões e iniciam diálogo sobre IA: Pequim e Washington anunciaram um consenso de oito pontos ...",
-    "file": "data/editions/noticias_brasil_2026-09-26.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
