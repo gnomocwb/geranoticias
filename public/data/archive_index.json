@@ -1,13 +1,29 @@
 [
   {
-    "id": "noticias_brasil_2026-09-25_213938",
+    "id": "noticias_autismo_2026-09-26",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-26",
+    "time": "10:32",
+    "summary": "[Advogado autista recusado em concurso vai assumir posse como juiz](https://www.canalautismo.com.br/noticia/advogado-autista-recusado-em-con...",
+    "file": "data/editions/noticias_autismo_2026-09-26.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-26",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-09-25",
-    "time": "21:39",
-    "summary": "[EUA e China sem acordo formal sobre regulação de IA]: Donald Trump e Xi Jinping se reuniram em um jantar em Washington acompanhado de bilio...",
-    "file": "data/editions/noticias_brasil_2026-09-25_213938.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
+    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "date": "2026-09-26",
+    "time": "10:32",
+    "summary": "EUA e China fecham acordo tarifário de R$ 156 bilhões e iniciam diálogo sobre IA: Pequim e Washington anunciaram um consenso de oito pontos ...",
+    "file": "data/editions/noticias_brasil_2026-09-26.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +31,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-26",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-26",
+    "time": "10:32",
+    "summary": "Proibição de Apostas Online e Alívio na Conta de Luz: O Governo Federal publicou medida provisória proibindo a exploração e oferta de aposta...",
+    "file": "data/editions/fatos_da_regiao_2026-09-26.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
