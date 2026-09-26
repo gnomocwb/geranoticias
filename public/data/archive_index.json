@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-09-25_170123",
+    "id": "noticias_brasil_2026-09-25_213938",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-09-25",
-    "time": "17:01",
-    "summary": "[Conselho do MPF forma maioria para manter Gonet nos casos do Banco Master](https://www.infomoney.com.br/politica/conselho-do-mpf-forma-maio...",
-    "file": "data/editions/noticias_brasil_2026-09-25_170123.html",
+    "time": "21:39",
+    "summary": "[EUA e China sem acordo formal sobre regulação de IA]: Donald Trump e Xi Jinping se reuniram em um jantar em Washington acompanhado de bilio...",
+    "file": "data/editions/noticias_brasil_2026-09-25_213938.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-25_213901",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-25",
+    "time": "21:39",
+    "summary": "Lula assina Medida Provisória que proíbe casas de apostas (bets) no país: A nove dias das eleições, o presidente Luiz Inácio Lula da Silva a...",
+    "file": "data/editions/fatos_da_regiao_2026-09-25_213901.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
