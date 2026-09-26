@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-09-26_132543",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-26",
+    "time": "13:25",
+    "summary": "[Avanço Histórico na Magistratura] Advogado autista recusado em concurso vai assumir posse como juiz: Em uma decisão que marca um importante...",
+    "file": "data/editions/noticias_autismo_2026-09-26_132543.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-09-26_115818",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
