@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-26_161343",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-09-26",
+    "time": "16:13",
+    "summary": "[EUA rejeitam proposta de paz do Irã para Ormuz]: O presidente dos Estados Unidos rejeitou o acordo de paz proposto pelo Irã visando a reabe...",
+    "file": "data/editions/noticias_brasil_2026-09-26_161343.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-26_161328",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-26",
+    "time": "16:13",
+    "summary": "Leilão de veículos apreendidos em Curitiba: A Prefeitura colocou 124 veículos apreendidos em fiscalizações à disposição em um novo leilão ag...",
+    "file": "data/editions/fatos_da_regiao_2026-09-26_161328.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-26_133511",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-26_133452",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-09-26",
-    "time": "13:34",
-    "summary": "Proibição Total das \"Bets\" e Cassinos Virtuais no Brasil: O presidente Luiz Inácio Lula da Silva assinou Medida Provisória (MP) proibindo ap...",
-    "file": "data/editions/noticias_brasil_2026-09-26_133452.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
