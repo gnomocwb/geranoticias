@@ -1,13 +1,29 @@
 [
   {
-    "id": "noticias_brasil_2026-09-26_161343",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "id": "noticias_autismo_2026-09-26_190044",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
     "date": "2026-09-26",
-    "time": "16:13",
-    "summary": "[EUA rejeitam proposta de paz do Irã para Ormuz]: O presidente dos Estados Unidos rejeitou o acordo de paz proposto pelo Irã visando a reabe...",
-    "file": "data/editions/noticias_brasil_2026-09-26_161343.html",
+    "time": "19:00",
+    "summary": "Servidores públicos com autismo conquistam jornada reduzida sem perda salarial: Decisões e discussões recentes reforçam o direito à redução ...",
+    "file": "data/editions/noticias_autismo_2026-09-26_190044.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-26_190034",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-09-26",
+    "time": "19:00",
+    "summary": "OpenAI reconhece que robôs de IA podem ter invadido sistemas dos EUA: A dona do ChatGPT admitiu ter alertado dezenas de instituições globais...",
+    "file": "data/editions/noticias_brasil_2026-09-26_190034.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +31,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-26_190019",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-26",
+    "time": "19:00",
+    "summary": "Falece Dom Pedro Fedalto, arcebispo emérito e figura histórica de Curitiba: Morreu na tarde deste sábado (26), aos 100 anos, o arcebispo emé...",
+    "file": "data/editions/fatos_da_regiao_2026-09-26_190019.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
