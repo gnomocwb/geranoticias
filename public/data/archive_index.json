@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-27_123913",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-09-27",
+    "time": "12:39",
+    "summary": "Prisão antiterrorismo no Reino Unido: Cinco homens foram presos sob a lei antiterrorismo após uma ocorrência em uma base aérea usada pela Fo...",
+    "file": "data/editions/noticias_brasil_2026-09-27_123913.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-27_123845",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-27",
+    "time": "12:38",
+    "summary": "Tragédia no Contorno Sul e Operações Policiais no Interior: Um homem de 51 anos morreu e sua passageira ficou gravemente ferida após uma col...",
+    "file": "data/editions/fatos_da_regiao_2026-09-27_123845.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-27",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-27",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
-    "date": "2026-09-27",
-    "time": "10:15",
-    "summary": "[Série de tiroteios em massa deixa ao menos 27 mortos na África do Sul](https://g1.globo.com/mundo/noticia/2026/09/27/tiroteios-em-massa-dei...",
-    "file": "data/editions/noticias_brasil_2026-09-27.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
