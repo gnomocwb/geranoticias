@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-27_164555",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-09-27",
+    "time": "16:45",
+    "summary": "[Rússia Ataca Maior Operadora de Telefonia da Ucrânia]: Forças russas atingiram a sede da Kyivstar em Kiev, comprometendo data-centers e ser...",
+    "file": "data/editions/noticias_brasil_2026-09-27_164555.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-27_164543",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-27",
+    "time": "16:45",
+    "summary": "Alerta vermelho de onda de calor e risco de tempestades: O Instituto Nacional de Meteorologia (Inmet) emitiu alerta vermelho colocando todas...",
+    "file": "data/editions/fatos_da_regiao_2026-09-27_164543.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-27_135940",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-27_123913",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-09-27",
-    "time": "12:39",
-    "summary": "Prisão antiterrorismo no Reino Unido: Cinco homens foram presos sob a lei antiterrorismo após uma ocorrência em uma base aérea usada pela Fo...",
-    "file": "data/editions/noticias_brasil_2026-09-27_123913.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
