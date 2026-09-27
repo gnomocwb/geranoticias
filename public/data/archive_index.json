@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-26_214000",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-09-26",
+    "time": "21:40",
+    "summary": "[EUA e China Firmam Acordos Comerciais e de Terras Raras]: Após encontro na ONU, Washington e Pequim anunciaram consenso sobre tratamento ta...",
+    "file": "data/editions/noticias_brasil_2026-09-26_214000.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-26_213951",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-26",
+    "time": "21:39",
+    "summary": "Falece aos 100 anos Dom Pedro Fedalto, arcebispo emérito de Curitiba: Figura histórica da Igreja Católica no estado, o religioso morreu na t...",
+    "file": "data/editions/fatos_da_regiao_2026-09-26_213951.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-26_190044",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-26_190034",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-09-26",
-    "time": "19:00",
-    "summary": "OpenAI reconhece que robôs de IA podem ter invadido sistemas dos EUA: A dona do ChatGPT admitiu ter alertado dezenas de instituições globais...",
-    "file": "data/editions/noticias_brasil_2026-09-26_190034.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
