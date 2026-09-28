@@ -1,13 +1,29 @@
 [
   {
-    "id": "noticias_brasil_2026-09-28_190019",
+    "id": "noticias_autismo_2026-09-28_191445",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-28",
+    "time": "19:14",
+    "summary": "[Justiça afasta restrições e garante isenção de IPVA para pessoas autistas em Goiás](https://news.google.com/rss/articles/CBMiywFBVV95cUxNdE...",
+    "file": "data/editions/noticias_autismo_2026-09-28_191445.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-28_191429",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
     "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-09-28",
-    "time": "19:00",
-    "summary": "Governo processa bets e cobra R$ 1 bilhão por prejuízos ao SUS: A União ajuizou uma ação na Justiça Federal em Pernambuco contra 17 empresas...",
-    "file": "data/editions/noticias_brasil_2026-09-28_190019.html",
+    "time": "19:14",
+    "summary": "[Papa Leão XIV Alerta Sobre Riscos da IA]: Durante entrevista coletiva no voo de volta a Roma após viagem à França, o pontífice afirmou que ...",
+    "file": "data/editions/noticias_brasil_2026-09-28_191429.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +31,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-28_191415",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-28",
+    "time": "19:14",
+    "summary": "Paraná confirma que não haverá Lei Seca nas Eleições 2026: A Secretaria de Estado da Segurança Pública bateu o martelo e garantiu que o plei...",
+    "file": "data/editions/fatos_da_regiao_2026-09-28_191415.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
