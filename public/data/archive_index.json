@@ -1,13 +1,29 @@
 [
   {
-    "id": "noticias_brasil_2026-09-27_215014",
+    "id": "noticias_autismo_2026-09-28",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-28",
+    "time": "08:38",
+    "summary": "STF inclui autistas nível 1 na alíquota zero para compra de carro: O Supremo Tribunal Federal ampliou o entendimento para assegurar o benefí...",
+    "file": "data/editions/noticias_autismo_2026-09-28.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-28",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-09-27",
-    "time": "21:50",
-    "summary": "Lula defende conselho colegiado e mandatos para ministros do STF: Em entrevista à TV Band e à Reuters, o presidente Luiz Inácio Lula da Silv...",
-    "file": "data/editions/noticias_brasil_2026-09-27_215014.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
+    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "date": "2026-09-28",
+    "time": "08:38",
+    "summary": "[Protestos em massa na Espanha por crise de moradia]: Milhares de pessoas (cerca de 25 mil segundo o governo) foram às ruas em Madri e outra...",
+    "file": "data/editions/noticias_brasil_2026-09-28.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +31,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-28",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-28",
+    "time": "08:37",
+    "summary": "Trânsito e Obras Afetam Rotina em Curitiba: A semana em Curitiba começou com importantes alterações no tráfego e bloqueios viários na região...",
+    "file": "data/editions/fatos_da_regiao_2026-09-28.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
