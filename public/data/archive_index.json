@@ -1,5 +1,59 @@
 [
   {
+    "id": "noticias_autismo_2026-09-28_131005",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-28",
+    "time": "13:10",
+    "summary": "[Wilson Santos é o nome mais citado do PSD em pesquisa para a ALMT - Rdnews](https://news.google.com/rss/articles/CBMitwFBVV95cUxOTFJFMVZJdG...",
+    "file": "data/editions/noticias_autismo_2026-09-28_131005.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-28_130935",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-09-28",
+    "time": "13:09",
+    "summary": "[Flávio pede que Fux derrube decisão de Dino sobre posts de Nossa Senhora](https://noticias.uol.com.br/eleicoes/2026/09/28/flavio-dino-suspe...",
+    "file": "data/editions/noticias_brasil_2026-09-28_130935.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-28_130923",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-28",
+    "time": "13:09",
+    "summary": "[Nova Quaest mostra empate técnico de Lula e Flávio no 2º turno](https://www.tribunapr.com.br/eleicoes/2026/nova-quaest-mostra-empate-tecnic...",
+    "file": "data/editions/fatos_da_regiao_2026-09-28_130923.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-28",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +67,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-28",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
-    "date": "2026-09-28",
-    "time": "08:38",
-    "summary": "[Protestos em massa na Espanha por crise de moradia]: Milhares de pessoas (cerca de 25 mil segundo o governo) foram às ruas em Madri e outra...",
-    "file": "data/editions/noticias_brasil_2026-09-28.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
