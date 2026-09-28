@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-28_153606",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-09-28",
+    "time": "15:36",
+    "summary": "[Pesquisas Eleitorais e Religião]: A disputa presidencial de 2026 ganha novos contornos com a divulgação de levantamentos da Quaest e dados ...",
+    "file": "data/editions/noticias_brasil_2026-09-28_153606.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-28_153550",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-28",
+    "time": "15:35",
+    "summary": "Governo do Paraná recupera R$ 2,36 bilhões em precatórios e soma ultrapassa R$ 7 bi: O montante foi retornado aos cofres estaduais após uma ...",
+    "file": "data/editions/fatos_da_regiao_2026-09-28_153550.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-28_131005",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-28_130935",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-09-28",
-    "time": "13:09",
-    "summary": "[Flávio pede que Fux derrube decisão de Dino sobre posts de Nossa Senhora](https://noticias.uol.com.br/eleicoes/2026/09/28/flavio-dino-suspe...",
-    "file": "data/editions/noticias_brasil_2026-09-28_130935.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
