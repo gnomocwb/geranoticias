@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-27_215014",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-09-27",
+    "time": "21:50",
+    "summary": "Lula defende conselho colegiado e mandatos para ministros do STF: Em entrevista à TV Band e à Reuters, o presidente Luiz Inácio Lula da Silv...",
+    "file": "data/editions/noticias_brasil_2026-09-27_215014.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-27_215005",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-27",
+    "time": "21:50",
+    "summary": "Alerta vermelho de onda de calor e tempestades severas no estado: O Paraná registrou temperaturas beirando os 40°C neste domingo, com máxima...",
+    "file": "data/editions/fatos_da_regiao_2026-09-27_215005.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-27_190145",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-27_190132",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-09-27",
-    "time": "19:01",
-    "summary": "[Lula defende revogação do Fundo Eleitoral]: O presidente Lula criticou o financiamento público de campanha, chamando-o de \"promiscuidade po...",
-    "file": "data/editions/noticias_brasil_2026-09-27_190132.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
