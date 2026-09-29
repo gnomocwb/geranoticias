@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-29_135311",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-09-29",
+    "time": "13:53",
+    "summary": "[Alerta dos EUA sobre Eleição no Brasil]: Três senadores democratas dos EUA enviaram uma carta ao secretário de Estado Marco Rubio alertando...",
+    "file": "data/editions/noticias_brasil_2026-09-29_135311.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-29_135301",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-29",
+    "time": "13:53",
+    "summary": "Inadimplência das famílias atinge recorde de 8% em agosto: O índice de inadimplência das famílias brasileiras alcançou 8% no mês de agosto d...",
+    "file": "data/editions/fatos_da_regiao_2026-09-29_135301.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-29",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-29",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
-    "date": "2026-09-29",
-    "time": "09:00",
-    "summary": "Pesquisa Atlas/Bloomberg aponta desaprovação de Lula em 53,6%: Levantamento divulgado nesta terça-feira (29) mostra que o governo do preside...",
-    "file": "data/editions/noticias_brasil_2026-09-29.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
