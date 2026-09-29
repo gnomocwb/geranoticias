@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-09-29_150612",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-29",
+    "time": "15:06",
+    "summary": "Servidor do GDF com autismo garante jornada reduzida sem corte salarial: O Tribunal de Contas do Distrito Federal (TCDF) decidiu que servido...",
+    "file": "data/editions/noticias_autismo_2026-09-29_150612.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-09-29_135311",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
