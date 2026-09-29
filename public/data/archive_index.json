@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-28_230134",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-09-28",
+    "time": "23:01",
+    "summary": "[Regulamentação de Bets] Governo publica decreto que cria comitê para fiscalizar publicidade ilegal de apostas: O governo federal editou nes...",
+    "file": "data/editions/noticias_brasil_2026-09-28_230134.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-28_230126",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-28",
+    "time": "23:01",
+    "summary": "Alerta Máximo de Tempestades e Ciclone Extratropical: O Paraná está sob alerta severo para temporais e ventos fortes até quarta-feira devido...",
+    "file": "data/editions/fatos_da_regiao_2026-09-28_230126.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-28_191445",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-28_191429",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-09-28",
-    "time": "19:14",
-    "summary": "[Papa Leão XIV Alerta Sobre Riscos da IA]: Durante entrevista coletiva no voo de volta a Roma após viagem à França, o pontífice afirmou que ...",
-    "file": "data/editions/noticias_brasil_2026-09-28_191429.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
