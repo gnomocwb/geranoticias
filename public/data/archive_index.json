@@ -1,5 +1,59 @@
 [
   {
+    "id": "noticias_autismo_2026-09-29_155744",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-29",
+    "time": "15:57",
+    "summary": "Tribunal de Contas do Distrito Federal assegura jornada reduzida a servidores com autismo: O TCDF decidiu que servidores públicos do GDF que...",
+    "file": "data/editions/noticias_autismo_2026-09-29_155744.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-29_155733",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-09-29",
+    "time": "15:57",
+    "summary": "[Caged: Brasil abre 165,8 mil vagas formais em agosto]: A economia brasileira gerou 165.827 empregos formais em agosto, puxada pelo setor de...",
+    "file": "data/editions/noticias_brasil_2026-09-29_155733.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-29_155718",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-29",
+    "time": "15:57",
+    "summary": "Ciclone ganha força e coloca estado sob alerta de tempestades: Pelo menos 340 municípios paranaenses amanheceram sob alerta laranja para tem...",
+    "file": "data/editions/fatos_da_regiao_2026-09-29_155718.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-29_150612",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +67,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-29_135311",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-09-29",
-    "time": "13:53",
-    "summary": "[Alerta dos EUA sobre Eleição no Brasil]: Três senadores democratas dos EUA enviaram uma carta ao secretário de Estado Marco Rubio alertando...",
-    "file": "data/editions/noticias_brasil_2026-09-29_135311.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
