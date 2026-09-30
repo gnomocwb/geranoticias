@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-09-30_150025",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-30",
+    "time": "15:00",
+    "summary": "[CFM lança consulta sobre avaliações de autismo]: O Conselho Federal de Medicina abriu uma consulta pública voltada a debater os protocolos ...",
+    "file": "data/editions/noticias_autismo_2026-09-30_150025.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-09-30_134907",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
