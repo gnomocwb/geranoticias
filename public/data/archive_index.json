@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-09-29_174709",
+    "id": "noticias_brasil_2026-09-29_221935",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-09-29",
-    "time": "17:47",
-    "summary": "[Novas Pesquisas Quaest revelam cenário acirrado em SP, RJ e PE]: Levantamentos divulgados nesta manhã mostram Tarcísio de Freitas liderando...",
-    "file": "data/editions/noticias_brasil_2026-09-29_174709.html",
+    "time": "22:19",
+    "summary": "Big Techs assinam acordo de autorregulação de IA na Casa Branca: Em meio a crescentes alertas sobre riscos à humanidade, executivos de gigan...",
+    "file": "data/editions/noticias_brasil_2026-09-29_221935.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-29_221926",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-29",
+    "time": "22:19",
+    "summary": "Temporal severo com ventos de 101 km/h deixa vítima fatal no interior: Um forte temporal atingiu Umuarama na tarde desta terça-feira, derrub...",
+    "file": "data/editions/fatos_da_regiao_2026-09-29_221926.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
