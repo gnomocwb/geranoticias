@@ -1,5 +1,75 @@
 [
   {
+    "id": "noticias_autismo_2026-09-30_084007",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-30",
+    "time": "08:40",
+    "summary": "[TCDF garante jornada 50% menor a servidor público com autismo sem redução salarial]: O Tribunal de Contas do Distrito Federal (TCDF) firmou...",
+    "file": "data/editions/noticias_autismo_2026-09-30_084007.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_autismo_2026-09-30",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-30",
+    "time": "08:40",
+    "summary": "[TCDF assegura jornada reduzida sem prejuízo salarial para servidor autista](https://news.google.com/rss/articles/CBMitAFBVV95cUxOVkFvOUNKeG...",
+    "file": "data/editions/noticias_autismo_2026-09-30.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-30_083953",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
+    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "date": "2026-09-30",
+    "time": "08:39",
+    "summary": "[Voo para Israel desviado após briga e ataque com faca entre pilotos]: Um voo da Flydubai (FZ1073) com destino a Tel Aviv precisou emitir si...",
+    "file": "data/editions/noticias_brasil_2026-09-30_083953.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-30",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-30",
+    "time": "08:39",
+    "summary": "[Temporais Severos e Suspeita de Tornado no Interior]: O Paraná registra o que pode ser o 13º tornado do ano em meio a um mês de setembro se...",
+    "file": "data/editions/fatos_da_regiao_2026-09-30.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-29_155744",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +83,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-29_155733",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-09-29",
-    "time": "15:57",
-    "summary": "[Caged: Brasil abre 165,8 mil vagas formais em agosto]: A economia brasileira gerou 165.827 empregos formais em agosto, puxada pelo setor de...",
-    "file": "data/editions/noticias_brasil_2026-09-29_155733.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
