@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-30_174903",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-09-30",
+    "time": "17:49",
+    "summary": "[Ibovespa encerra setembro em alta e atinge melhor desempenho desde janeiro]: A bolsa brasileira fechou com forte valorização nesta quarta-f...",
+    "file": "data/editions/noticias_brasil_2026-09-30_174903.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-30_174854",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-30",
+    "time": "17:48",
+    "summary": "Início da Biometria na Ponte da Amizade: A Receita Federal inicia nesta quinta-feira (1) um projeto-piloto de identificação biométrica pela ...",
+    "file": "data/editions/fatos_da_regiao_2026-09-30_174854.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-30_154156",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-30_154135",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-09-30",
-    "time": "15:41",
-    "summary": "[China também tem perdido a batalha contra os danos de mídias sociais](https://noticias.uol.com.br/colunas/nelson-de-sa/2026/09/30/china-tam...",
-    "file": "data/editions/noticias_brasil_2026-09-30_154135.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
