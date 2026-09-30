@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-09-30_134907",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-09-30",
+    "time": "13:49",
+    "summary": "[Quase-desastre aéreo evitado por passageiros]: Um voo da Flydubai com destino a Israel precisou realizar um pouso de emergência na Arábia S...",
+    "file": "data/editions/noticias_brasil_2026-09-30_134907.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-30_134852",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-30",
+    "time": "13:48",
+    "summary": "Temporal destrói Umuarama com ventos acima de 100 km/h e causa morte: Um forte temporal com rajadas de vento superiores a 100 km/h atingiu U...",
+    "file": "data/editions/fatos_da_regiao_2026-09-30_134852.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-30_084007",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -32,24 +70,6 @@
     ]
   },
   {
-    "id": "noticias_brasil_2026-09-30_083953",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
-    "date": "2026-09-30",
-    "time": "08:39",
-    "summary": "[Voo para Israel desviado após briga e ataque com faca entre pilotos]: Um voo da Flydubai (FZ1073) com destino a Tel Aviv precisou emitir si...",
-    "file": "data/editions/noticias_brasil_2026-09-30_083953.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
-    ]
-  },
-  {
     "id": "fatos_da_regiao_2026-09-30",
     "type": "regional",
     "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
@@ -67,24 +87,6 @@
       "Folha de Londrina",
       "Diário de Foz",
       "Rede Sul de Notícias"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-29_221935",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-09-29",
-    "time": "22:19",
-    "summary": "Big Techs assinam acordo de autorregulação de IA na Casa Branca: Em meio a crescentes alertas sobre riscos à humanidade, executivos de gigan...",
-    "file": "data/editions/noticias_brasil_2026-09-29_221935.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
@@ -161,24 +163,6 @@
       "Folha de Londrina",
       "Diário de Foz",
       "Rede Sul de Notícias"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-29_155733",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-09-29",
-    "time": "15:57",
-    "summary": "[Caged: Brasil abre 165,8 mil vagas formais em agosto]: A economia brasileira gerou 165.827 empregos formais em agosto, puxada pelo setor de...",
-    "file": "data/editions/noticias_brasil_2026-09-29_155733.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
