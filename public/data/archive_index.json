@@ -1,5 +1,59 @@
 [
   {
+    "id": "noticias_autismo_2026-09-30_154156",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-09-30",
+    "time": "15:41",
+    "summary": "[Conselho Federal de Medicina lança consulta sobre avaliações de autismo]: O CFM abriu uma consulta pública para debater novas diretrizes so...",
+    "file": "data/editions/noticias_autismo_2026-09-30_154156.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-09-30_154135",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-09-30",
+    "time": "15:41",
+    "summary": "[China também tem perdido a batalha contra os danos de mídias sociais](https://noticias.uol.com.br/colunas/nelson-de-sa/2026/09/30/china-tam...",
+    "file": "data/editions/noticias_brasil_2026-09-30_154135.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-30_152015",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-30",
+    "time": "15:20",
+    "summary": "[Terminal Maracanã avança em obras para ampliar trajeto de linha de Grande Curitiba](https://www.bemparana.com.br/noticias/parana/terminal-m...",
+    "file": "data/editions/fatos_da_regiao_2026-09-30_152015.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-30_150025",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +67,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-30_134907",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-09-30",
-    "time": "13:49",
-    "summary": "[Quase-desastre aéreo evitado por passageiros]: Um voo da Flydubai com destino a Israel precisou realizar um pouso de emergência na Arábia S...",
-    "file": "data/editions/noticias_brasil_2026-09-30_134907.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
