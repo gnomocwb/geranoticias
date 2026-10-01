@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-10-01_152637",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-01",
+    "time": "15:26",
+    "summary": "[Estudo aponta maior prevalência de autismo e TDAH em jovens com diabetes tipo 2 - Folha Vitória](https://news.google.com/rss/articles/CBMil...",
+    "file": "data/editions/noticias_autismo_2026-10-01_152637.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-10-01_142200",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
