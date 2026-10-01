@@ -1,5 +1,79 @@
 [
   {
+    "id": "noticias_autismo_2026-10-01",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-01",
+    "time": "08:37",
+    "summary": "[Congresso marca lançamento de cursos gratuitos sobre práticas baseadas em evidências](https://www.canalautismo.com.br/noticia/congresso-mar...",
+    "file": "data/editions/noticias_autismo_2026-10-01.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-10-01_083715",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
+    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "date": "2026-10-01",
+    "time": "08:37",
+    "summary": "[EUA] Condenada à morte sobrevive a duas injeções letais no Tennessee: Christa Pike, de 50 anos, sobreviveu a uma caótica tentativa de execu...",
+    "file": "data/editions/noticias_brasil_2026-10-01_083715.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-01_083659",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-01",
+    "time": "08:36",
+    "summary": "Apreensão recorde de drogas na BR-116 e na Fronteira: Uma operação da Polícia Militar resultou na apreensão de 988 quilos de maconha em um c...",
+    "file": "data/editions/fatos_da_regiao_2026-10-01_083659.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-01",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-01",
+    "time": "08:36",
+    "summary": "Apreensão recorde de quase 1 tonelada de maconha na BR-116: Uma carga de 988 quilos de entorpecente, avaliada em cerca de R$ 2 milhões, foi ...",
+    "file": "data/editions/fatos_da_regiao_2026-10-01.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-09-30_154156",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +87,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-09-30_154135",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-09-30",
-    "time": "15:41",
-    "summary": "[China também tem perdido a batalha contra os danos de mídias sociais](https://noticias.uol.com.br/colunas/nelson-de-sa/2026/09/30/china-tam...",
-    "file": "data/editions/noticias_brasil_2026-09-30_154135.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
