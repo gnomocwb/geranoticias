@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-09-30_174903",
+    "id": "noticias_brasil_2026-09-30_221937",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-09-30",
-    "time": "17:49",
-    "summary": "[Ibovespa encerra setembro em alta e atinge melhor desempenho desde janeiro]: A bolsa brasileira fechou com forte valorização nesta quarta-f...",
-    "file": "data/editions/noticias_brasil_2026-09-30_174903.html",
+    "time": "22:19",
+    "summary": "[Aquisição de Terras Raras em MG]: A australiana Lynas anunciou a compra da Meteoric e de seu megaprojeto de terras raras em Minas Gerais po...",
+    "file": "data/editions/noticias_brasil_2026-09-30_221937.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-09-30_221925",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-09-30",
+    "time": "22:19",
+    "summary": "Prefeitura de Curitiba abre PSS para contratar 1.443 professores temporários: O município lançou um novo processo seletivo simplificado para...",
+    "file": "data/editions/fatos_da_regiao_2026-09-30_221925.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
