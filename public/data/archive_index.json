@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-10-01_180151",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-10-01",
+    "time": "18:01",
+    "summary": "[Empate quádruplo no Senado por SP e liderança de Tarcísio]: Pesquisa Datafolha divulgada nesta quinta-feira (1º) aponta Marina Silva (Rede)...",
+    "file": "data/editions/noticias_brasil_2026-10-01_180151.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-01_180141",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-01",
+    "time": "18:01",
+    "summary": "Aumento expressivo nas multas por uso de celular ao volante no Paraná: Um levantamento consolidado pela concessionária Motiva Paraná com bas...",
+    "file": "data/editions/fatos_da_regiao_2026-10-01_180141.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-01_152637",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-01_142200",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-10-01",
-    "time": "14:22",
-    "summary": "[Putin alerta sobre Kaliningrado e armas de destruição em massa]: O presidente russo, Vladimir Putin, advertiu nesta quinta-feira que a Rúss...",
-    "file": "data/editions/noticias_brasil_2026-10-01_142200.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
