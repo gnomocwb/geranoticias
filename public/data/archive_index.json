@@ -1,13 +1,29 @@
 [
   {
-    "id": "noticias_brasil_2026-10-01_180151",
+    "id": "noticias_autismo_2026-10-01_201632",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-01",
+    "time": "20:16",
+    "summary": "[Grave caso de violação de direitos e capacitismo na Bahia]: Uma criança autista de 6 anos foi enviada de volta para casa dentro de um saco ...",
+    "file": "data/editions/noticias_autismo_2026-10-01_201632.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-10-01_201555",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
     "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-10-01",
-    "time": "18:01",
-    "summary": "[Empate quádruplo no Senado por SP e liderança de Tarcísio]: Pesquisa Datafolha divulgada nesta quinta-feira (1º) aponta Marina Silva (Rede)...",
-    "file": "data/editions/noticias_brasil_2026-10-01_180151.html",
+    "time": "20:15",
+    "summary": "[Flávio Bolsonaro não irá participar de debate da TV Globo](https://tnonline.uol.com.br/eleicoes/2026/flavio-bolsonaro-nao-ira-participar-de...",
+    "file": "data/editions/noticias_brasil_2026-10-01_201555.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +31,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-01_201459",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-01",
+    "time": "20:14",
+    "summary": "Desponta nova pesquisa eleitoral para o governo e Senado no Paraná: Levantamento divulgado pela Alfa Inteligência e Rádio TMC aponta Sandro ...",
+    "file": "data/editions/fatos_da_regiao_2026-10-01_201459.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
