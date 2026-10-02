@@ -1,5 +1,59 @@
 [
   {
+    "id": "noticias_autismo_2026-10-02_130656",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-02",
+    "time": "13:06",
+    "summary": "Grave caso de capacitismo e violência contra criança autista na Bahia: Uma criança autista de 6 anos foi enviada de volta para casa vestindo...",
+    "file": "data/editions/noticias_autismo_2026-10-02_130656.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-10-02_130637",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-02",
+    "time": "13:06",
+    "summary": "[Eleições 2026] Reta final decisiva e segurança reforçada: A poucas horas do primeiro turno deste domingo (3), o presidente Lula concentra a...",
+    "file": "data/editions/noticias_brasil_2026-10-02_130637.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-02_130625",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-02",
+    "time": "13:06",
+    "summary": "Cataratas do Iguaçu registram vazão extraordinária de 7,3 milhões de litros por segundo: O volume de água nas Cataratas atingiu quase cinco ...",
+    "file": "data/editions/fatos_da_regiao_2026-10-02_130625.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-02",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +67,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-02",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
-    "date": "2026-10-02",
-    "time": "08:00",
-    "summary": "[Cancelamento de Debate e Paz Institucional]: O cancelamento do debate presidencial da TV Globo gerou forte repercussão política e críticas ...",
-    "file": "data/editions/noticias_brasil_2026-10-02.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
