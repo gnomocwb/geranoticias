@@ -1,13 +1,29 @@
 [
   {
-    "id": "noticias_brasil_2026-10-01_224241",
+    "id": "noticias_autismo_2026-10-02",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-02",
+    "time": "08:00",
+    "summary": "[Grave Denúncia na Bahia] Escola é investigada após enviar criança autista para casa dentro de saco plástico: Um caso revoltante chocou a co...",
+    "file": "data/editions/noticias_autismo_2026-10-02.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-10-02",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-10-01",
-    "time": "22:42",
-    "summary": "[TV Globo Cancela Debate Presidencial]: Após receber decisões judiciais divergentes — incluindo determinação do TSE assinada pela ministra E...",
-    "file": "data/editions/noticias_brasil_2026-10-01_224241.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
+    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "date": "2026-10-02",
+    "time": "08:00",
+    "summary": "[Cancelamento de Debate e Paz Institucional]: O cancelamento do debate presidencial da TV Globo gerou forte repercussão política e críticas ...",
+    "file": "data/editions/noticias_brasil_2026-10-02.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +31,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-02",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-02",
+    "time": "08:00",
+    "summary": "Cancelamento de último minuto em debate presidencial e embates judiciais: O debate televisivo com candidatos à presidência foi cancelado em ...",
+    "file": "data/editions/fatos_da_regiao_2026-10-02.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
