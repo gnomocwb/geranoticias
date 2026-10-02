@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-10-02_145341",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-02",
+    "time": "14:53",
+    "summary": "[Inovação em SC] Nova ferramenta avalia sinais precoces de autismo em crianças de até 8 anos: Desenvolvida em Santa Catarina, uma nova tecno...",
+    "file": "data/editions/noticias_autismo_2026-10-02_145341.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-10-02_133732",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
