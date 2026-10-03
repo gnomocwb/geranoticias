@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-10-03_131946",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-03",
+    "time": "13:19",
+    "summary": "Escola envia estudante autista para casa dentro de saco plástico na Bahia: Um caso gravíssimo de violência e violação de direitos ocorreu no...",
+    "file": "data/editions/noticias_autismo_2026-10-03_131946.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-10-03_120841",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
