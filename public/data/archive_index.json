@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-10-03_161353",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-03",
+    "time": "16:13",
+    "summary": "[Véspera de Eleições: Pesquisas mostram acirramento na reta final] A véspera do primeiro turno das Eleições 2026 é marcada por novas pesquis...",
+    "file": "data/editions/noticias_brasil_2026-10-03_161353.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-03_161343",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-03",
+    "time": "16:13",
+    "summary": "Alerta Vermelho e esquema de contingência para as Eleições 2026: O Simepar e o Tribunal Regional Eleitoral (TRE) monitoram a chegada de uma ...",
+    "file": "data/editions/fatos_da_regiao_2026-10-03_161343.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-03_131946",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-03_120841",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-10-03",
-    "time": "12:08",
-    "summary": "Reta final das Eleições 2026 e cenários de 1º e 2º turnos: Às vésperas da votação, novas pesquisas CNT/MDA mostram Lula (PT) liderando o pri...",
-    "file": "data/editions/noticias_brasil_2026-10-03_120841.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
