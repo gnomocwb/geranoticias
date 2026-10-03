@@ -90,6 +90,100 @@
     ]
   },
   {
+    "id": "noticias_brasil_2026-10-02_221432",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-10-02",
+    "time": "22:14",
+    "summary": "Campanha de Lula pede que TSE inclua suspensão de serviços consulares dos EUA em investigação: A coligação do presidente pediu ao tribunal q...",
+    "file": "data/editions/noticias_brasil_2026-10-02_221432.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-02_221345",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-02",
+    "time": "22:13",
+    "summary": "Entidades paranaenses pedem respeito ao direito de voto e previsões de chuva marcam véspera de eleições: Várias entidades do setor produtivo...",
+    "file": "data/editions/fatos_da_regiao_2026-10-02_221345.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-02_174443",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-02",
+    "time": "17:44",
+    "summary": "Eleições 2026: 201 municípios paranaenses terão transporte público gratuito no 1º turno: Eleitores de 201 cidades do estado contarão com gra...",
+    "file": "data/editions/fatos_da_regiao_2026-10-02_174443.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
+    "id": "noticias_autismo_2026-10-02_145341",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-02",
+    "time": "14:53",
+    "summary": "[Inovação em SC] Nova ferramenta avalia sinais precoces de autismo em crianças de até 8 anos: Desenvolvida em Santa Catarina, uma nova tecno...",
+    "file": "data/editions/noticias_autismo_2026-10-02_145341.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-02_133721",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-02",
+    "time": "13:37",
+    "summary": "Novo Hospital no Litoral do Paraná: O Governo do Estado assinou convênio para a construção de um novo hospital em Guaratuba, equipado com ce...",
+    "file": "data/editions/fatos_da_regiao_2026-10-02_133721.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-02_130656",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
