@@ -23,6 +23,11 @@ git add public/data/ reports/
 git diff --staged --quiet
 if errorlevel 1 (
     git commit -m "chore(auto): novas edicoes agendadas publicadas [skip ci]"
+)
+
+for /f %%i in ('git rev-list --count origin/main..HEAD') do set UNPUSHED=%%i
+if not "%UNPUSHED%"=="0" (
+    echo Existem %UNPUSHED% commit(s) pendentes de envio. Enviando para o GitHub...
     git push origin main
     if errorlevel 1 (
         echo Push direto rejeitado. Sincronizando e resolvendo catalogo...

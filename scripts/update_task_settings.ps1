@@ -1,4 +1,4 @@
-$settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -StartWhenAvailable
+$settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -StartWhenAvailable -WakeToRun
 $tasks = @("NewsBriefing_08h", "NewsBriefing_13h", "NewsBriefing_19h")
 foreach ($t in $tasks) {
     try {
