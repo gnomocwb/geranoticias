@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-02_174457",
+    "id": "noticias_brasil_2026-10-02_221432",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-10-02",
-    "time": "17:44",
-    "summary": "Eleições no Brasil monitoradas por Washington: O presidente dos Estados Unidos, Donald Trump, declarou novamente estar acompanhando as eleiç...",
-    "file": "data/editions/noticias_brasil_2026-10-02_174457.html",
+    "time": "22:14",
+    "summary": "Campanha de Lula pede que TSE inclua suspensão de serviços consulares dos EUA em investigação: A coligação do presidente pediu ao tribunal q...",
+    "file": "data/editions/noticias_brasil_2026-10-02_221432.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-02_221345",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-02",
+    "time": "22:13",
+    "summary": "Entidades paranaenses pedem respeito ao direito de voto e previsões de chuva marcam véspera de eleições: Várias entidades do setor produtivo...",
+    "file": "data/editions/fatos_da_regiao_2026-10-02_221345.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
