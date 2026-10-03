@@ -1,13 +1,29 @@
 [
   {
-    "id": "noticias_brasil_2026-10-03_161353",
+    "id": "noticias_autismo_2026-10-03_173823",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-03",
+    "time": "17:38",
+    "summary": "Escola envia criança autista para casa em saco plástico na Bahia: Um caso gravíssimo de violação de direitos e maus-tratos gerou revolta nac...",
+    "file": "data/editions/noticias_autismo_2026-10-03_173823.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-10-03_173756",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
     "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
     "date": "2026-10-03",
-    "time": "16:13",
-    "summary": "[Véspera de Eleições: Pesquisas mostram acirramento na reta final] A véspera do primeiro turno das Eleições 2026 é marcada por novas pesquis...",
-    "file": "data/editions/noticias_brasil_2026-10-03_161353.html",
+    "time": "17:37",
+    "summary": "[Execução Falha nos EUA]: O prisioneiro Christa Pike sobreviveu a duas doses de pentobarbital em injeção letal no Tennessee, gerando reações...",
+    "file": "data/editions/noticias_brasil_2026-10-03_173756.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +31,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-03_173731",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-03",
+    "time": "17:37",
+    "summary": "Paraná mobilizado para o 1º turno das Eleições 2026: Com 1.038 candidatos na disputa estadual e gastos de campanha que já superam R$ 220 mil...",
+    "file": "data/editions/fatos_da_regiao_2026-10-03_173731.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
