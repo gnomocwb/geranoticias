@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-10-03_120841",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-03",
+    "time": "12:08",
+    "summary": "Reta final das Eleições 2026 e cenários de 1º e 2º turnos: Às vésperas da votação, novas pesquisas CNT/MDA mostram Lula (PT) liderando o pri...",
+    "file": "data/editions/noticias_brasil_2026-10-03_120841.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-03_120827",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-03",
+    "time": "12:08",
+    "summary": "TRE-PR conclui distribuição das urnas eletrônicas para o 1º turno: As urnas que serão utilizadas nas Eleições 2026 já foram entregues nos 4....",
+    "file": "data/editions/fatos_da_regiao_2026-10-03_120827.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-03_103605",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -29,24 +67,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-03_103557",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
-    "date": "2026-10-03",
-    "time": "10:35",
-    "summary": "[AGU questiona leis das bets no STF](https://www.infomoney.com.br/politica/agu-muda-posicao-e-pede-ao-stf-que-declare-inconstitucional-marco...",
-    "file": "data/editions/noticias_brasil_2026-10-03_103557.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
@@ -87,24 +107,6 @@
       "Folha de Londrina",
       "Diário de Foz",
       "Rede Sul de Notícias"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-02_221432",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-10-02",
-    "time": "22:14",
-    "summary": "Campanha de Lula pede que TSE inclua suspensão de serviços consulares dos EUA em investigação: A coligação do presidente pediu ao tribunal q...",
-    "file": "data/editions/noticias_brasil_2026-10-02_221432.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
