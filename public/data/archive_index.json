@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-10-03_103605",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-03",
+    "time": "10:36",
+    "summary": "Caso grave de violência e capacitismo na Bahia: Uma criança autista foi enviada para casa pela escola dentro de um saco plástico e com a fra...",
+    "file": "data/editions/noticias_autismo_2026-10-03_103605.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-03",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
