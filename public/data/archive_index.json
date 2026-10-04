@@ -1,5 +1,59 @@
 [
   {
+    "id": "noticias_autismo_2026-10-04_133351",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-04",
+    "time": "13:33",
+    "summary": "Escola investigada após enviar criança autista para casa em saco plástico: Um caso grave de violação de direitos e maus-tratos gerou revolta...",
+    "file": "data/editions/noticias_autismo_2026-10-04_133351.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-10-04_133342",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-04",
+    "time": "13:33",
+    "summary": "[1º Turno das Eleições 2026 Registra Ocorrências e Substituição de Urnas]: O primeiro turno das eleições gerais mobiliza o país neste doming...",
+    "file": "data/editions/noticias_brasil_2026-10-04_133342.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-04_133334",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-04",
+    "time": "13:33",
+    "summary": "Temporais causam estragos e deixam mais de 200 mil imóveis sem energia no estado: O dia de votação no Paraná foi marcado por fortes temporai...",
+    "file": "data/editions/fatos_da_regiao_2026-10-04_133334.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-04",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +67,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-04",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
-    "date": "2026-10-04",
-    "time": "09:19",
-    "summary": "[Eleições 2026: Urnas abertas e início da votação em todo o país]: As urnas eletrônicas foram abertas às 8h deste domingo (4) para o 1º turn...",
-    "file": "data/editions/noticias_brasil_2026-10-04.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
