@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-10-04",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-04",
+    "time": "13:51",
+    "summary": "[Escola investigada após enviar criança autista em saco plástico]: Uma escola foi alvo de investigação policial após mandar para casa um men...",
+    "file": "data/editions/noticias_autismo_2026-10-04.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-10-04",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
