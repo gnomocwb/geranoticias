@@ -1,5 +1,79 @@
 [
   {
+    "id": "noticias_autismo_2026-10-04",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-04",
+    "time": "09:19",
+    "summary": "Escola é investigada após enviar criança autista para casa em saco plástico: Um caso revoltante na Bahia mobilizou autoridades policiais e r...",
+    "file": "data/editions/noticias_autismo_2026-10-04.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-10-04",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
+    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "date": "2026-10-04",
+    "time": "09:19",
+    "summary": "[Eleições 2026: Urnas abertas e início da votação em todo o país]: As urnas eletrônicas foram abertas às 8h deste domingo (4) para o 1º turn...",
+    "file": "data/editions/noticias_brasil_2026-10-04.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-04",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-04",
+    "time": "09:19",
+    "summary": "Eleições 2026 e o Início da Votação: Mais de 8,6 milhões de eleitores estão aptos a ir às urnas neste domingo (4) no Paraná para escolher pr...",
+    "file": "data/editions/fatos_da_regiao_2026-10-04.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-03_202821",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-03",
+    "time": "20:28",
+    "summary": "Cassação de Deltan Dallagnol e reta final das pesquisas na véspera do 1º turno: O ministro Floriano de Azevedo Marques, do TSE, cassou o reg...",
+    "file": "data/editions/fatos_da_regiao_2026-10-03_202821.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-03_173823",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +87,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-03_173756",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-10-03",
-    "time": "17:37",
-    "summary": "[Execução Falha nos EUA]: O prisioneiro Christa Pike sobreviveu a duas doses de pentobarbital em injeção letal no Tennessee, gerando reações...",
-    "file": "data/editions/noticias_brasil_2026-10-03_173756.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
