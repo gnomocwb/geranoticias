@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-03_214149",
+    "id": "noticias_brasil_2026-10-04",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-10-03",
-    "time": "21:41",
-    "summary": "Empate Técnico na V véspera do 1º Turno Presidencial: As pesquisas finais divulgadas por Quaest e Datafolha mostram um cenário de acirrado e...",
-    "file": "data/editions/noticias_brasil_2026-10-03_214149.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-04",
+    "time": "12:47",
+    "summary": "[Eleições 2026: Votação do 1º Turno Mobiliza o País com Filas e Ocorrências]: Eleitores em diversos estados enfrentam filas longas, substitu...",
+    "file": "data/editions/noticias_brasil_2026-10-04.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-04",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-04",
+    "time": "12:46",
+    "summary": "Impasse na disputa ao Senado e votação dos candidatos no Paraná: O primeiro turno das Eleições 2026 é marcado por forte movimentação polític...",
+    "file": "data/editions/fatos_da_regiao_2026-10-04.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
