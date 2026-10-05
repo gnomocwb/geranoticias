@@ -1,5 +1,59 @@
 [
   {
+    "id": "noticias_autismo_2026-10-05_190849",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-05",
+    "time": "19:08",
+    "summary": "[UFRJ e Alerj firmam convênio milionário para pesquisa em autismo]: A Universidade Federal do Rio de Janeiro (UFRJ) e a Assembleia Legislati...",
+    "file": "data/editions/noticias_autismo_2026-10-05_190849.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-10-05_190840",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-10-05",
+    "time": "19:08",
+    "summary": "Efeito 1º Turno impulsiona a Bolsa e consolida apoios: O mercado financeiro reagiu fortemente aos resultados do primeiro turno das eleições,...",
+    "file": "data/editions/noticias_brasil_2026-10-05_190840.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-05_190832",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-05",
+    "time": "19:08",
+    "summary": "Sergio Moro é eleito governador do Paraná no 1º turno e Ratinho Júnior promete transição responsável: O atual senador e candidato Sergio Mor...",
+    "file": "data/editions/fatos_da_regiao_2026-10-05_190832.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-05_174708",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +67,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-05_174649",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-10-05",
-    "time": "17:46",
-    "summary": "[Ibovespa Dispara e Dólar Desaba após 1º Turno]: O resultado do primeiro turno das eleições presidenciais — que encaminhou a disputa para o ...",
-    "file": "data/editions/noticias_brasil_2026-10-05_174649.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
