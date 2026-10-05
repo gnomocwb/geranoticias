@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-04_163826",
+    "id": "noticias_brasil_2026-10-04_215930",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-10-04",
-    "time": "16:38",
-    "summary": "[Eleições 2026: Votação do 1º Turno entra na reta final e TSE prepara apuração]: A votação para o primeiro turno das eleições gerais avança ...",
-    "file": "data/editions/noticias_brasil_2026-10-04_163826.html",
+    "time": "21:59",
+    "summary": "[Eleições 2026: Flávio Bolsonaro e Lula disputarão o 2º turno presidencial]: O primeiro turno realizado neste domingo (4) consolidou a polar...",
+    "file": "data/editions/noticias_brasil_2026-10-04_215930.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-04_215920",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-04",
+    "time": "21:59",
+    "summary": "Sérgio Moro é eleito governador do Paraná no 1º Turno: Com 99,87% das urnas apuradas na noite deste domingo, Sérgio Moro (União Brasil) gara...",
+    "file": "data/editions/fatos_da_regiao_2026-10-04_215920.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
