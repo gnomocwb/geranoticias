@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-10-06_175909",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-06",
+    "time": "17:59",
+    "summary": "[Adiamento da Decisão sobre a Enel SP]: Diretor da Aneel pediu vista e interrompeu a votação sobre a recomendação de caducidade da concessio...",
+    "file": "data/editions/noticias_brasil_2026-10-06_175909.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-06_175900",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-06",
+    "time": "17:59",
+    "summary": "Fim das apostas esportivas e resgate de saldos: Os sites e aplicativos de apostas (bets) saíram do ar em todo o país nesta terça-feira (6), ...",
+    "file": "data/editions/fatos_da_regiao_2026-10-06_175900.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-06",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-06",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-10-06",
-    "time": "14:10",
-    "summary": "[TSE Desmente Fraude e Esclarece Paralisação]: O Tribunal Superior Eleitoral emitiu nota oficial desmentindo boatos de fraude na apuração do...",
-    "file": "data/editions/noticias_brasil_2026-10-06.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
