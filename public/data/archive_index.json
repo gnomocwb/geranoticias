@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-05_193723",
+    "id": "noticias_brasil_2026-10-05_232130",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
     "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-10-05",
-    "time": "19:37",
-    "summary": "Ibovespa bate recorde histórico e supera 206 mil pontos: Impulsionado pelo otimismo do mercado pós-1º turno das eleições, o principal índice...",
-    "file": "data/editions/noticias_brasil_2026-10-05_193723.html",
+    "time": "23:21",
+    "summary": "[HBR Realty lança oferta para tirar Helbor da Bolsa](https://economia.uol.com.br/noticias/reuters/2026/10/05/hbr-lanca-oferta-por-helbor-a-r...",
+    "file": "data/editions/noticias_brasil_2026-10-05_232130.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-05_232043",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-05",
+    "time": "23:20",
+    "summary": "Alerta de Tempestades e Danos por Vendavais: O Inmet emitiu alertas para 295 municípios do Paraná com risco de tempestades, após balanço con...",
+    "file": "data/editions/fatos_da_regiao_2026-10-05_232043.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
