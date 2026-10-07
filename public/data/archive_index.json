@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-06_175909",
+    "id": "noticias_brasil_2026-10-06_223551",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-10-06",
-    "time": "17:59",
-    "summary": "[Adiamento da Decisão sobre a Enel SP]: Diretor da Aneel pediu vista e interrompeu a votação sobre a recomendação de caducidade da concessio...",
-    "file": "data/editions/noticias_brasil_2026-10-06_175909.html",
+    "time": "22:35",
+    "summary": "[Eleições 2026: Flávio Bolsonaro e Alianças para o 2º Turno]: O senador e candidato à Presidência Flávio Bolsonaro (PL) declarou estar esper...",
+    "file": "data/editions/noticias_brasil_2026-10-06_223551.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-06_223542",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-06",
+    "time": "22:35",
+    "summary": "Curitiba destaca-se como capital nacional do comércio de usados: Dados do Mapa de Empresas apontam Curitiba e o Paraná na vanguarda do setor...",
+    "file": "data/editions/fatos_da_regiao_2026-10-06_223542.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
