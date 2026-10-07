@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-06_223551",
+    "id": "noticias_brasil_2026-10-07",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-10-06",
-    "time": "22:35",
-    "summary": "[Eleições 2026: Flávio Bolsonaro e Alianças para o 2º Turno]: O senador e candidato à Presidência Flávio Bolsonaro (PL) declarou estar esper...",
-    "file": "data/editions/noticias_brasil_2026-10-06_223551.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-07",
+    "time": "14:48",
+    "summary": "Alta de 13% na Produção de Petróleo Impulsionada pelo Pré-Sal: Estudos da Empresa de Pesquisa Energética (EPE) apontam que a política públic...",
+    "file": "data/editions/noticias_brasil_2026-10-07.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-07",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-07",
+    "time": "14:48",
+    "summary": "Alta de 42% no preço do asfalto encarece obras públicas no Paraná: O encarecimento do insumo provocou uma elevação geral de 17% nos custos d...",
+    "file": "data/editions/fatos_da_regiao_2026-10-07.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
