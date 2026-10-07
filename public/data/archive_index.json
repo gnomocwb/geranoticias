@@ -1,5 +1,59 @@
 [
   {
+    "id": "noticias_autismo_2026-10-07_130127",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-07",
+    "time": "13:01",
+    "summary": "Repercussão nacional sobre diagnóstico tardio de autismo: A revelação do diagnóstico de autismo da atriz Tisha Campbell (conhecida pela séri...",
+    "file": "data/editions/noticias_autismo_2026-10-07_130127.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-10-07_130116",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-07",
+    "time": "13:01",
+    "summary": "[Recorde de Fluxo Estrangeiro na B3]: Investidores estrangeiros injetaram um montante recorde de R$ 10,06 bilhões na Bolsa brasileira em um ...",
+    "file": "data/editions/noticias_brasil_2026-10-07_130116.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-07_130026",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-07",
+    "time": "13:00",
+    "summary": "Nota Paraná Sorteia R$ 5 Milhões: O Governo do Estado realiza nesta quinta-feira a edição especial de outubro do programa Nota Paraná, distr...",
+    "file": "data/editions/fatos_da_regiao_2026-10-07_130026.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-07",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +67,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-07",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
-    "date": "2026-10-07",
-    "time": "08:15",
-    "summary": "[Prêmio Nobel de Química 2026]: Os cientistas Henri Kagan (França) e Kenso Soai (Japão) foram laureados pela Academia Real das Ciências da S...",
-    "file": "data/editions/noticias_brasil_2026-10-07.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
