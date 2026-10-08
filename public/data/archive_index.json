@@ -1,5 +1,59 @@
 [
   {
+    "id": "noticias_autismo_2026-10-08_165228",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-08",
+    "time": "16:52",
+    "summary": "[Tisha Campbell, de 'Eu, a patroa e as crianças', recebe diagnóstico de autismo depois do filho - Canal Autismo](https://news.google.com/rss...",
+    "file": "data/editions/noticias_autismo_2026-10-08_165228.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-10-08_165147",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-08",
+    "time": "16:51",
+    "summary": "STF expede mandado de prisão e cancela passaportes de Eduardo Bolsonaro: O ministro Alexandre de Moraes determinou a execução da pena de 4 a...",
+    "file": "data/editions/noticias_brasil_2026-10-08_165147.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-08_165054",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-08",
+    "time": "16:50",
+    "summary": "TSE adia decisão sobre candidatura de Deltan Dallagnol e prolonga indefinição política: O Tribunal Superior Eleitoral retirou de pauta o jul...",
+    "file": "data/editions/fatos_da_regiao_2026-10-08_165054.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-08",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +67,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-08",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-10-08",
-    "time": "11:41",
-    "summary": "[TSE avança para anular votos de Garotinho no RJ]: O Tribunal Superior Eleitoral iniciou o julgamento e registra placar de 4 a 0 para rejeit...",
-    "file": "data/editions/noticias_brasil_2026-10-08.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
