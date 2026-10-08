@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-07_225927",
+    "id": "noticias_brasil_2026-10-08",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-10-07",
-    "time": "22:59",
-    "summary": "Escalada brutal na Ucrânia deixa 24 mortos: Uma combinação de mais de 100 drones e mísseis russos atingiu a capital Kiev e outras regiões, r...",
-    "file": "data/editions/noticias_brasil_2026-10-07_225927.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-08",
+    "time": "14:51",
+    "summary": "[Paes vai ao STF contra decisão do TSE que anula votos e pede 2º turno no RJ](https://www.infomoney.com.br/politica/paes-vai-ao-stf-contra-d...",
+    "file": "data/editions/noticias_brasil_2026-10-08.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-08",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-08",
+    "time": "14:51",
+    "summary": "[TSE adia julgamento que pode confirmar ou barrar eleição de Deltan Dallagnol](https://www.tribunapr.com.br/noticias/parana/tse-adia-julgame...",
+    "file": "data/editions/fatos_da_regiao_2026-10-08.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
