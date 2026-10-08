@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-07_181923",
+    "id": "noticias_brasil_2026-10-07_225927",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
     "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-10-07",
-    "time": "18:19",
-    "summary": "[Polícia Federal Arquiva Investigação sobre Interferência dos EUA]: A Polícia Federal decidiu arquivar o pedido de abertura de inquérito fei...",
-    "file": "data/editions/noticias_brasil_2026-10-07_181923.html",
+    "time": "22:59",
+    "summary": "Escalada brutal na Ucrânia deixa 24 mortos: Uma combinação de mais de 100 drones e mísseis russos atingiu a capital Kiev e outras regiões, r...",
+    "file": "data/editions/noticias_brasil_2026-10-07_225927.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-07_225919",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-07",
+    "time": "22:59",
+    "summary": "Feminicídio motivado por ciúmes de vídeos resulta em condenação recorde: O Tribunal do Júri condenou a penas severas homens envolvidos em as...",
+    "file": "data/editions/fatos_da_regiao_2026-10-07_225919.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
