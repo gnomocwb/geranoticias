@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-08_231331",
+    "id": "noticias_brasil_2026-10-09",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-10-08",
-    "time": "23:13",
-    "summary": "[Prêmio Nobel de Literatura 2026]: A escritora, poeta, ensaísta e tradutora canadense Anne Carson, de 76 anos, foi anunciada como a vencedor...",
-    "file": "data/editions/noticias_brasil_2026-10-08_231331.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-09",
+    "time": "14:26",
+    "summary": "Governo zera impostos da gasolina e encarece fretes: A 16 dias do segundo turno, o governo federal zerou as alíquotas de PIS/Cofins sobre a ...",
+    "file": "data/editions/noticias_brasil_2026-10-09.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-09",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-09",
+    "time": "14:25",
+    "summary": "Governo zera tributos da gasolina e amplia subsídios a combustíveis: A equipe econômica anunciou a ampliação da desoneração de tributos fede...",
+    "file": "data/editions/fatos_da_regiao_2026-10-09.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
