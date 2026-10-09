@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-08_182004",
+    "id": "noticias_brasil_2026-10-08_231331",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
     "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-10-08",
-    "time": "18:20",
-    "summary": "STF libera acesso a inquéritos sigilosos: O ministro Luiz Fux determinou que a área técnica da Suprema Corte libere ao seu gabinete acesso i...",
-    "file": "data/editions/noticias_brasil_2026-10-08_182004.html",
+    "time": "23:13",
+    "summary": "[Prêmio Nobel de Literatura 2026]: A escritora, poeta, ensaísta e tradutora canadense Anne Carson, de 76 anos, foi anunciada como a vencedor...",
+    "file": "data/editions/noticias_brasil_2026-10-08_231331.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-08_231323",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-08",
+    "time": "23:13",
+    "summary": "Cenário político pós-eleições e indefinição sobre Dallagnol: Análise dos principais veículos aponta que a sucessão do governo Ratinho Júnior...",
+    "file": "data/editions/fatos_da_regiao_2026-10-08_231323.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
