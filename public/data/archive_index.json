@@ -1,5 +1,59 @@
 [
   {
+    "id": "noticias_autismo_2026-10-09_190518",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-09",
+    "time": "19:05",
+    "summary": "Incêndio na UFPE destrói pesquisas científicas, incluindo estudos sobre autismo: Um incêndio de grandes proporções em um prédio da Universid...",
+    "file": "data/editions/noticias_autismo_2026-10-09_190518.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-10-09_190510",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-10-09",
+    "time": "19:05",
+    "summary": "PF aponta atuação direta de Ibaneis na tentativa de compra do Banco Master: Novos relatórios enviados pela Polícia Federal ao STF indicam qu...",
+    "file": "data/editions/noticias_brasil_2026-10-09_190510.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-09_190458",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-09",
+    "time": "19:04",
+    "summary": "Fim de sequestro em CMEI de Curitiba com invasão do BOPE: Uma situação crítica em um Centro Municipal de Educação Infantil (CMEI) no bairro ...",
+    "file": "data/editions/fatos_da_regiao_2026-10-09_190458.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-09_140449",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -29,24 +83,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-09_140439",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-10-09",
-    "time": "14:04",
-    "summary": "[EUA impõem sanções contra o Tribunal Penal Internacional](https://www.cnnbrasil.com.br/internacional/eua-impoem-sancoes-ao-tribunal-penal-i...",
-    "file": "data/editions/noticias_brasil_2026-10-09_140439.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
