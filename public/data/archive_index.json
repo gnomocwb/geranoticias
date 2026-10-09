@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-10-09_175417",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-09",
+    "time": "17:54",
+    "summary": "[Governo zera tributos da gasolina e amplia subsídio ao diesel]: O governo federal zerou os tributos federais sobre a gasolina e criou um su...",
+    "file": "data/editions/noticias_brasil_2026-10-09_175417.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-09_175408",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-09",
+    "time": "17:54",
+    "summary": "Homem armado invade CMEI e faz reféns em Curitiba: Um homem armado invadiu o Centro Municipal de Educação Infantil (CMEI) São Braz, no bairr...",
+    "file": "data/editions/fatos_da_regiao_2026-10-09_175408.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-09",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-09",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-10-09",
-    "time": "14:26",
-    "summary": "Governo zera impostos da gasolina e encarece fretes: A 16 dias do segundo turno, o governo federal zerou as alíquotas de PIS/Cofins sobre a ...",
-    "file": "data/editions/noticias_brasil_2026-10-09.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
