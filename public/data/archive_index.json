@@ -1,5 +1,95 @@
 [
   {
+    "id": "noticias_autismo_2026-10-09_140449",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-09",
+    "time": "14:04",
+    "summary": "Incêndio destrói laboratórios e décadas de pesquisas científicas na UFPE: Um incêndio de grandes proporções em um prédio da Universidade Fed...",
+    "file": "data/editions/noticias_autismo_2026-10-09_140449.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_autismo_2026-10-09",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-09",
+    "time": "14:04",
+    "summary": "Incêndio destrói laboratórios de pesquisa na UFPE e afeta estudos sobre autismo: Um incêndio de grandes proporções na Universidade Federal d...",
+    "file": "data/editions/noticias_autismo_2026-10-09.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-10-09_140439",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-09",
+    "time": "14:04",
+    "summary": "[EUA impõem sanções contra o Tribunal Penal Internacional](https://www.cnnbrasil.com.br/internacional/eua-impoem-sancoes-ao-tribunal-penal-i...",
+    "file": "data/editions/noticias_brasil_2026-10-09_140439.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-09_140426",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-09",
+    "time": "14:04",
+    "summary": "Retomada da Propaganda Eleitoral Gratuita para o 2º Turno: A campanha no rádio e na televisão foi reiniciada nesta sexta-feira (9), com temp...",
+    "file": "data/editions/fatos_da_regiao_2026-10-09_140426.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-09",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-09",
+    "time": "14:04",
+    "summary": "Retomada da Propaganda Eleitoral Gratuita e Atos de Rua: A campanha para o segundo turno das Eleições 2026 recomeça nesta sexta-feira (9) no...",
+    "file": "data/editions/fatos_da_regiao_2026-10-09.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-08_190950",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +103,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-08_190942",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-10-08",
-    "time": "19:09",
-    "summary": "Primeira Pesquisa Datafolha do 2º Turno (Presidência): O levantamento aponta o senador Flávio Bolsonaro (PL) com 49% das intenções de voto c...",
-    "file": "data/editions/noticias_brasil_2026-10-08_190942.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
