@@ -54,6 +54,44 @@
     ]
   },
   {
+    "id": "noticias_brasil_2026-10-09_224635",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-10-09",
+    "time": "22:46",
+    "summary": "[Fim de sequestro trágico em Curitiba]: Homem armado com uma faca fez 13 crianças reféns (de 4 a 5 anos) em uma creche (CMEI) no bairro São ...",
+    "file": "data/editions/noticias_brasil_2026-10-09_224635.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-09_224626",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-09",
+    "time": "22:46",
+    "summary": "Invasão a CMEI em Curitiba termina com criminoso morto e reféns resgatados: Um homem armado com uma faca invadiu um Centro Municipal de Educ...",
+    "file": "data/editions/fatos_da_regiao_2026-10-09_224626.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-09_190518",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -70,6 +108,24 @@
     ]
   },
   {
+    "id": "noticias_brasil_2026-10-09_190510",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-10-09",
+    "time": "19:05",
+    "summary": "PF aponta atuação direta de Ibaneis na tentativa de compra do Banco Master: Novos relatórios enviados pela Polícia Federal ao STF indicam qu...",
+    "file": "data/editions/noticias_brasil_2026-10-09_190510.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
     "id": "fatos_da_regiao_2026-10-09_190458",
     "type": "regional",
     "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
@@ -78,6 +134,62 @@
     "time": "19:04",
     "summary": "Fim de sequestro em CMEI de Curitiba com invasão do BOPE: Uma situação crítica em um Centro Municipal de Educação Infantil (CMEI) no bairro ...",
     "file": "data/editions/fatos_da_regiao_2026-10-09_190458.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-09_175408",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-09",
+    "time": "17:54",
+    "summary": "Homem armado invade CMEI e faz reféns em Curitiba: Um homem armado invadiu o Centro Municipal de Educação Infantil (CMEI) São Braz, no bairr...",
+    "file": "data/editions/fatos_da_regiao_2026-10-09_175408.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
+    "id": "noticias_autismo_2026-10-09",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-09",
+    "time": "15:22",
+    "summary": "[Incêndio de Grandes Proporções na UFPE Destrói Laboratórios e Pesquisas sobre Autismo e Câncer]: Um incêndio de grande magnitude atingiu in...",
+    "file": "data/editions/noticias_autismo_2026-10-09.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-09",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-09",
+    "time": "14:25",
+    "summary": "Governo zera tributos da gasolina e amplia subsídios a combustíveis: A equipe econômica anunciou a ampliação da desoneração de tributos fede...",
+    "file": "data/editions/fatos_da_regiao_2026-10-09.html",
     "sources": [
       "Tribuna do Paraná",
       "Bem Paraná",
@@ -106,22 +218,6 @@
     ]
   },
   {
-    "id": "noticias_autismo_2026-10-09",
-    "type": "autismo",
-    "type_label": "🧩 Notícias Autismo (09h)",
-    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
-    "date": "2026-10-09",
-    "time": "14:04",
-    "summary": "Incêndio destrói laboratórios de pesquisa na UFPE e afeta estudos sobre autismo: Um incêndio de grandes proporções na Universidade Federal d...",
-    "file": "data/editions/noticias_autismo_2026-10-09.html",
-    "sources": [
-      "Canal Autismo",
-      "Revista Autismo",
-      "Google News Brasil",
-      "Agência Brasil"
-    ]
-  },
-  {
     "id": "fatos_da_regiao_2026-10-09_140426",
     "type": "regional",
     "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
@@ -142,14 +238,14 @@
     ]
   },
   {
-    "id": "fatos_da_regiao_2026-10-09",
+    "id": "fatos_da_regiao_2026-10-08_231323",
     "type": "regional",
-    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
     "title": "Fatos da Região — Curitiba & Paraná",
-    "date": "2026-10-09",
-    "time": "14:04",
-    "summary": "Retomada da Propaganda Eleitoral Gratuita e Atos de Rua: A campanha para o segundo turno das Eleições 2026 recomeça nesta sexta-feira (9) no...",
-    "file": "data/editions/fatos_da_regiao_2026-10-09.html",
+    "date": "2026-10-08",
+    "time": "23:13",
+    "summary": "Cenário político pós-eleições e indefinição sobre Dallagnol: Análise dos principais veículos aponta que a sucessão do governo Ratinho Júnior...",
+    "file": "data/editions/fatos_da_regiao_2026-10-08_231323.html",
     "sources": [
       "Tribuna do Paraná",
       "Bem Paraná",
@@ -186,6 +282,26 @@
     "time": "19:09",
     "summary": "Decisão do STF sobre Eduardo Bolsonaro e desdobramentos políticos: O ministro Alexandre de Moraes determinou o início do cumprimento de pena...",
     "file": "data/editions/fatos_da_regiao_2026-10-08_190933.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-08_181952",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-08",
+    "time": "18:19",
+    "summary": "TSE adia julgamento e Deltan Dallagnol protesta: O Tribunal Superior Eleitoral (TSE) adiou a análise sobre o registro de candidatura do sena...",
+    "file": "data/editions/fatos_da_regiao_2026-10-08_181952.html",
     "sources": [
       "Tribuna do Paraná",
       "Bem Paraná",
@@ -239,8 +355,8 @@
     "type_label": "🧩 Notícias Autismo (09h)",
     "title": "Notícias Autismo Brasil — Edição Diária (09h)",
     "date": "2026-10-08",
-    "time": "11:42",
-    "summary": "Incêndio destrói centro de pesquisas da UFPE e impacta estudos sobre autismo: Um incêndio de grandes proporções atingiu o prédio de inovação...",
+    "time": "15:56",
+    "summary": "[Volta Redonda inicia projeto inédito de cinoterapia educacional para alunos com autismo da Escola Municipal Especializada Dayse Mansur - Pr...",
     "file": "data/editions/noticias_autismo_2026-10-08.html",
     "sources": [
       "Canal Autismo",
@@ -255,9 +371,29 @@
     "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
     "title": "Fatos da Região — Curitiba & Paraná",
     "date": "2026-10-08",
-    "time": "11:41",
-    "summary": "Julgamento de Deltan Dallagnol no TSE: O Tribunal Superior Eleitoral (TSE) iniciou às 10h desta quinta-feira (8) a análise do registro de ca...",
+    "time": "14:51",
+    "summary": "[TSE adia julgamento que pode confirmar ou barrar eleição de Deltan Dallagnol](https://www.tribunapr.com.br/noticias/parana/tse-adia-julgame...",
     "file": "data/editions/fatos_da_regiao_2026-10-08.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-07_225919",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-07",
+    "time": "22:59",
+    "summary": "Feminicídio motivado por ciúmes de vídeos resulta em condenação recorde: O Tribunal do Júri condenou a penas severas homens envolvidos em as...",
+    "file": "data/editions/fatos_da_regiao_2026-10-07_225919.html",
     "sources": [
       "Tribuna do Paraná",
       "Bem Paraná",
@@ -306,6 +442,62 @@
     ]
   },
   {
+    "id": "fatos_da_regiao_2026-10-07_181857",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-07",
+    "time": "18:18",
+    "summary": "Parceria estratégica no setor de combustíveis: A Transpetro firmou uma nova parceria no valor de R$ 43 milhões voltada para otimizar o trans...",
+    "file": "data/editions/fatos_da_regiao_2026-10-07_181857.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
+    "id": "noticias_autismo_2026-10-07",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-07",
+    "time": "15:57",
+    "summary": "Atriz Tisha Campbell revela diagnóstico de autismo aos 57 anos: A renomada atriz conhecida por seu papel na série Eu, a Patroa e as Crianças...",
+    "file": "data/editions/noticias_autismo_2026-10-07.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-07",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-07",
+    "time": "14:48",
+    "summary": "Alta de 42% no preço do asfalto encarece obras públicas no Paraná: O encarecimento do insumo provocou uma elevação geral de 17% nos custos d...",
+    "file": "data/editions/fatos_da_regiao_2026-10-07.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-07_130127",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -342,30 +534,34 @@
     ]
   },
   {
-    "id": "noticias_autismo_2026-10-07",
-    "type": "autismo",
-    "type_label": "🧩 Notícias Autismo (09h)",
-    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
-    "date": "2026-10-07",
-    "time": "08:15",
-    "summary": "Justiça amplia compreensão do cuidado e reduz jornada de trabalho de mãe atípica: Decisão recente do tribunal reconheceu que as demandas do ...",
-    "file": "data/editions/noticias_autismo_2026-10-07.html",
+    "id": "fatos_da_regiao_2026-10-06_223542",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-06",
+    "time": "22:35",
+    "summary": "Curitiba destaca-se como capital nacional do comércio de usados: Dados do Mapa de Empresas apontam Curitiba e o Paraná na vanguarda do setor...",
+    "file": "data/editions/fatos_da_regiao_2026-10-06_223542.html",
     "sources": [
-      "Canal Autismo",
-      "Revista Autismo",
-      "Google News Brasil",
-      "Agência Brasil"
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
-    "id": "fatos_da_regiao_2026-10-07",
+    "id": "fatos_da_regiao_2026-10-06_175900",
     "type": "regional",
-    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
     "title": "Fatos da Região — Curitiba & Paraná",
-    "date": "2026-10-07",
-    "time": "08:15",
-    "summary": "Alta de 42% no preço do asfalto pressiona obras rodoviárias no estado: O encarecimento do insumo básico tem gerado forte impacto nos custos ...",
-    "file": "data/editions/fatos_da_regiao_2026-10-07.html",
+    "date": "2026-10-06",
+    "time": "17:59",
+    "summary": "Fim das apostas esportivas e resgate de saldos: Os sites e aplicativos de apostas (bets) saíram do ar em todo o país nesta terça-feira (6), ...",
+    "file": "data/editions/fatos_da_regiao_2026-10-06_175900.html",
     "sources": [
       "Tribuna do Paraná",
       "Bem Paraná",
@@ -383,8 +579,8 @@
     "type_label": "🧩 Notícias Autismo (09h)",
     "title": "Notícias Autismo Brasil — Edição Diária (09h)",
     "date": "2026-10-06",
-    "time": "19:00",
-    "summary": "[Diagnóstico tardio ganha destaque nacional com o relato da atriz Tisha Campbell]: A atriz conhecida por seu papel na série Eu, a Patroa e a...",
+    "time": "15:24",
+    "summary": "[Consulta pública do CFM debate novas diretrizes para o autismo]: O Conselho Federal de Medicina abriu consulta pública para discutir as nov...",
     "file": "data/editions/noticias_autismo_2026-10-06.html",
     "sources": [
       "Canal Autismo",
@@ -396,12 +592,52 @@
   {
     "id": "fatos_da_regiao_2026-10-06",
     "type": "regional",
-    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
     "title": "Fatos da Região — Curitiba & Paraná",
     "date": "2026-10-06",
-    "time": "19:00",
-    "summary": "Fim dos sites e aplicativos de apostas (bets) no Brasil: Seguindo determinação de Medida Provisória federal, as plataformas saíram do ar nes...",
+    "time": "14:10",
+    "summary": "Impacto Econômico Pós-Eleições no Estado e no País: Abertura dos mercados nesta terça-feira (6) registrou forte reação após o primeiro turno...",
     "file": "data/editions/fatos_da_regiao_2026-10-06.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-05_232043",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-05",
+    "time": "23:20",
+    "summary": "Alerta de Tempestades e Danos por Vendavais: O Inmet emitiu alertas para 295 municípios do Paraná com risco de tempestades, após balanço con...",
+    "file": "data/editions/fatos_da_regiao_2026-10-05_232043.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-05_193712",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-05",
+    "time": "19:37",
+    "summary": "Repercussão das Eleições e Transição no Governo Estadual: O governador Ratinho Júnior reconheceu publicamente a vitória de Sergio Moro para ...",
+    "file": "data/editions/fatos_da_regiao_2026-10-05_193712.html",
     "sources": [
       "Tribuna do Paraná",
       "Bem Paraná",
@@ -491,8 +727,8 @@
     "type_label": "🧩 Notícias Autismo (09h)",
     "title": "Notícias Autismo Brasil — Edição Diária (09h)",
     "date": "2026-10-05",
-    "time": "12:06",
-    "summary": "[Convênio de R$ 17 Milhões para Pesquisa em Apoio ao Autismo](https://news.google.com/rss/articles/CBMipAFBVV95cUxOd1Y2bjhDbi14RlJLeG5qaVdTN...",
+    "time": "17:45",
+    "summary": "[UFRJ e Alerj firmam convênio histórico de R$ 17 milhões]: A Universidade Federal do Rio de Janeiro (UFRJ) e a Assembleia Legislativa do Est...",
     "file": "data/editions/noticias_autismo_2026-10-05.html",
     "sources": [
       "Canal Autismo",
@@ -507,9 +743,29 @@
     "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
     "title": "Fatos da Região — Curitiba & Paraná",
     "date": "2026-10-05",
-    "time": "12:01",
-    "summary": "Sergio Moro é eleito governador do Paraná no 1º turno: O atual senador Sergio Moro (PL) garantiu a vitória para o Palácio Iguaçu logo no pri...",
+    "time": "16:41",
+    "summary": "[Emplacamentos de veículos batem recorde e passam de 500 mil em setembro](https://www.tribunapr.com.br/noticias/economia/emplacamentos-de-ve...",
     "file": "data/editions/fatos_da_regiao_2026-10-05.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-04_215920",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-04",
+    "time": "21:59",
+    "summary": "Sérgio Moro é eleito governador do Paraná no 1º Turno: Com 99,87% das urnas apuradas na noite deste domingo, Sérgio Moro (União Brasil) gara...",
+    "file": "data/editions/fatos_da_regiao_2026-10-04_215920.html",
     "sources": [
       "Tribuna do Paraná",
       "Bem Paraná",
@@ -558,6 +814,42 @@
     ]
   },
   {
+    "id": "fatos_da_regiao_2026-10-04_163809",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-04",
+    "time": "16:38",
+    "summary": "Temporais e ventos extremos atingem o Paraná: A passagem de um sistema frontal severo na noite de sábado provocou ventos de até 140 km/h e t...",
+    "file": "data/editions/fatos_da_regiao_2026-10-04_163809.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
+    "id": "noticias_autismo_2026-10-04",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-04",
+    "time": "13:51",
+    "summary": "[Escola investigada após enviar criança autista em saco plástico]: Uma escola foi alvo de investigação policial após mandar para casa um men...",
+    "file": "data/editions/noticias_autismo_2026-10-04.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-04_133351",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -594,30 +886,34 @@
     ]
   },
   {
-    "id": "noticias_autismo_2026-10-04",
-    "type": "autismo",
-    "type_label": "🧩 Notícias Autismo (09h)",
-    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "id": "fatos_da_regiao_2026-10-04",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
     "date": "2026-10-04",
-    "time": "09:19",
-    "summary": "Escola é investigada após enviar criança autista para casa em saco plástico: Um caso revoltante na Bahia mobilizou autoridades policiais e r...",
-    "file": "data/editions/noticias_autismo_2026-10-04.html",
+    "time": "12:46",
+    "summary": "Impasse na disputa ao Senado e votação dos candidatos no Paraná: O primeiro turno das Eleições 2026 é marcado por forte movimentação polític...",
+    "file": "data/editions/fatos_da_regiao_2026-10-04.html",
     "sources": [
-      "Canal Autismo",
-      "Revista Autismo",
-      "Google News Brasil",
-      "Agência Brasil"
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
-    "id": "fatos_da_regiao_2026-10-04",
+    "id": "fatos_da_regiao_2026-10-03_214140",
     "type": "regional",
-    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
     "title": "Fatos da Região — Curitiba & Paraná",
-    "date": "2026-10-04",
-    "time": "09:19",
-    "summary": "Eleições 2026 e o Início da Votação: Mais de 8,6 milhões de eleitores estão aptos a ir às urnas neste domingo (4) no Paraná para escolher pr...",
-    "file": "data/editions/fatos_da_regiao_2026-10-04.html",
+    "date": "2026-10-03",
+    "time": "21:41",
+    "summary": "Candidatura de Deltan Dallagnol cassada pelo TSE na véspera da eleição: O ministro Floriano Azevedo Marques, do Tribunal Superior Eleitoral ...",
+    "file": "data/editions/fatos_da_regiao_2026-10-03_214140.html",
     "sources": [
       "Tribuna do Paraná",
       "Bem Paraná",
