@@ -1,5 +1,59 @@
 [
   {
+    "id": "noticias_autismo_2026-10-10",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-10",
+    "time": "10:03",
+    "summary": "Incêndio na UFPE compromete pesquisas sobre autismo e laboratórios: Um grave incêndio na Universidade Federal de Pernambuco (UFPE) destruiu ...",
+    "file": "data/editions/noticias_autismo_2026-10-10.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
+    "id": "noticias_brasil_2026-10-10",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
+    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "date": "2026-10-10",
+    "time": "10:03",
+    "summary": "Acordo entre Trump e Putin para liberação de diesel russo gera forte reação de Kiev: O presidente americano Donald Trump anunciou um pacto c...",
+    "file": "data/editions/noticias_brasil_2026-10-10.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-10",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-10",
+    "time": "10:02",
+    "summary": "Alerta Máximo de Tempestades no Estado: O Instituto Nacional de Meteorologia (Inmet) emitiu um alerta severo de tempestades abrangendo todas...",
+    "file": "data/editions/fatos_da_regiao_2026-10-10.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-09_190518",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +67,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-09_190510",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-10-09",
-    "time": "19:05",
-    "summary": "PF aponta atuação direta de Ibaneis na tentativa de compra do Banco Master: Novos relatórios enviados pela Polícia Federal ao STF indicam qu...",
-    "file": "data/editions/noticias_brasil_2026-10-09_190510.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
