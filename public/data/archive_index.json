@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-10-10_170359",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-10",
+    "time": "17:03",
+    "summary": "Douglas Ruas é eleito governador do Rio em 1º turno após retotalização: O TRE-RJ oficializou a vitória de Douglas Ruas (PL) após a anulação ...",
+    "file": "data/editions/noticias_brasil_2026-10-10_170359.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-10_170348",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-10",
+    "time": "17:03",
+    "summary": "Reforço na Segurança Escolar e Acompanhamento de Invasão: Após a invasão a um CMEI no bairro São Braz, em Curitiba, a Prefeitura avalia a in...",
+    "file": "data/editions/fatos_da_regiao_2026-10-10_170348.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-10_142120",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-10_131351",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-10-10",
-    "time": "13:13",
-    "summary": "[Anthropic suspende internet do Claude após denúncia falsa]: A empresa de inteligência artificial Anthropic bloqueou o acesso à internet em ...",
-    "file": "data/editions/noticias_brasil_2026-10-10_131351.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
