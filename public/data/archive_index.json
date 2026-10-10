@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-10-10_142120",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-10",
+    "time": "14:21",
+    "summary": "[Incêndio na UFPE Destrói Laboratórios e Afeta Pesquisas sobre Autismo]: Um grave incêndio nas dependências da Universidade Federal de Perna...",
+    "file": "data/editions/noticias_autismo_2026-10-10_142120.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-10-10_131351",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
