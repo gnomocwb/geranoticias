@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-10-10_131351",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-10",
+    "time": "13:13",
+    "summary": "[Anthropic suspende internet do Claude após denúncia falsa]: A empresa de inteligência artificial Anthropic bloqueou o acesso à internet em ...",
+    "file": "data/editions/noticias_brasil_2026-10-10_131351.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-10_131341",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-10",
+    "time": "13:13",
+    "summary": "Apreensão recorde de emagrecedores em perseguição policial: Um homem de 41 anos foi preso em Londrina após uma intensa perseguição policial ...",
+    "file": "data/editions/fatos_da_regiao_2026-10-10_131341.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-10",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-10",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
-    "date": "2026-10-10",
-    "time": "10:03",
-    "summary": "Acordo entre Trump e Putin para liberação de diesel russo gera forte reação de Kiev: O presidente americano Donald Trump anunciou um pacto c...",
-    "file": "data/editions/noticias_brasil_2026-10-10.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
@@ -51,24 +71,6 @@
       "Folha de Londrina",
       "Diário de Foz",
       "Rede Sul de Notícias"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-09_224635",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-10-09",
-    "time": "22:46",
-    "summary": "[Fim de sequestro trágico em Curitiba]: Homem armado com uma faca fez 13 crianças reféns (de 4 a 5 anos) em uma creche (CMEI) no bairro São ...",
-    "file": "data/editions/noticias_brasil_2026-10-09_224635.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
@@ -105,24 +107,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-09_190510",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-10-09",
-    "time": "19:05",
-    "summary": "PF aponta atuação direta de Ibaneis na tentativa de compra do Banco Master: Novos relatórios enviados pela Polícia Federal ao STF indicam qu...",
-    "file": "data/editions/noticias_brasil_2026-10-09_190510.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
