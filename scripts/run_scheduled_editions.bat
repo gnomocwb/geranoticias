@@ -7,7 +7,14 @@ echo [%date% %time%] Executando Edicoes Agendadas
 echo ======================================================
 
 echo Sincronizando com o GitHub...
-git pull origin main
+git fetch origin main
+git pull origin main --no-rebase -X theirs --no-edit
+"C:\Users\mlori\toco\antigravity\.venv\Scripts\python.exe" scripts\resolve_archive_index.py
+git add public/data/archive_index.json
+git diff --staged --quiet
+if errorlevel 1 (
+    git commit -m "chore(sync): sincroniza catalogo remoto antes da execucao [skip ci]"
+)
 
 echo [1/3] Executando Fatos da Regiao (Curitiba ^& PR)...
 "C:\Users\mlori\toco\antigravity\.venv\Scripts\python.exe" run_fatos_da_regiao.py
@@ -31,10 +38,13 @@ if not "%UNPUSHED%"=="0" (
     git push origin main
     if errorlevel 1 (
         echo Push direto rejeitado. Sincronizando e resolvendo catalogo...
-        git pull origin main --no-rebase -X theirs
+        git pull origin main --no-rebase -X theirs --no-edit
         "C:\Users\mlori\toco\antigravity\.venv\Scripts\python.exe" scripts\resolve_archive_index.py
         git add public/data/archive_index.json
-        git diff --staged --quiet || git commit -m "chore(merge): sincroniza catalogo de edicoes [skip ci]"
+        git diff --staged --quiet
+        if errorlevel 1 (
+            git commit -m "chore(merge): sincroniza catalogo de edicoes [skip ci]"
+        )
         git push origin main
     )
 )

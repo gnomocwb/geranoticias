@@ -72,7 +72,7 @@ jobs:
             git commit -m "chore(briefing): nova edição gerada e arquivada [skip ci]"
             if ! git push origin main; then
               echo "Push direto rejeitado (remoto atualizado). Sincronizando e resolvendo índice..."
-              git pull origin main --no-rebase -X theirs || true
+              git pull origin main --no-rebase -X theirs --no-edit || true
               python scripts/resolve_archive_index.py
               git add public/data/archive_index.json
               git diff --staged --quiet || git commit -m "chore(merge): sincroniza catálogo de edições [skip ci]"
