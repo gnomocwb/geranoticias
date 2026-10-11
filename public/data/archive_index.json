@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-10-11_171629",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-11",
+    "time": "17:16",
+    "summary": "[TSE Libera Canal \"Exército do Lula\"]: O corregedor do TSE, Ricardo Villas Bôas Cueva, suspendeu liminarmente a decisão anterior de Nunes Ma...",
+    "file": "data/editions/noticias_brasil_2026-10-11_171629.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-11_171618",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-11",
+    "time": "17:16",
+    "summary": "[TSE derruba decisão e libera canal “Exército do Lula” após disputa jurídica]: O corregedor do Tribunal Superior Eleitoral derrubou a limina...",
+    "file": "data/editions/fatos_da_regiao_2026-10-11_171618.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-11",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-11",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-10-11",
-    "time": "13:38",
-    "summary": "[Trump anuncia cessar-fogo energético entre Rússia e Ucrânia]: O presidente dos EUA afirmou que Moscou e Kiev concordaram em suspender ataqu...",
-    "file": "data/editions/noticias_brasil_2026-10-11.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
