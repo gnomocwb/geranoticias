@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-10-11",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-11",
+    "time": "14:41",
+    "summary": "Capacitação e Debate sobre Diagnóstico Tardio no Judiciário: O programa TJMT Inclusivo encerrou seu ciclo de capacitações com foco central n...",
+    "file": "data/editions/noticias_autismo_2026-10-11.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-10-11",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
