@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-10-13_181444",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-10-13",
+    "time": "18:14",
+    "summary": "Papa Leão XIV é diagnosticado com câncer de pulmão: O Vaticano confirmou que o pontífice foi submetido a uma cirurgia de 90 minutos nesta te...",
+    "file": "data/editions/noticias_brasil_2026-10-13_181444.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-13_181435",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-13",
+    "time": "18:14",
+    "summary": "Reforço na segurança de CMEIs em Curitiba: Após a grave invasão a um Centro Municipal de Educação Infantil que manteve 13 crianças reféns, a...",
+    "file": "data/editions/fatos_da_regiao_2026-10-13_181435.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-13",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-13_151616",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-10-13",
-    "time": "15:16",
-    "summary": "[Cirurgia pulmonar do papa termina 'com sucesso', diz Vaticano](https://noticias.uol.com.br/ultimas-noticias/afp/2026/10/13/cirurgia-pulmona...",
-    "file": "data/editions/noticias_brasil_2026-10-13_151616.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
