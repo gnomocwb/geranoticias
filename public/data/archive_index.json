@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-13",
+    "id": "noticias_brasil_2026-10-13_151616",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
     "date": "2026-10-13",
-    "time": "00:04",
-    "summary": "[TSE determina remoção de fake news sobre drogas em ato pró-Lula]: O Tribunal Superior Eleitoral ordenou que publicações de aliados da campa...",
-    "file": "data/editions/noticias_brasil_2026-10-13.html",
+    "time": "15:16",
+    "summary": "[Cirurgia pulmonar do papa termina 'com sucesso', diz Vaticano](https://noticias.uol.com.br/ultimas-noticias/afp/2026/10/13/cirurgia-pulmona...",
+    "file": "data/editions/noticias_brasil_2026-10-13_151616.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-13_151605",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-13",
+    "time": "15:16",
+    "summary": "Governo do Paraná decreta emergência em Foz do Iguaçu após fortes temporais: O acumulado de chuva atingiu 170 mm na região Norte da cidade, ...",
+    "file": "data/editions/fatos_da_regiao_2026-10-13_151605.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
