@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-12_195907",
+    "id": "noticias_brasil_2026-10-13",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-10-12",
-    "time": "19:59",
-    "summary": "[Pesquisa Quaest aponta cenários para o 2º turno no DF]: Levantamentos divulgados nesta segunda-feira mostram que Celina Leão (PP) lidera a ...",
-    "file": "data/editions/noticias_brasil_2026-10-12_195907.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
+    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "date": "2026-10-13",
+    "time": "00:04",
+    "summary": "[TSE determina remoção de fake news sobre drogas em ato pró-Lula]: O Tribunal Superior Eleitoral ordenou que publicações de aliados da campa...",
+    "file": "data/editions/noticias_brasil_2026-10-13.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-13",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-13",
+    "time": "00:04",
+    "summary": "Alerta de temporais e queda de temperatura no Paraná: O estado inicia a semana sob alerta laranja para temporais, com previsão de acumulados...",
+    "file": "data/editions/fatos_da_regiao_2026-10-13.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
