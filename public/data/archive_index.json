@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-13_221542",
+    "id": "noticias_brasil_2026-10-14",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-10-13",
-    "time": "22:15",
-    "summary": "[TSE fixa limites e derruba propagandas com associações genéricas ao crime organizado]: O plenário do Tribunal Superior Eleitoral estabelece...",
-    "file": "data/editions/noticias_brasil_2026-10-13_221542.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-14",
+    "time": "12:49",
+    "summary": "[Saúde do Papa Leão XIV e Viagem à América Latina]: Após passar por cirurgia para remoção de parte do pulmão direito devido a um diagnóstico...",
+    "file": "data/editions/noticias_brasil_2026-10-14.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-14",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-14",
+    "time": "12:48",
+    "summary": "Foz do Iguaçu lidera geração de empregos formais no Paraná: O município registrou um saldo positivo de 1.028 vagas com carteira assinada em ...",
+    "file": "data/editions/fatos_da_regiao_2026-10-14.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
