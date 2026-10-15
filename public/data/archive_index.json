@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-10-15_165333",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-15",
+    "time": "16:53",
+    "summary": "[Petrobras Bate Recorde Histórico de Valor de Mercado]: A petroleira estatal alcançou a marca inédita de R$ 800 bilhões em valor de mercado ...",
+    "file": "data/editions/noticias_brasil_2026-10-15_165333.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-15_165322",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-15",
+    "time": "16:53",
+    "summary": "Transição de Governo no Palácio Iguaçu: O governador Ratinho Junior e o ex-juiz e senador Sergio Moro se reuniram no Palácio Iguaçu para ali...",
+    "file": "data/editions/fatos_da_regiao_2026-10-15_165322.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-15",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-15",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-10-15",
-    "time": "12:35",
-    "summary": "[FAB impõe sigilo de 100 anos a lista de passageiros de avião do ex-banqueiro Daniel Vorcaro](https://www.infomoney.com.br/politica/fab-colo...",
-    "file": "data/editions/noticias_brasil_2026-10-15.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
