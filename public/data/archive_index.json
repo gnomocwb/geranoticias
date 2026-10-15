@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-14_171245",
+    "id": "noticias_brasil_2026-10-14_213404",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-10-14",
-    "time": "17:12",
-    "summary": "[A impressionante descoberta do naufrágio mais antigo do mundo na costa da Turquia](https://www.bbc.com/portuguese/articles/cmy0rk9e23r3o?at...",
-    "file": "data/editions/noticias_brasil_2026-10-14_171245.html",
+    "time": "21:34",
+    "summary": "[SP] Temporal histórico paralisa a capital paulista: Uma tempestade extrema atingiu São Paulo nesta quarta-feira, acumulando o equivalente a...",
+    "file": "data/editions/noticias_brasil_2026-10-14_213404.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-14_213357",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-14",
+    "time": "21:33",
+    "summary": "Câmara aprova perdão de dívidas e novo teto para o MEI: A Câmara dos Deputados aprovou projetos de lei que perdoam débitos de microempreende...",
+    "file": "data/editions/fatos_da_regiao_2026-10-14_213357.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
