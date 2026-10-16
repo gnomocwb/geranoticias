@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-15_212635",
+    "id": "noticias_brasil_2026-10-16",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-10-15",
-    "time": "21:26",
-    "summary": "Operação da PF prende deputado federal e ex-chefe de Polícia Civil no RJ: A Polícia Federal prendeu o deputado estadual Márcio Canella (Uniã...",
-    "file": "data/editions/noticias_brasil_2026-10-15_212635.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-16",
+    "time": "12:21",
+    "summary": "[Democratas superam republicanos na arrecadação de fundos antes das eleições](https://noticias.uol.com.br/ultimas-noticias/afp/2026/10/16/de...",
+    "file": "data/editions/noticias_brasil_2026-10-16.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-16",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-16",
+    "time": "12:21",
+    "summary": "[Lula critica empresários contrários ao fim da escala 6x1](https://www.tribunapr.com.br/noticias/economia/lula-critica-empresarios-contrario...",
+    "file": "data/editions/fatos_da_regiao_2026-10-16.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
