@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-10-17_153053",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-17",
+    "time": "15:30",
+    "summary": "[Justiça Mantém Título de Flávio Bolsonaro]: O Tribunal de Justiça da Bahia derrubou a liminar que suspendia a entrega do Título de Cidadão ...",
+    "file": "data/editions/noticias_brasil_2026-10-17_153053.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-17_153039",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-17",
+    "time": "15:30",
+    "summary": "Confronto na Grande Curitiba termina com morte de suspeito de estupro: Um homem investigado por invadir a casa de sua prima e estuprar uma m...",
+    "file": "data/editions/fatos_da_regiao_2026-10-17_153039.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-17",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-17",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-10-17",
-    "time": "11:11",
-    "summary": "[Papa Leão XIV Recebe Alta Hospitalar]: O pontífice deixou o Hospital Gemelli, em Roma, e retornou ao Vaticano após cinco dias internado dev...",
-    "file": "data/editions/noticias_brasil_2026-10-17.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
