@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-16_213201",
+    "id": "noticias_brasil_2026-10-17",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-10-16",
-    "time": "21:32",
-    "summary": "[Justiça torna réus 12 ex-executivos da Americanas]: A Justiça Federal do Rio de Janeiro aceitou a denúncia do Ministério Público Federal (M...",
-    "file": "data/editions/noticias_brasil_2026-10-16_213201.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-17",
+    "time": "11:11",
+    "summary": "[Papa Leão XIV Recebe Alta Hospitalar]: O pontífice deixou o Hospital Gemelli, em Roma, e retornou ao Vaticano após cinco dias internado dev...",
+    "file": "data/editions/noticias_brasil_2026-10-17.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-17",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-17",
+    "time": "11:11",
+    "summary": "Luto no meio acadêmico com o falecimento do reitor da PUCPR: A morte do reitor da Pontifícia Universidade Católica do Paraná (PUCPR), Irmão ...",
+    "file": "data/editions/fatos_da_regiao_2026-10-17.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
