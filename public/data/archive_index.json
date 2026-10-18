@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-17_153053",
+    "id": "noticias_brasil_2026-10-17_210514",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-10-17",
-    "time": "15:30",
-    "summary": "[Justiça Mantém Título de Flávio Bolsonaro]: O Tribunal de Justiça da Bahia derrubou a liminar que suspendia a entrega do Título de Cidadão ...",
-    "file": "data/editions/noticias_brasil_2026-10-17_153053.html",
+    "time": "21:05",
+    "summary": "[Escândalo Político] Empresária Roberta Luchsinger anuncia intenção de delação premiada, ataca o presidente Lula e mira Lulinha: Em entrevis...",
+    "file": "data/editions/noticias_brasil_2026-10-17_210514.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-17_210501",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-17",
+    "time": "21:05",
+    "summary": "Ato político e carreata reúnem lideranças em Curitiba: Uma grande mobilização política tomou conta da capital paranaense neste sábado, reuni...",
+    "file": "data/editions/fatos_da_regiao_2026-10-17_210501.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
