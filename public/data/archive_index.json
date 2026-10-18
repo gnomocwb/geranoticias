@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-10-18_153817",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-18",
+    "time": "15:38",
+    "summary": "[Reta Final do 2º Turno: Debates e Ruas]: Flávio Bolsonaro (PL) e Lula (PT) intensificam agendas de campanha e se preparam para o primeiro d...",
+    "file": "data/editions/noticias_brasil_2026-10-18_153817.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-18_153810",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-18",
+    "time": "15:38",
+    "summary": "Ato político e tensão na Avenida Paulista e Curitiba: A uma semana do segundo turno, manifestações políticas movimentaram o cenário nacional...",
+    "file": "data/editions/fatos_da_regiao_2026-10-18_153810.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-18",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-18",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-10-18",
-    "time": "11:33",
-    "summary": "Atropelamento em ato político em Belo Horizonte: Um motorista de 45 anos foi preso em flagrante após atropelar um manifestante de 67 anos du...",
-    "file": "data/editions/noticias_brasil_2026-10-18.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
