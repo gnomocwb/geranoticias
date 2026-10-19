@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-18_211357",
+    "id": "noticias_brasil_2026-10-19",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-10-18",
-    "time": "21:13",
-    "summary": "Primeiro Debate Presidencial do 2º Turno: Lula (PT) e Flávio Bolsonaro (PL) travaram um confronto direto e tenso na noite deste domingo na B...",
-    "file": "data/editions/noticias_brasil_2026-10-18_211357.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-19",
+    "time": "14:27",
+    "summary": "[TSE cobra a Meta e reforça regras para o 2º turno]: O Tribunal Superior Eleitoral determinou que a Meta comprove em até 24 horas as medidas...",
+    "file": "data/editions/noticias_brasil_2026-10-19.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-19",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-19",
+    "time": "14:27",
+    "summary": "Golpe do Falso Advogado Causa Prejuízo Milionário a Idosa em Curitiba: O Ministério Público do Paraná (MPPR) denunciou 15 pessoas envolvidas...",
+    "file": "data/editions/fatos_da_regiao_2026-10-19.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
