@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-10-20_170020",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-20",
+    "time": "17:00",
+    "summary": "[Itamaraty rebate e critica declarações de Javier Milei sobre eleições brasileiras]: O Ministério das Relações Exteriores classificou as fal...",
+    "file": "data/editions/noticias_brasil_2026-10-20_170020.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-20_170005",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-20",
+    "time": "17:00",
+    "summary": "Movimentações políticas e apoios no segundo turno: Figuras políticas de destaque no estado declararam posições divergentes para o pleito nac...",
+    "file": "data/editions/fatos_da_regiao_2026-10-20_170005.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-20",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-20",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-10-20",
-    "time": "12:39",
-    "summary": "[“A Fazenda”: Catherine Bascoy joga esterco nas camas de Darlin e Ana Bruna](https://www.cnnbrasil.com.br/pop/realities/a-fazenda-catherine-...",
-    "file": "data/editions/noticias_brasil_2026-10-20.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
