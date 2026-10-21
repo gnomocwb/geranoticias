@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-10-21",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-21",
+    "time": "14:14",
+    "summary": "[STJ e Planos de Saúde] Famílias recorrem ao Tema 1.295 contra cortes de terapias: Mães e pais de pessoas autistas enfrentam reduções unilat...",
+    "file": "data/editions/noticias_autismo_2026-10-21.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-10-21",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
