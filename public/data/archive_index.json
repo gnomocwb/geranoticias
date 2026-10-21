@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-20_170020",
+    "id": "noticias_brasil_2026-10-20_213954",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-10-20",
-    "time": "17:00",
-    "summary": "[Itamaraty rebate e critica declarações de Javier Milei sobre eleições brasileiras]: O Ministério das Relações Exteriores classificou as fal...",
-    "file": "data/editions/noticias_brasil_2026-10-20_170020.html",
+    "time": "21:39",
+    "summary": "[Brasil supera Arábia Saudita e assume vice-liderança no fornecimento de petróleo para a China]: Dados alfandegários divulgados nesta terça-...",
+    "file": "data/editions/noticias_brasil_2026-10-20_213954.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-20_213941",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-20",
+    "time": "21:39",
+    "summary": "Flávio Arns sinaliza apoio a Lula no segundo turno: Ao lado do vice-presidente Geraldo Alckmin, o senador paranaense Flávio Arns declarou se...",
+    "file": "data/editions/fatos_da_regiao_2026-10-20_213941.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
