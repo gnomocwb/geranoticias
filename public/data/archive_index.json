@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-21_171008",
+    "id": "noticias_brasil_2026-10-21_214227",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-10-21",
-    "time": "17:10",
-    "summary": "[STF Exclui ISS da Base do PIS/Cofins]: Por 6 votos a 5, o Supremo Tribunal Federal decidiu retirar o Imposto sobre Serviços (ISS) da base d...",
-    "file": "data/editions/noticias_brasil_2026-10-21_171008.html",
+    "time": "21:42",
+    "summary": "Campanha de Lula aciona o TSE contra a Meta e pede cassação da chapa de Flávio Bolsonaro: A coligação do presidente Luiz Inácio Lula da Silv...",
+    "file": "data/editions/noticias_brasil_2026-10-21_214227.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-21_214218",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-21",
+    "time": "21:42",
+    "summary": "Disputa Judicial sobre o Transporte Coletivo: A Urbanização de Curitiba (Urbs) apresentou defesa ao Tribunal de Contas do Estado do Paraná (...",
+    "file": "data/editions/fatos_da_regiao_2026-10-21_214218.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
