@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-10-22_170730",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-22",
+    "time": "17:07",
+    "summary": "[França registra 1º caso humano do vírus Shamonda]: A autoridades francesas confirmaram o primeiro caso em humanos do vírus Shamonda, transm...",
+    "file": "data/editions/noticias_brasil_2026-10-22_170730.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-22_170656",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-22",
+    "time": "17:06",
+    "summary": "Chuva com granizo atinge Arapongas e causa estragos: Tempestades severas desde a noite de quarta-feira deixaram diversos prejuízos a residên...",
+    "file": "data/editions/fatos_da_regiao_2026-10-22_170656.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-22",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-22",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-10-22",
-    "time": "12:52",
-    "summary": "[Terremoto de magnitude 7 atinge região do Tibete, na China](https://www1.folha.uol.com.br/mundo/2026/10/terremoto-de-magnitude-7-atinge-reg...",
-    "file": "data/editions/noticias_brasil_2026-10-22.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
