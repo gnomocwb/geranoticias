@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-10-22",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-22",
+    "time": "14:12",
+    "summary": "Inauguração de Centro Especializado para Diagnóstico de Autismo em Adultos no Rio de Janeiro: O estado do Rio de Janeiro deu um passo histór...",
+    "file": "data/editions/noticias_autismo_2026-10-22.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-10-22",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
