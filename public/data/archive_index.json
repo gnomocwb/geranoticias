@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-10-23",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-23",
+    "time": "14:10",
+    "summary": "[Condenação Histórica por Discurso Capacitista]: Um pastor foi condenado no Pará a pagar R$ 50 mil de indenização após associar o autismo à ...",
+    "file": "data/editions/noticias_autismo_2026-10-23.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-10-23",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
