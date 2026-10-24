@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-10-24_155030",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-24",
+    "time": "15:50",
+    "summary": "Justiça garante transporte e 100% da frota de ônibus para o 2º turno: Em São Paulo, a Justiça determinou que a Prefeitura e a SPTrans operem...",
+    "file": "data/editions/noticias_brasil_2026-10-24_155030.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-24_154732",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-24",
+    "time": "15:47",
+    "summary": "Curitiba bate recorde de chuva em 2026 e tempestades afetam o Paraná: Curitiba registrou o maior volume de chuva em um único dia de 2026 nes...",
+    "file": "data/editions/fatos_da_regiao_2026-10-24_154732.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-24",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-24",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-10-24",
-    "time": "11:29",
-    "summary": "Véspera do 2º Turno das Eleições 2026 e logística de transporte público gratuito: O Brasil se prepara para a votação deste domingo (25) em c...",
-    "file": "data/editions/noticias_brasil_2026-10-24.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
