@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-24_155030",
+    "id": "noticias_brasil_2026-10-24_212142",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-10-24",
-    "time": "15:50",
-    "summary": "Justiça garante transporte e 100% da frota de ônibus para o 2º turno: Em São Paulo, a Justiça determinou que a Prefeitura e a SPTrans operem...",
-    "file": "data/editions/noticias_brasil_2026-10-24_155030.html",
+    "time": "21:21",
+    "summary": "[Reta Final Eletrônica e Empate Técnico na Presidência]: As pesquisas divulgadas na véspera do segundo turno mostram um cenário de acirramen...",
+    "file": "data/editions/noticias_brasil_2026-10-24_212142.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-24_212135",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-24",
+    "time": "21:21",
+    "summary": "Chuva recorde causa estragos e altera rotina em Curitiba: A capital paranaense registrou um volume expressivo de 106,6 mm de chuva acumulada...",
+    "file": "data/editions/fatos_da_regiao_2026-10-24_212135.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
