@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-25_160313",
+    "id": "noticias_brasil_2026-10-25_212526",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-10-25",
-    "time": "16:03",
-    "summary": "[Cobertura do 2º Turno das Eleições 2026]: O Brasil vai às urnas neste domingo para decidir o próximo presidente da República entre Luiz Iná...",
-    "file": "data/editions/noticias_brasil_2026-10-25_160313.html",
+    "time": "21:25",
+    "summary": "[Reeleição Histórica de Lula com Virada Inédita]: Luiz Inácio Lula da Silva (PT) foi reeleito para um quarto mandato presidencial em uma dis...",
+    "file": "data/editions/noticias_brasil_2026-10-25_212526.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-25_212519",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-25",
+    "time": "21:25",
+    "summary": "Lula é reeleito presidente em virada nacional, mas Paraná vota majoritariamente em Flávio Bolsonaro: O presidente Luiz Inácio Lula da Silva ...",
+    "file": "data/editions/fatos_da_regiao_2026-10-25_212519.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
