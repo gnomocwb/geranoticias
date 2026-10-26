@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-10-26_180042",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-10-26",
+    "time": "18:00",
+    "summary": "[Ibovespa despenca e aciona 'circuit breaker' após reeleição de Lula]: O principal índice da bolsa brasileira registrou queda de quase 14%, ...",
+    "file": "data/editions/noticias_brasil_2026-10-26_180042.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-26_180034",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-26",
+    "time": "18:00",
+    "summary": "Apreensão de passaportes e desdobramentos pós-eleição presidencial: Por determinação do ministro Alexandre de Moraes, do STF, o senador Fláv...",
+    "file": "data/editions/fatos_da_regiao_2026-10-26_180034.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-26",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-26",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-10-26",
-    "time": "14:20",
-    "summary": "[Mercados em forte retração pós-eleição e Circuit Breaker]: O pregão desta segunda-feira (26) registra forte volatilidade e perdas acentuada...",
-    "file": "data/editions/noticias_brasil_2026-10-26.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
