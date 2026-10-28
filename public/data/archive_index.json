@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-27_222624",
+    "id": "noticias_brasil_2026-10-28",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-10-27",
-    "time": "22:26",
-    "summary": "[Flávio Bolsonaro deixa o Brasil rumo aos EUA após derrota eleitoral]: O senador e candidato derrotado à Presidência viajou para os Estados ...",
-    "file": "data/editions/noticias_brasil_2026-10-27_222624.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-28",
+    "time": "14:12",
+    "summary": "Caso Flávio Bolsonaro: Desembarque nos EUA via Argentina gera reação internacional: O senador Flávio Bolsonaro desembarcou em Miami após dei...",
+    "file": "data/editions/noticias_brasil_2026-10-28.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-28",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-28",
+    "time": "14:10",
+    "summary": "Duplicação de rodovia no Litoral do Paraná avança: O Departamento de Estradas de Rodagem (DER-PR) avança no projeto de ampliação e duplicaçã...",
+    "file": "data/editions/fatos_da_regiao_2026-10-28.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
