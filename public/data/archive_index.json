@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-27_174214",
+    "id": "noticias_brasil_2026-10-27_222624",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-10-27",
-    "time": "17:42",
-    "summary": "[Flávio Bolsonaro viaja para os EUA após derrota nas eleições]: Aliados confirmam que o senador embarcou para os Estados Unidos após a vitór...",
-    "file": "data/editions/noticias_brasil_2026-10-27_174214.html",
+    "time": "22:26",
+    "summary": "[Flávio Bolsonaro deixa o Brasil rumo aos EUA após derrota eleitoral]: O senador e candidato derrotado à Presidência viajou para os Estados ...",
+    "file": "data/editions/noticias_brasil_2026-10-27_222624.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-27_222615",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-27",
+    "time": "22:26",
+    "summary": "Transição de Governo no Paraná: O governador Ratinho Junior assinou o decreto que estabelece as regras oficiais de transição administrativa ...",
+    "file": "data/editions/fatos_da_regiao_2026-10-27_222615.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
