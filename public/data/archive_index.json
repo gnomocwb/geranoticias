@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-28_225014",
+    "id": "noticias_brasil_2026-10-29",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-10-28",
-    "time": "22:50",
-    "summary": "[Tragédia Ferroviária na Espanha]: Uma colisão entre dois trens de alta velocidade perto de Toledo deixou pelo menos 68 mortos e centenas de...",
-    "file": "data/editions/noticias_brasil_2026-10-28_225014.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-29",
+    "time": "14:25",
+    "summary": "[MPT processa Meta em R$ 50 milhões por assédio eleitoral](https://www.cnnbrasil.com.br/eleicoes/mpt-processa-meta-em-r-50-milhoes-por-publi...",
+    "file": "data/editions/noticias_brasil_2026-10-29.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-29",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-29",
+    "time": "14:24",
+    "summary": "Cataratas do Iguaçu registram vazão recorde de 6,2 milhões de litros por segundo: O volume d'água no Parque Nacional do Iguaçu superou em ma...",
+    "file": "data/editions/fatos_da_regiao_2026-10-29.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
