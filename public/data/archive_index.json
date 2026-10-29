@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-28_180341",
+    "id": "noticias_brasil_2026-10-28_225014",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
     "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-10-28",
-    "time": "18:03",
-    "summary": "[Carta de Flávio Bolsonaro e Repercussão Política]: O candidato derrotado no segundo turno, Flávio Bolsonaro, divulgou uma carta direto dos ...",
-    "file": "data/editions/noticias_brasil_2026-10-28_180341.html",
+    "time": "22:50",
+    "summary": "[Tragédia Ferroviária na Espanha]: Uma colisão entre dois trens de alta velocidade perto de Toledo deixou pelo menos 68 mortos e centenas de...",
+    "file": "data/editions/noticias_brasil_2026-10-28_225014.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-28_225005",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-28",
+    "time": "22:50",
+    "summary": "PF Indicia Vorcaro e mais 14 no Caso Master: A Polícia Federal indiciou o empresário e outros 14 investigados no âmbito da fraude bilionária...",
+    "file": "data/editions/fatos_da_regiao_2026-10-28_225005.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
