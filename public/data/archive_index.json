@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-10-30_174757",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-10-30",
+    "time": "17:47",
+    "summary": "[EUA investigam envolvimento da Coreia do Norte em ataque à Binance]: O presidente Donald Trump confirmou que os Estados Unidos estão invest...",
+    "file": "data/editions/noticias_brasil_2026-10-30_174757.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-30_174746",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-30",
+    "time": "17:47",
+    "summary": "Foz do Iguaçu entra na rota de repercussão política nacional: O advogado Cássio Lobato tergiversou sobre informações divulgadas pela emissor...",
+    "file": "data/editions/fatos_da_regiao_2026-10-30_174746.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-10-30",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-10-30",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-10-30",
-    "time": "14:00",
-    "summary": "[Ataque Hacker Bilionário à Binance]: A maior corretora de criptomoedas do mundo sofreu um ataque hacker resultando no roubo de US$ 6,3 bilh...",
-    "file": "data/editions/noticias_brasil_2026-10-30.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
