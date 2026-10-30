@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-29_180730",
+    "id": "noticias_brasil_2026-10-29_225921",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
     "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-10-29",
-    "time": "18:07",
-    "summary": "[Luto no Cinema e na TV] Morre o ator Patrick Stewart aos 86 anos: Ícone britânico mundialmente conhecido por dar vida ao Capitão Jean-Luc P...",
-    "file": "data/editions/noticias_brasil_2026-10-29_180730.html",
+    "time": "22:59",
+    "summary": "STF devolve caso INSS a Mendonça, mas retém Banco Master: O presidente do STF, ministro Fachin, determinou a devolução das investigações do ...",
+    "file": "data/editions/noticias_brasil_2026-10-29_225921.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-29_225911",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-29",
+    "time": "22:59",
+    "summary": "Prefeitura de Curitiba altera oferta de ensino nas escolas municipais: A administração municipal anunciou que vai deixar de ofertar do 6º ao...",
+    "file": "data/editions/fatos_da_regiao_2026-10-29_225911.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
