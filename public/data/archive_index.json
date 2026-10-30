@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-10-30",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-10-30",
+    "time": "15:01",
+    "summary": "[Relator prevê aprovação de ‘código do autismo’ na Câmara ainda este ano]: O relator do projeto otimiza expectativas para a votação e sanção...",
+    "file": "data/editions/noticias_autismo_2026-10-30.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-10-30",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
