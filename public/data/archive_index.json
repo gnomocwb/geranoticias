@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-10-30_174757",
+    "id": "noticias_brasil_2026-10-30_223737",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-10-30",
-    "time": "17:47",
-    "summary": "[EUA investigam envolvimento da Coreia do Norte em ataque à Binance]: O presidente Donald Trump confirmou que os Estados Unidos estão invest...",
-    "file": "data/editions/noticias_brasil_2026-10-30_174757.html",
+    "time": "22:37",
+    "summary": "Desdobramentos da fuga de Flávio Bolsonaro: O Itamaraty convocou a encarregada de negócios da Argentina no Brasil para prestar esclareciment...",
+    "file": "data/editions/noticias_brasil_2026-10-30_223737.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-10-30_223723",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-10-30",
+    "time": "22:37",
+    "summary": "Dólar Dispara e Bate Recorde Anual: A moeda norte-americana fechou cotada a R$ 5,44 nesta sexta-feira, acumulando alta superior a 9% na sema...",
+    "file": "data/editions/fatos_da_regiao_2026-10-30_223723.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
