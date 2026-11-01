@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-11-01_173106",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-11-01",
+    "time": "17:31",
+    "summary": "[Letônia Relata Invasão Aérea Breve]: Forças Armadas da Letônia confirmaram que um objeto não identificado invadiu brevemente o espaço aéreo...",
+    "file": "data/editions/noticias_brasil_2026-11-01_173106.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-01_173031",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-01",
+    "time": "17:30",
+    "summary": "Alerta de temporais severos com ventos de até 100 km/h no Paraná: O mês de novembro começou sob forte instabilidade climática em todo o esta...",
+    "file": "data/editions/fatos_da_regiao_2026-11-01_173031.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-11-01",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-11-01",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-11-01",
-    "time": "14:07",
-    "summary": "Eleições de meio de mandato preocupam Casa Branca devido à inflação: Donald Trump enfrenta forte pressão popular às vésperas das midterms, p...",
-    "file": "data/editions/noticias_brasil_2026-11-01.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
