@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-01_173106",
+    "id": "noticias_brasil_2026-11-01_223213",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-11-01",
-    "time": "17:31",
-    "summary": "[Letônia Relata Invasão Aérea Breve]: Forças Armadas da Letônia confirmaram que um objeto não identificado invadiu brevemente o espaço aéreo...",
-    "file": "data/editions/noticias_brasil_2026-11-01_173106.html",
+    "time": "22:32",
+    "summary": "[Flávio Bolsonaro nos EUA e Bastidores da Fuga]: Investigações do Fantástico revelaram que a fuga do senador Flávio Bolsonaro (PL) para os E...",
+    "file": "data/editions/noticias_brasil_2026-11-01_223213.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-01_223200",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-01",
+    "time": "22:32",
+    "summary": "Vestibular da UFPR registra quase 35 mil candidatos no novo formato de fase única: A Universidade Federal do Paraná aplicou neste domingo as...",
+    "file": "data/editions/fatos_da_regiao_2026-11-01_223200.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
