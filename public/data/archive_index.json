@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-01_223213",
+    "id": "noticias_brasil_2026-11-02",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-11-01",
-    "time": "22:32",
-    "summary": "[Flávio Bolsonaro nos EUA e Bastidores da Fuga]: Investigações do Fantástico revelaram que a fuga do senador Flávio Bolsonaro (PL) para os E...",
-    "file": "data/editions/noticias_brasil_2026-11-01_223213.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-11-02",
+    "time": "17:44",
+    "summary": "[EUA e Irã: Otimismo com Diálogo]: O mercado internacional reagiu com alta no ouro diante de sinais de negociações entre Estados Unidos e Ir...",
+    "file": "data/editions/noticias_brasil_2026-11-02.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-02",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-02",
+    "time": "17:44",
+    "summary": "Tragédia na BR-277 em Palmeira: Uma colisão frontal violenta entre dois veículos na manhã desta segunda-feira (2) resultou em quatro mortes ...",
+    "file": "data/editions/fatos_da_regiao_2026-11-02.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
