@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-02_202953",
+    "id": "noticias_brasil_2026-11-03",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-11-02",
-    "time": "20:29",
-    "summary": "[EUA] Suprema Corte e juízes rejeitam manobras eleitorais de Trump na véspera das Midterms: A Suprema Corte dos EUA rejeitou um pedido de em...",
-    "file": "data/editions/noticias_brasil_2026-11-02_202953.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
+    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "date": "2026-11-03",
+    "time": "00:29",
+    "summary": "Eleições de Meio de Mandato (Midterms) nos EUA: Milhões de eleitores vão às urnas nesta terça-feira (3) para renovar toda a Câmara dos Repre...",
+    "file": "data/editions/noticias_brasil_2026-11-03.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-03",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-03",
+    "time": "00:29",
+    "summary": "Maringá decreta calamidade pública e mobiliza força-tarefa após temporal: A Prefeitura de Maringá estabeleceu situação de emergência após um...",
+    "file": "data/editions/fatos_da_regiao_2026-11-03.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
