@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-11-04_185250",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-11-04",
+    "time": "18:52",
+    "summary": "Banco Central mantém Selic em 13,75% e interrompe ciclo de cortes: Em decisão unânime do Copom na primeira reunião após a reeleição de Lula,...",
+    "file": "data/editions/noticias_brasil_2026-11-04_185250.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-04_185240",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-04",
+    "time": "18:52",
+    "summary": "Tragédia no Norte Pioneiro: Duas crianças, de 1 e 5 anos, foram encontradas mortas na manhã desta quarta-feira dentro de um carro abandonado...",
+    "file": "data/editions/fatos_da_regiao_2026-11-04_185240.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-11-04",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-11-04",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-11-04",
-    "time": "15:37",
-    "summary": "[EUA: Democratas conquistam maioria e Trump reage]: As eleições de meio de mandato (midterms) garantiram o controle da Câmara e do Senado ao...",
-    "file": "data/editions/noticias_brasil_2026-11-04.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
