@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-11-05_190328",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-11-05",
+    "time": "19:03",
+    "summary": "[Suzano lucra R$ 2,08 bi no 3º tri de 2026, alta de 6%](https://www.cnnbrasil.com.br/agro/suzano-lucra-r-208-bi-no-3o-tri-de-2026-alta-de-6/...",
+    "file": "data/editions/noticias_brasil_2026-11-05_190328.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-05_185903",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-05",
+    "time": "18:59",
+    "summary": "Transição de Governo no Paraná: O governador Ratinho Junior e o ex-juiz e senador Sergio Moro iniciaram oficialmente a troca de dados para a...",
+    "file": "data/editions/fatos_da_regiao_2026-11-05_185903.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-11-05",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-11-05",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-11-05",
-    "time": "15:42",
-    "summary": "[Impeachment no Paraguai]: A Câmara dos Deputados do Paraguai aprovou o prosseguimento do processo de impeachment do presidente Santiago Peñ...",
-    "file": "data/editions/noticias_brasil_2026-11-05.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
