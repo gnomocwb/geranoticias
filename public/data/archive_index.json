@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-04_185250",
+    "id": "noticias_brasil_2026-11-04_233126",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
     "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-11-04",
-    "time": "18:52",
-    "summary": "Banco Central mantém Selic em 13,75% e interrompe ciclo de cortes: Em decisão unânime do Copom na primeira reunião após a reeleição de Lula,...",
-    "file": "data/editions/noticias_brasil_2026-11-04_185250.html",
+    "time": "23:31",
+    "summary": "[Linha 5-Lilás tem circulação interrompida em SP após descarga elétrica](https://www.cnnbrasil.com.br/nacional/sudeste/sp/linha-5-lilas-tem-...",
+    "file": "data/editions/noticias_brasil_2026-11-04_233126.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-04_233119",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-04",
+    "time": "23:31",
+    "summary": "[Papa Leão XIV recebe Bob Dylan no Vaticano e ganha autobiografia do cantor](https://www.gazetadopovo.com.br/mundo/papa-leao-xiv-recebe-bob-...",
+    "file": "data/editions/fatos_da_regiao_2026-11-04_233119.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
