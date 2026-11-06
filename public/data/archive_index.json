@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-05_233037",
+    "id": "noticias_brasil_2026-11-06",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-11-05",
-    "time": "23:30",
-    "summary": "[Crise Institucional no Paraguai]: A intervenção no Ueno Bank e o escândalo financeiro do \"Caso Master\" abalaram as estruturas do país, leva...",
-    "file": "data/editions/noticias_brasil_2026-11-05_233037.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-11-06",
+    "time": "14:56",
+    "summary": "[Lula defende seriedade fiscal e afasta ônus para camadas de baixa renda]: O presidente Luiz Inácio Lula da Silva destacou a solidez das con...",
+    "file": "data/editions/noticias_brasil_2026-11-06.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-06",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-06",
+    "time": "14:55",
+    "summary": "Alerta de Animais Peçonhentos com Altas Temperaturas: A Secretaria de Estado da Saúde emitiu alerta devido ao aumento de chuvas e calor, ele...",
+    "file": "data/editions/fatos_da_regiao_2026-11-06.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
