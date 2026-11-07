@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-06_182930",
+    "id": "noticias_brasil_2026-11-06_225810",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
     "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-11-06",
-    "time": "18:29",
-    "summary": "[Cenário Político nos EUA]: O Papa Leão XIV declarou estar \"orgulhoso de ser americano\" e votou nas eleições de meio de mandato (midterms) d...",
-    "file": "data/editions/noticias_brasil_2026-11-06_182930.html",
+    "time": "22:58",
+    "summary": "Crise institucional e prisão no Paraguai: O Senado do Paraguai aprovou por unanimidade o impeachment do presidente Santiago Peña, em meio a ...",
+    "file": "data/editions/noticias_brasil_2026-11-06_225810.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-06_225803",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-06",
+    "time": "22:58",
+    "summary": "Crise Política no Paraguai com Reflexos na Fronteira: O Congresso do Paraguai aprovou o impeachment e destituiu o presidente Santiago Peña n...",
+    "file": "data/editions/fatos_da_regiao_2026-11-06_225803.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
