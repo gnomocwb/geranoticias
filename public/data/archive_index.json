@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-08_172845",
+    "id": "noticias_brasil_2026-11-08_224525",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-11-08",
-    "time": "17:28",
-    "summary": "[Mercedes Conquista 9º Título de Construtores da F1]: Com Kimi Antonelli já coroado entre os pilotos, a escuderia alemã garantiu matematicam...",
-    "file": "data/editions/noticias_brasil_2026-11-08_172845.html",
+    "time": "22:45",
+    "summary": "[Pronunciamento de Lula em Rede Nacional]: O presidente reeleito realizou seu primeiro pronunciamento na TV e rádio neste domingo (8), defen...",
+    "file": "data/editions/noticias_brasil_2026-11-08_224525.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-08_224518",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-08",
+    "time": "22:45",
+    "summary": "Protesto fecha BR-277 em São José dos Pinhais por falta de energia: Moradores da Região Metropolitana realizaram um bloqueio na pista sentid...",
+    "file": "data/editions/fatos_da_regiao_2026-11-08_224518.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
