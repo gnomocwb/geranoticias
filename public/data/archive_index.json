@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-10",
+    "id": "noticias_brasil_2026-11-10_153946",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
     "date": "2026-11-10",
-    "time": "01:09",
-    "summary": "Governo prorroga desoneração de combustíveis por 30 dias: Decreto assinado pelo presidente em exercício, Geraldo Alckmin, estende os benefíc...",
-    "file": "data/editions/noticias_brasil_2026-11-10.html",
+    "time": "15:39",
+    "summary": "MEC homologa diretrizes para o uso de Inteligência Artificial na educação: O Ministério da Educação publicou regras formais para o uso de IA...",
+    "file": "data/editions/noticias_brasil_2026-11-10_153946.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-10_153928",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-10",
+    "time": "15:39",
+    "summary": "Tragédia na BR-116 em Mandirituba e Acidente Grave na PR-508: Um casal de idosos morreu na manhã desta terça-feira após o carro em que viaja...",
+    "file": "data/editions/fatos_da_regiao_2026-11-10_153928.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
