@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-11-10_184825",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-11-10",
+    "time": "18:48",
+    "summary": "Escândalo na Nvidia derrete R$ 2,5 trilhões em valor de mercado: Ações da gigante de chips despencaram após denúncias de que o CEO, Jensen H...",
+    "file": "data/editions/noticias_brasil_2026-11-10_184825.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-10_184755",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-10",
+    "time": "18:47",
+    "summary": "Crise no Abastecimento de Água na Grande Curitiba: Mesmo dias após o forte temporal que atingiu o estado, cerca de 660 mil pessoas ainda con...",
+    "file": "data/editions/fatos_da_regiao_2026-11-10_184755.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-11-10",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-11-10_153946",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-11-10",
-    "time": "15:39",
-    "summary": "MEC homologa diretrizes para o uso de Inteligência Artificial na educação: O Ministério da Educação publicou regras formais para o uso de IA...",
-    "file": "data/editions/noticias_brasil_2026-11-10_153946.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
