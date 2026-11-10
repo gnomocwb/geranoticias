@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-11-10",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-11-10",
+    "time": "16:45",
+    "summary": "Transparência no SUS: Comissão aprova divulgação obrigatória de filas e vagas para atendimento TEA: Projeto de lei aprovado estabelece a tra...",
+    "file": "data/editions/noticias_autismo_2026-11-10.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-11-10_153946",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
