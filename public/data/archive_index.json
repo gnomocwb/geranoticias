@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-10_184825",
+    "id": "noticias_brasil_2026-11-10_225759",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
     "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-11-10",
-    "time": "18:48",
-    "summary": "Escândalo na Nvidia derrete R$ 2,5 trilhões em valor de mercado: Ações da gigante de chips despencaram após denúncias de que o CEO, Jensen H...",
-    "file": "data/editions/noticias_brasil_2026-11-10_184825.html",
+    "time": "22:57",
+    "summary": "[Ajuste Fiscal de R$ 80 Bilhões]: Governo federal e Congresso alinharam o projeto de ajuste fiscal para 2027, com impacto estimado entre R$ ...",
+    "file": "data/editions/noticias_brasil_2026-11-10_225759.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-10_225743",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-10",
+    "time": "22:57",
+    "summary": "Tragédia na Rodovia Alexandra-Matinhos: Novas informações revelam que o motorista suspeito de provocar o grave acidente na PR-508 (Litoral d...",
+    "file": "data/editions/fatos_da_regiao_2026-11-10_225743.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
