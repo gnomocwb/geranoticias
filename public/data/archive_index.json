@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-12_233934",
+    "id": "noticias_brasil_2026-11-13",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-11-12",
-    "time": "23:39",
-    "summary": "Senado aprova texto-base do ajuste fiscal com limite a cortes do Executivo: O plenário do Senado aprovou por 45 votos a 31 a proposta enviad...",
-    "file": "data/editions/noticias_brasil_2026-11-12_233934.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-11-13",
+    "time": "15:30",
+    "summary": "[Crise na Nvidia com saída de Jensen Huang e queda nas ações](https://g1.globo.com/tecnologia/noticia/2026/11/13/nvidia-rene-haas-arm-holdin...",
+    "file": "data/editions/noticias_brasil_2026-11-13.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-13",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-13",
+    "time": "15:29",
+    "summary": "Paraná consolida quarta maior economia do país com PIB per capita acima da média nacional: Levantamento divulgado nesta manhã mostra que o e...",
+    "file": "data/editions/fatos_da_regiao_2026-11-13.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
