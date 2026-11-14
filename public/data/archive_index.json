@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-13_232905",
+    "id": "noticias_brasil_2026-11-14",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-11-13",
-    "time": "23:29",
-    "summary": "[Caos Aéreo Global] Fim da suspensão de voos nos EUA após pane massiva em centros de controle: A Administração Federal de Aviação dos EUA (F...",
-    "file": "data/editions/noticias_brasil_2026-11-13_232905.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-11-14",
+    "time": "14:01",
+    "summary": "[Caos Aéreo nos EUA] Troca de cabos causa apagão e cancela mais de 16 mil voos em dois dias: O governo americano e autoridades de transporte...",
+    "file": "data/editions/noticias_brasil_2026-11-14.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-14",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-14",
+    "time": "14:01",
+    "summary": "Demissões em massa nos Campos Gerais: As fábricas da madeireira BrasPine em Jaguariaíva e Telêmaco Borba demitiram cerca de 180 funcionários...",
+    "file": "data/editions/fatos_da_regiao_2026-11-14.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
