@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-14_225752",
+    "id": "noticias_brasil_2026-11-15",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-11-14",
-    "time": "22:57",
-    "summary": "Ministério da Saúde confirma a primeira morte por Mpox no Brasil: O caso ocorreu no Rio de Janeiro e envolveu um paciente entre 40 e 49 anos...",
-    "file": "data/editions/noticias_brasil_2026-11-14_225752.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "date": "2026-11-15",
+    "time": "14:41",
+    "summary": "[Caso Nvidia] Megaspeed esclarece saída de executiva e escrutínio sobre o setor: A empresa Megaspeed afirmou que Alice Huang deixou a compan...",
+    "file": "data/editions/noticias_brasil_2026-11-15.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-15",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-15",
+    "time": "14:41",
+    "summary": "Tragédia Rodoviária no Sudoeste do Paraná: Um grave acidente na PR-280, em Mariópolis, envolveu uma Kombi e um caminhão, resultando na morte...",
+    "file": "data/editions/fatos_da_regiao_2026-11-15.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
