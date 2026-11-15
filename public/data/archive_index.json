@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-11-15_180201",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-11-15",
+    "time": "18:02",
+    "summary": "[Enem 2026 Conclui Segundo Dia de Provas]: Estudantes em todo o país enfrentaram questões de Matemática e Ciências da Natureza neste domingo...",
+    "file": "data/editions/noticias_brasil_2026-11-15_180201.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-15_180152",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-15",
+    "time": "18:01",
+    "summary": "Temporal repentino e alerta vermelho em Curitiba: Moradores da capital e região metropolitana foram surpreendidos no meio da tarde deste dom...",
+    "file": "data/editions/fatos_da_regiao_2026-11-15_180152.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-11-15",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-11-15",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-11-15",
-    "time": "14:41",
-    "summary": "[Caso Nvidia] Megaspeed esclarece saída de executiva e escrutínio sobre o setor: A empresa Megaspeed afirmou que Alice Huang deixou a compan...",
-    "file": "data/editions/noticias_brasil_2026-11-15.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
