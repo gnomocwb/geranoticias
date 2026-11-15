@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-14_174306",
+    "id": "noticias_brasil_2026-11-14_225752",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-11-14",
-    "time": "17:43",
-    "summary": "[Fux interrompe julgamento sobre o fim da escala 6x1](https://www.cnnbrasil.com.br/politica/fux-interrompe-julgamento-sobre-fim-da-escala-6x...",
-    "file": "data/editions/noticias_brasil_2026-11-14_174306.html",
+    "time": "22:57",
+    "summary": "Ministério da Saúde confirma a primeira morte por Mpox no Brasil: O caso ocorreu no Rio de Janeiro e envolveu um paciente entre 40 e 49 anos...",
+    "file": "data/editions/noticias_brasil_2026-11-14_225752.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-14_225739",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-14",
+    "time": "22:57",
+    "summary": "Enem 2026 e Alerta de Temporais no Paraná: Cerca de 221 mil estudantes paranaenses se preparam para realizar o segundo dia de provas do Exam...",
+    "file": "data/editions/fatos_da_regiao_2026-11-14_225739.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
