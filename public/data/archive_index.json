@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-15_180201",
+    "id": "noticias_brasil_2026-11-15_231254",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
     "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-11-15",
-    "time": "18:02",
-    "summary": "[Enem 2026 Conclui Segundo Dia de Provas]: Estudantes em todo o país enfrentaram questões de Matemática e Ciências da Natureza neste domingo...",
-    "file": "data/editions/noticias_brasil_2026-11-15_180201.html",
+    "time": "23:12",
+    "summary": "Esquema de venda de passaportes brasileiros para estrangeiros ligados ao terrorismo: Uma investigação da Polícia Civil do Distrito Federal r...",
+    "file": "data/editions/noticias_brasil_2026-11-15_231254.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-15_231244",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-15",
+    "time": "23:12",
+    "summary": "Rodovias concessionadas lideram avaliação de qualidade no estado: Pesquisa da CNT aponta que as estradas paranaenses sob administração da in...",
+    "file": "data/editions/fatos_da_regiao_2026-11-15_231244.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
