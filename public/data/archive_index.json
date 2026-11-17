@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-17_164858",
+    "id": "noticias_brasil_2026-11-17_203029",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-11-17",
-    "time": "16:48",
-    "summary": "[Geopolítica] Putin desembarca na China para cúpula com Trump e Xi: O presidente russo Vladimir Putin chegou à China para participar da cúpu...",
-    "file": "data/editions/noticias_brasil_2026-11-17_164858.html",
+    "time": "20:30",
+    "summary": "[Aneel forma maioria para caducidade da Enel SP, mas decisão é adiada]: Quatro dos cinco diretores da Aneel votaram favoravelmente à recomen...",
+    "file": "data/editions/noticias_brasil_2026-11-17_203029.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-17_203017",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-17",
+    "time": "20:30",
+    "summary": "Investimento bilionário em energia no Paraná: A Usina de Foz do Areia, situada no Rio Iguaçu, receberá melhorias avaliadas em R$ 1,3 bilhão ...",
+    "file": "data/editions/fatos_da_regiao_2026-11-17_203017.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
