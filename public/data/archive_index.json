@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-11-16_211444",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-11-16",
+    "time": "21:14",
+    "summary": "[Economia] Dólar disparado e queda na Bolsa por pessimismo fiscal: O dólar fechou em forte alta, cotado a R$ 5,77 (maior patamar desde abril...",
+    "file": "data/editions/noticias_brasil_2026-11-16_211444.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-16_211436",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-16",
+    "time": "21:14",
+    "summary": "Paraná supera o Rio Grande do Sul e alcança a 4ª maior economia do país: O estado registrou avanço expressivo em seus indicadores econômicos...",
+    "file": "data/editions/fatos_da_regiao_2026-11-16_211436.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-11-16",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-11-16",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-11-16",
-    "time": "18:00",
-    "summary": "[Economia] Dólar dispara e atinge maior patamar desde abril de 2025: O dólar comercial fechou em alta expressiva de 2,17%, cotado a R$ 5,777...",
-    "file": "data/editions/noticias_brasil_2026-11-16.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
