@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-17",
+    "id": "noticias_brasil_2026-11-17_164858",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
     "date": "2026-11-17",
-    "time": "01:32",
-    "summary": "[Caso Master Completa Um Ano]: As investigações sobre as fraudes bilionárias no Banco Master chegam a um ano nesta terça-feira (17) com o ba...",
-    "file": "data/editions/noticias_brasil_2026-11-17.html",
+    "time": "16:48",
+    "summary": "[Geopolítica] Putin desembarca na China para cúpula com Trump e Xi: O presidente russo Vladimir Putin chegou à China para participar da cúpu...",
+    "file": "data/editions/noticias_brasil_2026-11-17_164858.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-17_164850",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-17",
+    "time": "16:48",
+    "summary": "Nova lei estadual obriga hospitais a informarem casos de aborto: Hospitais públicos e privados do Paraná passam a ter a obrigatoriedade de r...",
+    "file": "data/editions/fatos_da_regiao_2026-11-17_164850.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
