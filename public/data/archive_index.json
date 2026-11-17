@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-16_211444",
+    "id": "noticias_brasil_2026-11-17",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-11-16",
-    "time": "21:14",
-    "summary": "[Economia] Dólar disparado e queda na Bolsa por pessimismo fiscal: O dólar fechou em forte alta, cotado a R$ 5,77 (maior patamar desde abril...",
-    "file": "data/editions/noticias_brasil_2026-11-16_211444.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
+    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "date": "2026-11-17",
+    "time": "01:32",
+    "summary": "[Caso Master Completa Um Ano]: As investigações sobre as fraudes bilionárias no Banco Master chegam a um ano nesta terça-feira (17) com o ba...",
+    "file": "data/editions/noticias_brasil_2026-11-17.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-17",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-17",
+    "time": "01:31",
+    "summary": "Paraná supera o Rio Grande do Sul e assume o posto de 4ª maior economia do país: O estado registrou avanço expressivo no cenário nacional, u...",
+    "file": "data/editions/fatos_da_regiao_2026-11-17.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
