@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-11-18",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-11-18",
+    "time": "17:33",
+    "summary": "Escola particular sob investigação em Palmas por cobrar taxa de apoio: O Ministério Público e órgãos competentes investigam uma instituição ...",
+    "file": "data/editions/noticias_autismo_2026-11-18.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-11-18_162458",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
