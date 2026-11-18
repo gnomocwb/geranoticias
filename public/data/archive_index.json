@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-17_203029",
+    "id": "noticias_brasil_2026-11-18",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-11-17",
-    "time": "20:30",
-    "summary": "[Aneel forma maioria para caducidade da Enel SP, mas decisão é adiada]: Quatro dos cinco diretores da Aneel votaram favoravelmente à recomen...",
-    "file": "data/editions/noticias_brasil_2026-11-17_203029.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
+    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "date": "2026-11-18",
+    "time": "00:44",
+    "summary": "[Geopolítica Global] Trump, Putin e Xi Jinping realizam cúpula trilateral histórica em Shenzhen: Os chefes de Estado dos EUA, Rússia e China...",
+    "file": "data/editions/noticias_brasil_2026-11-18.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-18",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-18",
+    "time": "00:43",
+    "summary": "Alerta de Temporais no Paraná: A quarta-feira (18) começa com previsão de chuvas intensas e temporais generalizados em todas as regiões do e...",
+    "file": "data/editions/fatos_da_regiao_2026-11-18.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
