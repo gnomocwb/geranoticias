@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-18",
+    "id": "noticias_brasil_2026-11-18_162458",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
     "date": "2026-11-18",
-    "time": "00:44",
-    "summary": "[Geopolítica Global] Trump, Putin e Xi Jinping realizam cúpula trilateral histórica em Shenzhen: Os chefes de Estado dos EUA, Rússia e China...",
-    "file": "data/editions/noticias_brasil_2026-11-18.html",
+    "time": "16:24",
+    "summary": "[BlackRock prevê concluir aquisição da SulAmérica Investimentos em 2027](https://www.cnnbrasil.com.br/economia/money/negocios/blackrock-prev...",
+    "file": "data/editions/noticias_brasil_2026-11-18_162458.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-18_162348",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-18",
+    "time": "16:23",
+    "summary": "Transição e Segurança Institucional: O governador eleito do Paraná, Sergio Moro (PL), anunciou Carlos Fernando dos Santos Lima, ex-integrant...",
+    "file": "data/editions/fatos_da_regiao_2026-11-18_162348.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
