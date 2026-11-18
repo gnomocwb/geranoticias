@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-11-18_195715",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-11-18",
+    "time": "19:57",
+    "summary": "PGR denuncia senador Flávio Bolsonaro ao STF por calúnia: A Procuradoria-Geral da República apresentou denúncia contra o parlamentar (PL-RJ)...",
+    "file": "data/editions/noticias_brasil_2026-11-18_195715.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-18_195705",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-18",
+    "time": "19:57",
+    "summary": "Alta expressiva do dólar e impacto no orçamento: O dólar disparou e fechou cotado a R$ 5,86, acumulando uma alta de quase 15% desde a vitóri...",
+    "file": "data/editions/fatos_da_regiao_2026-11-18_195705.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-11-18",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-11-18_162458",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-11-18",
-    "time": "16:24",
-    "summary": "[BlackRock prevê concluir aquisição da SulAmérica Investimentos em 2027](https://www.cnnbrasil.com.br/economia/money/negocios/blackrock-prev...",
-    "file": "data/editions/noticias_brasil_2026-11-18_162458.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
