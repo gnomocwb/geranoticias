@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-11-20",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-11-20",
+    "time": "17:24",
+    "summary": "[Garantia de Direitos] Autistas podem concorrer a vagas reservadas a pessoas com deficiência em concursos públicos: O entendimento jurídico ...",
+    "file": "data/editions/noticias_autismo_2026-11-20.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-11-20_160503",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
