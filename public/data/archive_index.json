@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-20",
+    "id": "noticias_brasil_2026-11-20_160503",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
     "date": "2026-11-20",
-    "time": "00:23",
-    "summary": "[Trama Golpista] STF pauta Lei da Dosimetria para dezembro: O ministro Alexandre de Moraes liberou para julgamento no plenário virtual, entr...",
-    "file": "data/editions/noticias_brasil_2026-11-20.html",
+    "time": "16:05",
+    "summary": "[Nvidia e Anthropic derrubam o Nasdaq]: As ações da Nvidia encaminham a pior sequência de quedas semanais desde 2008, com recuo superior a 7...",
+    "file": "data/editions/noticias_brasil_2026-11-20_160503.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-20_160452",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-20",
+    "time": "16:04",
+    "summary": "STF mantém suspensão da privatização da Celepar: O ministro Alexandre de Moraes votou para acompanhar o relator e manter a liminar que condi...",
+    "file": "data/editions/fatos_da_regiao_2026-11-20_160452.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
