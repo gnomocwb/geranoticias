@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-19_200310",
+    "id": "noticias_brasil_2026-11-20",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-11-19",
-    "time": "20:03",
-    "summary": "[Caso Master no STF] Fachin envia relatórios e Galípolo relata vazamento de dados do BC: O ministro Edson Fachin enviou à PGR e ministros do...",
-    "file": "data/editions/noticias_brasil_2026-11-19_200310.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
+    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "date": "2026-11-20",
+    "time": "00:23",
+    "summary": "[Trama Golpista] STF pauta Lei da Dosimetria para dezembro: O ministro Alexandre de Moraes liberou para julgamento no plenário virtual, entr...",
+    "file": "data/editions/noticias_brasil_2026-11-20.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-20",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-20",
+    "time": "00:23",
+    "summary": "Apreensão de Tonelada de Maconha em Carga de Milho: Uma operação da Delegacia da Receita Federal de Ponta Grossa reteve cerca de uma tonelad...",
+    "file": "data/editions/fatos_da_regiao_2026-11-20.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
