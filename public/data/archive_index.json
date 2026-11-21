@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-21",
+    "id": "noticias_brasil_2026-11-21_145713",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
     "date": "2026-11-21",
-    "time": "00:15",
-    "summary": "[Destruição e Mortes no RS]: Um forte temporal acompanhado por uma supercélula e ventos de até 114 km/h atingiu 33 municípios do Rio Grande ...",
-    "file": "data/editions/noticias_brasil_2026-11-21.html",
+    "time": "14:57",
+    "summary": "[Jair Bolsonaro Internado em UTI com Abdômen Agudo Obstrutivo]: O ex-presidente Jair Bolsonaro, que cumpre prisão domiciliar humanitária, fo...",
+    "file": "data/editions/noticias_brasil_2026-11-21_145713.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-21_145703",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-21",
+    "time": "14:57",
+    "summary": "Temporal causa estragos, quedas de postes e deixa mais de 80 mil imóveis sem energia no Paraná: Fortes chuvas e vendavais atingiram diversas...",
+    "file": "data/editions/fatos_da_regiao_2026-11-21_145703.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
