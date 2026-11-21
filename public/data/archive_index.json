@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-11-21_183906",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-11-21",
+    "time": "18:39",
+    "summary": "Bolsonaro na UTI com abdômen agudo obstrutivo: O ex-presidente Jair Bolsonaro foi internado em uma Unidade de Terapia Intensiva após apresen...",
+    "file": "data/editions/noticias_brasil_2026-11-21_183906.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-21_183846",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-21",
+    "time": "18:38",
+    "summary": "Simepar confirma dois tornados no Paraná no mesmo dia e distantes 427 km: O Sistema de Tecnologia e Monitoramento Ambiental do Paraná confir...",
+    "file": "data/editions/fatos_da_regiao_2026-11-21_183846.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-11-21",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-11-21_145713",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-11-21",
-    "time": "14:57",
-    "summary": "[Jair Bolsonaro Internado em UTI com Abdômen Agudo Obstrutivo]: O ex-presidente Jair Bolsonaro, que cumpre prisão domiciliar humanitária, fo...",
-    "file": "data/editions/noticias_brasil_2026-11-21_145713.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
