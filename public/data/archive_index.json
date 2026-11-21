@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-20_194024",
+    "id": "noticias_brasil_2026-11-21",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-11-20",
-    "time": "19:40",
-    "summary": "[Míssil russo atinge a Polônia]: Artefatos militares caíram em território polonês um dia antes da visita programada do secretário-geral da O...",
-    "file": "data/editions/noticias_brasil_2026-11-20_194024.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
+    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "date": "2026-11-21",
+    "time": "00:15",
+    "summary": "[Destruição e Mortes no RS]: Um forte temporal acompanhado por uma supercélula e ventos de até 114 km/h atingiu 33 municípios do Rio Grande ...",
+    "file": "data/editions/noticias_brasil_2026-11-21.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-21",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-21",
+    "time": "00:15",
+    "summary": "Tempestades severas provocam estragos e deixam milhares sem luz no estado: Fortes temporais atingiram municípios paranaenses, com destaque p...",
+    "file": "data/editions/fatos_da_regiao_2026-11-21.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
