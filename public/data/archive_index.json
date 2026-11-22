@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-11-22",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-11-22",
+    "time": "16:42",
+    "summary": "[TCE cobra plano em 30 dias para atendimento de alunos autistas em Balneário Camboriú]: O Tribunal de Contas apontou falhas graves na rede m...",
+    "file": "data/editions/noticias_autismo_2026-11-22.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-11-22",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
