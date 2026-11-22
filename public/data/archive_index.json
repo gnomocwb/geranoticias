@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-11-22_184550",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-11-22",
+    "time": "18:45",
+    "summary": "Democratas alcançam marca histórica na Câmara dos EUA: O Partido Democrata conquistou 259 cadeiras na Câmara dos Representantes — a maior ba...",
+    "file": "data/editions/noticias_brasil_2026-11-22_184550.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-22_184540",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-22",
+    "time": "18:45",
+    "summary": "Restabelecimento de energia e impactos de temporais: Dois dias após as fortes chuvas que atingiram o estado, a Copel informou que o fornecim...",
+    "file": "data/editions/fatos_da_regiao_2026-11-22_184540.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-11-22",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-11-22",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-11-22",
-    "time": "15:29",
-    "summary": "Internação de Jair Bolsonaro na UTI: O ex-presidente segue internado na Unidade de Terapia Intensiva do hospital DF Star, em Brasília, sem p...",
-    "file": "data/editions/noticias_brasil_2026-11-22.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
