@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-21_183906",
+    "id": "noticias_brasil_2026-11-21_231634",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
     "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-11-21",
-    "time": "18:39",
-    "summary": "Bolsonaro na UTI com abdômen agudo obstrutivo: O ex-presidente Jair Bolsonaro foi internado em uma Unidade de Terapia Intensiva após apresen...",
-    "file": "data/editions/noticias_brasil_2026-11-21_183906.html",
+    "time": "23:16",
+    "summary": "[Governo reconhece calamidade em Tupanciretã (RS) após temporais](https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/11/21/governo-...",
+    "file": "data/editions/noticias_brasil_2026-11-21_231634.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-21_231624",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-21",
+    "time": "23:16",
+    "summary": "Simepar confirma dois tornados no Paraná na última sexta-feira: O órgão estadual confirmou que os temporais que atingiram o estado deixaram ...",
+    "file": "data/editions/fatos_da_regiao_2026-11-21_231624.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
