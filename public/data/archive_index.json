@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-22_184550",
+    "id": "noticias_brasil_2026-11-22_235100",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
     "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-11-22",
-    "time": "18:45",
-    "summary": "Democratas alcançam marca histórica na Câmara dos EUA: O Partido Democrata conquistou 259 cadeiras na Câmara dos Representantes — a maior ba...",
-    "file": "data/editions/noticias_brasil_2026-11-22_184550.html",
+    "time": "23:51",
+    "summary": "[Saúde de Jair Bolsonaro]: O ex-presidente Jair Bolsonaro segue internado na UTI do Hospital DF Star, em Brasília, com quadro de abdômen agu...",
+    "file": "data/editions/noticias_brasil_2026-11-22_235100.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-22_235053",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-22",
+    "time": "23:50",
+    "summary": "Tempestades severas deixam rastro de destruição e mais de 250 casas danificadas no Paraná: O novo alerta amarelo emitido pelo Inmet confirmo...",
+    "file": "data/editions/fatos_da_regiao_2026-11-22_235053.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
