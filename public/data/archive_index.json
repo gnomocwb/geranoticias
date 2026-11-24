@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-24",
+    "id": "noticias_brasil_2026-11-24_180905",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
     "date": "2026-11-24",
-    "time": "03:06",
-    "summary": "Câmara aprova o pacote de ajuste fiscal do governo Lula: O texto-base da proposta, idealizada pelo ministro do Planejamento Bruno Moretti, f...",
-    "file": "data/editions/noticias_brasil_2026-11-24.html",
+    "time": "18:09",
+    "summary": "[EUA Condenam Huawei Criminalmente]: Um júri federal do Brooklyn considerou a gigante chinesa de tecnologia Huawei culpada de 10 das 12 acus...",
+    "file": "data/editions/noticias_brasil_2026-11-24_180905.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-24_180853",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-24",
+    "time": "18:08",
+    "summary": "Gover",
+    "file": "data/editions/fatos_da_regiao_2026-11-24_180853.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
