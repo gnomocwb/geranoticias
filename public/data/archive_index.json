@@ -1,5 +1,21 @@
 [
   {
+    "id": "noticias_autismo_2026-11-24",
+    "type": "autismo",
+    "type_label": "🧩 Notícias Autismo (09h)",
+    "title": "Notícias Autismo Brasil — Edição Diária (09h)",
+    "date": "2026-11-24",
+    "time": "19:28",
+    "summary": "[Grave Violação] Policial militar é filmado arrastando e agredindo aluno autista em sala de aula em MT: Um estudante no espectro autista (ní...",
+    "file": "data/editions/noticias_autismo_2026-11-24.html",
+    "sources": [
+      "Canal Autismo",
+      "Revista Autismo",
+      "Google News Brasil",
+      "Agência Brasil"
+    ]
+  },
+  {
     "id": "noticias_brasil_2026-11-24_180905",
     "type": "brasil",
     "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
