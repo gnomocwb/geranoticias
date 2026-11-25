@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-11-24_214420",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-11-24",
+    "time": "21:44",
+    "summary": "[Ajuste Fiscal Sancionado e Reflexos no Mercado]: O presidente Lula sancionou sem vetos o projeto de lei de ajuste fiscal aprovado pelo Cong...",
+    "file": "data/editions/noticias_brasil_2026-11-24_214420.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-24_214408",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-24",
+    "time": "21:44",
+    "summary": "Chuva e Ventos Fortes Desligam o Estado: Fortes temporais com ventos de até 85 km/h provocados pela passagem de uma frente fria atingiram o ...",
+    "file": "data/editions/fatos_da_regiao_2026-11-24_214408.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-11-24",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-11-24_180905",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-11-24",
-    "time": "18:09",
-    "summary": "[EUA Condenam Huawei Criminalmente]: Um júri federal do Brooklyn considerou a gigante chinesa de tecnologia Huawei culpada de 10 das 12 acus...",
-    "file": "data/editions/noticias_brasil_2026-11-24_180905.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
