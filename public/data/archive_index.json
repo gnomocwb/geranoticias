@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-27",
+    "id": "noticias_brasil_2026-11-27_165557",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
-    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
+    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
     "date": "2026-11-27",
-    "time": "01:17",
-    "summary": "[Luiz Carlos Trabuco é o novo Ministro da Fazenda]: O presidente Luiz Inácio Lula da Silva confirmou a escolha do banqueiro e presidente do ...",
-    "file": "data/editions/noticias_brasil_2026-11-27.html",
+    "time": "16:55",
+    "summary": "[Guerra na Ucrânia] Proposta de trégua no Mar Negro apresentada à Rússia: O governo ucraniano apresentou uma proposta formal de cessar-fogo ...",
+    "file": "data/editions/noticias_brasil_2026-11-27_165557.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-27_165547",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Tarde (13h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-27",
+    "time": "16:55",
+    "summary": "Paraná registra segunda maior safra da história: O estado fechou o ciclo com 46,9 milhões de toneladas de grãos, alcançando o segundo maior ...",
+    "file": "data/editions/fatos_da_regiao_2026-11-27_165547.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
