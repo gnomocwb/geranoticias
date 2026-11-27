@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-11-26_213450",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-11-26",
+    "time": "21:34",
+    "summary": "[Luiz Carlos Trabuco aceita comando do Ministério da Fazenda]: O presidente do Conselho de Administração do Bradesco, Luiz Carlos Trabuco, a...",
+    "file": "data/editions/noticias_brasil_2026-11-26_213450.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-26_213441",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-26",
+    "time": "21:34",
+    "summary": "Indicação de Luiz Carlos Trabuco para o Ministério da Fazenda impulsiona mercado financeiro: O banqueiro Luiz Carlos Trabuco Cappi aceitou o...",
+    "file": "data/editions/fatos_da_regiao_2026-11-26_213441.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-11-26",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-11-26_170833",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-11-26",
-    "time": "17:08",
-    "summary": "[CVM intima Americanas e ex-executivos]: A Comissão de Valores Mobiliários (CVM) formalizou a intimação da Americanas, de seu ex-CEO e de ou...",
-    "file": "data/editions/noticias_brasil_2026-11-26_170833.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
