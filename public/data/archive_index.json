@@ -1,13 +1,13 @@
 [
   {
-    "id": "noticias_brasil_2026-11-27_210219",
+    "id": "noticias_brasil_2026-11-28",
     "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
-    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
-    "date": "2026-11-27",
-    "time": "21:02",
-    "summary": "\"Efeito Trabuco\" derruba dólar e impulsiona bolsas: A indicação de Luiz Carlos Trabuco para o Ministério da Fazenda gerou forte otimismo no ...",
-    "file": "data/editions/noticias_brasil_2026-11-27_210219.html",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Manhã (08h))",
+    "title": "Notícias Brasil & Mundo — Edição da Manhã (08h)",
+    "date": "2026-11-28",
+    "time": "00:56",
+    "summary": "[Aneel Mantém Bandeira Verde]: A Aneel confirmou a manutenção da bandeira verde na conta de luz para o mês de dezembro, sem cobrança extra n...",
+    "file": "data/editions/noticias_brasil_2026-11-28.html",
     "sources": [
       "G1",
       "UOL",
@@ -15,6 +15,26 @@
       "Reuters",
       "BBC Brasil",
       "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-28",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Manhã (08h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-28",
+    "time": "00:56",
+    "summary": "Dólar cai forte e fecha cotado a R$ 5,51 após mudanças econômicas: A moeda americana registrou uma queda de quase 4% no encerramento da últi...",
+    "file": "data/editions/fatos_da_regiao_2026-11-28.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
     ]
   },
   {
