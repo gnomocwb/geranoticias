@@ -1,5 +1,43 @@
 [
   {
+    "id": "noticias_brasil_2026-11-27_210219",
+    "type": "brasil",
+    "type_label": "🇧🇷 Notícias Brasil (Edição da Noite (19h))",
+    "title": "Notícias Brasil & Mundo — Edição da Noite (19h)",
+    "date": "2026-11-27",
+    "time": "21:02",
+    "summary": "\"Efeito Trabuco\" derruba dólar e impulsiona bolsas: A indicação de Luiz Carlos Trabuco para o Ministério da Fazenda gerou forte otimismo no ...",
+    "file": "data/editions/noticias_brasil_2026-11-27_210219.html",
+    "sources": [
+      "G1",
+      "UOL",
+      "CNN Brasil",
+      "Reuters",
+      "BBC Brasil",
+      "InfoMoney"
+    ]
+  },
+  {
+    "id": "fatos_da_regiao_2026-11-27_210207",
+    "type": "regional",
+    "type_label": "🏙️ Fatos da Região (Edição da Noite (19h))",
+    "title": "Fatos da Região — Curitiba & Paraná",
+    "date": "2026-11-27",
+    "time": "21:02",
+    "summary": "Dólar despenca e fecha cotado a R$ 5,51 impulsionado por mudança ministerial: A moeda americana registrou forte queda de quase 4% nesta sext...",
+    "file": "data/editions/fatos_da_regiao_2026-11-27_210207.html",
+    "sources": [
+      "Tribuna do Paraná",
+      "Bem Paraná",
+      "Banda B",
+      "Gazeta do Povo",
+      "O Maringá",
+      "Folha de Londrina",
+      "Diário de Foz",
+      "Rede Sul de Notícias"
+    ]
+  },
+  {
     "id": "noticias_autismo_2026-11-27",
     "type": "autismo",
     "type_label": "🧩 Notícias Autismo (09h)",
@@ -13,24 +51,6 @@
       "Revista Autismo",
       "Google News Brasil",
       "Agência Brasil"
-    ]
-  },
-  {
-    "id": "noticias_brasil_2026-11-27_165557",
-    "type": "brasil",
-    "type_label": "🇧🇷 Notícias Brasil (Edição da Tarde (13h))",
-    "title": "Notícias Brasil & Mundo — Edição da Tarde (13h)",
-    "date": "2026-11-27",
-    "time": "16:55",
-    "summary": "[Guerra na Ucrânia] Proposta de trégua no Mar Negro apresentada à Rússia: O governo ucraniano apresentou uma proposta formal de cessar-fogo ...",
-    "file": "data/editions/noticias_brasil_2026-11-27_165557.html",
-    "sources": [
-      "G1",
-      "UOL",
-      "CNN Brasil",
-      "Reuters",
-      "BBC Brasil",
-      "InfoMoney"
     ]
   },
   {
